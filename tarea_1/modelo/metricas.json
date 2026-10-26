@@ -1,0 +1,25 @@
+{
+  "medio": "El Comercio",
+  "n_noticias": 383,
+  "n_train": 268,
+  "n_val": 57,
+  "n_test": 58,
+  "f1_macro_test": 0.9136,
+  "accuracy_test": 0.9138,
+  "f1_macro_zero_shot_40": 0.6274,
+  "f1_macro_zero_shot_test": 0.625,
+  "f1_macro_llm_test": 0.8773,
+  "f1_macro_beto_debil_test": 0.9125,
+  "acuerdo_llm_humano": "19/20",
+  "acuerdo_llm_humano_pct": 0.95,
+  "f1_por_clase_test": {
+    "deportes": 0.9677,
+    "politica": 0.9167,
+    "ciencia_tecnologia": 0.9032,
+    "economia": 0.8667
+  },
+  "modelo_base": "dccuchile/bert-base-spanish-wwm-cased",
+  "modelo_llm": "Qwen/Qwen2.5-3B-Instruct",
+  "modelo_zero_shot": "Recognai/bert-base-spanish-wwm-cased-xnli",
+  "fecha_entrenamiento": "2026-10-26"
+}
