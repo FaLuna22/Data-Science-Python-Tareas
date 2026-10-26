@@ -1,0 +1,14 @@
+# Pesos del modelo (superan los 100 MB de GitHub)
+modelo/*.safetensors
+modelo/*.bin
+modelo/checkpoint-*/
+modelo/entrenamiento/
+modelo/entrenamiento_debil/
+modelo/training_args.bin
+
+# Entornos y cachés
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.env
