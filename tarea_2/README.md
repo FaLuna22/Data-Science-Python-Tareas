@@ -28,7 +28,8 @@ hechas a mano. El dashboard solo lee los CSV que producen los notebooks.
 | `datos/fuentes.csv` | Fuente, autor, licencia y forma de acceso de cada archivo |
 | `datos/metricas_*.csv`, `datos/auditoria_llm.csv` | Resultados de la evaluación que usa el dashboard |
 | `datos/ejemplos/recortes/` | Recortes publicables de la muestra de evaluación |
-| `evidencias_ia/` | Capturas de la conversación con Claude Code |
+| `evidencias_ia/` | Capturas y conversación completa (seudonimizada) con Claude Code; ver su README |
+| `herramientas/transcribir_conversacion.py` | Convierte la exportación de la sesión de Claude Code en Markdown seudonimizado |
 
 ## Corpus y fuentes (extraídos el 26/10/2026)
 
