@@ -7,3 +7,4 @@ datos/procesados/*.parquet
 reel/recursos/musica.wav
 reel/recursos/narracion.wav
 reel/tmp_audio.wav
+reel/muestras/

@@ -119,8 +119,14 @@ cd reel
 uv venv .venv --python 3.12 && uv pip install --python .venv/Scripts/python.exe -r requirements.txt
 .venv/Scripts/python.exe musica.py 90                     # música de fondo original
 .venv/Scripts/python.exe hacer_reel.py --preview          # sin voz, para revisar los visuales
-.venv/Scripts/python.exe hacer_reel.py --voz recursos/voz_referencia_20s.wav --url <dashboard>
+.venv/Scripts/python.exe hacer_reel.py --voz recursos/voz_referencia_20s.wav --url <dashboard>   # todo de una vez
+# versión final: varias tomas por escena, oración por oración, y se elige la mejor de cada una (como en un doblaje)
+.venv/Scripts/python.exe tomas.py 3                       # muestras/tomas/<n>_<escena>_toma<k>.wav + WER
+.venv/Scripts/python.exe hacer_reel.py --tomas 1,2,2,3,2,3 --url <dashboard>
 ```
+
+La voz se genera a velocidad natural (sin estirar el audio, que la vuelve metálica). Con GPU NVIDIA conviene instalar
+torch con CUDA (ver `reel/requirements.txt`): las 18 tomas tardan unos 5 minutos en una RTX 5050.
 
 La grabación de voz no se sube al repositorio. `voz_sesion15.py` es el módulo `reel.py` de la
 [Sesión 15](https://github.com/d2cml-ai/Data-Science-Python/tree/main/sessions/15-texto-a-reel) del curso, sin cambios.

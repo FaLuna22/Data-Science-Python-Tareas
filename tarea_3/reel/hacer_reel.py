@@ -375,8 +375,9 @@ def main():
     ap.add_argument("--reusar", action="store_true", help="usa recursos/narracion.wav y salidas previas")
     ap.add_argument("--url", default="", help="enlace público del dashboard")
     ap.add_argument("--tts", default="Qwen/Qwen3-TTS-12Hz-1.7B-Base")
-    ap.add_argument("--device", default="cpu")
-    ap.add_argument("--velocidad", type=float, default=1.06)
+    ap.add_argument("--device", default="cuda" if __import__("torch").cuda.is_available() else "cpu")
+    ap.add_argument("--velocidad", type=float, default=1.0, help="1.0 = sin atempo; estirar el audio lo vuelve metálico")
+    ap.add_argument("--tomas", help="toma elegida por escena de muestras/tomas, p. ej. 2,1,3,1,2,1")
     ap.add_argument("--salida", default=str(AQUI / "reel.mp4"))
     args = ap.parse_args()
     t0 = time.time()
@@ -393,9 +394,27 @@ def main():
         dur = len(audio) / sr + COLA
     else:
         import voz_sesion15 as V
-        voz = V.Voz(args.voz, modelo=args.tts, device=args.device)
-        print(f"[{time.time() - t0:5.0f}s] voz de referencia: «{voz.texto_ref}»", flush=True)
-        n = V.narrar(voz, guion, velocidad=args.velocidad)
+        if args.tomas:
+            # narración armada con la toma elegida de cada escena (tomas.py), sin volver a generar la voz
+            elegidas = [int(x) for x in args.tomas.split(",")]
+            assert len(elegidas) == len(guion["escenas"]), "una toma por escena"
+            wavs, sr = [], None
+            for i, (e, k) in enumerate(zip(guion["escenas"], elegidas), 1):
+                w, sr = sf.read(AQUI / "muestras" / "tomas" / f"{i}_{e['id']}_toma{k}.wav", dtype="float32")
+                wavs.append(w)
+                e["toma"] = k
+                e["wer"] = V._wer(e["frase"], V._a16k(w, sr))
+            partes, tiempos_esc, t = [np.zeros(int(V.INICIO * sr), np.float32)], [], V.INICIO
+            for w in wavs:
+                tiempos_esc.append((t, t + len(w) / sr))
+                partes += [w, np.zeros(int(V.PAUSA * sr), np.float32)]
+                t += len(w) / sr + V.PAUSA
+            partes.append(np.zeros(int(V.FINAL * sr), np.float32))
+            n = V.Narracion(np.concatenate(partes), sr, tiempos_esc)
+        else:
+            voz = V.Voz(args.voz, modelo=args.tts, device=args.device)
+            print(f"[{time.time() - t0:5.0f}s] voz de referencia: «{voz.texto_ref}»", flush=True)
+            n = V.narrar(voz, guion, velocidad=args.velocidad)
         print(f"[{time.time() - t0:5.0f}s] narración de {n.duracion:.1f} s; WER por escena: "
               + ", ".join(f"{e['wer']:.2f}" for e in guion["escenas"]), flush=True)
         palabras = V.subtitulos(n, guion)
