@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brecha digital en el Perú</title>
+  <meta name="description" content="Dashboard interactivo sobre el uso de internet y la conectividad de los hogares en el Perú, 2015-2025, con microdatos de la ENAHO (INEI).">
+  <meta property="og:title" content="La brecha digital en el Perú, 2015-2025">
+  <meta property="og:description" content="¿Quiénes siguen desconectados? Uso de internet por departamento, área, edad, lengua y nivel de gasto, con la ENAHO del INEI.">
+  <meta property="og:image" content="https://faluna22.github.io/Data-Science-Python-Tareas/tarea_3/web/assets/img/captura_mapa.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232a78d6'/><path d='M6 20a14 14 0 0 1 20 0M10 24a8 8 0 0 1 12 0' stroke='white' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='16' cy='27' r='2' fill='white'/></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap topbar">
+    <span class="brand">Brecha digital · Perú</span>
+    <nav>
+      <a href="#explorar">Explorar</a>
+      <a href="#hallazgos">Hallazgos</a>
+      <a href="#metodologia">Metodología</a>
+      <a href="#fuentes">Fuentes</a>
+      <a href="#limitaciones">Limitaciones</a>
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Cambiar tema">◐ Tema</button>
+  </div>
+  <div class="wrap hero">
+    <div class="eyebrow">Del dato a la historia · ENAHO 2015–2025</div>
+    <h1>La brecha digital en el Perú: el país se conectó, pero no todos de la misma forma</h1>
+    <p class="pregunta"><b>Pregunta de investigación:</b> ¿Cuánto se cerró la brecha digital en el Perú entre 2015 y 2025, y entre quiénes sigue abierta: por territorio, área de residencia, edad, lengua materna y nivel de gasto?</p>
+    <p class="lead">En diez años, el porcentaje de peruanos de 6 años a más que usa internet se duplicó. Este tablero reconstruye ese proceso con los microdatos de la Encuesta Nacional de Hogares (ENAHO) del INEI. Muestra dónde avanzó la conexión, a quiénes dejó atrás y por qué una parte de la brecha cambió de forma: de <i>tener</i> acceso a <i>cómo</i> se accede.</p>
+    <div class="chips">
+      <span class="chip">Cobertura: <b>Perú, 25 departamentos</b> (Lima y Callao por separado), urbano y rural</span>
+      <span class="chip">Periodo: <b>2015–2025</b> (11 encuestas anuales)</span>
+      <span class="chip">Muestra: <b>378 811 hogares</b> y <b>1 173 208 personas</b> de 6 años a más</span>
+      <span class="chip">Fuente: <b>INEI, ENAHO</b>, módulos 01, 03 y 34</span>
+    </div>
+  </div>
+</header>
+
+<div class="filters" id="explorar">
+  <div class="wrap">
+    <div class="ctl ctl-ind">
+      <label for="f-ind">Indicador</label>
+      <select id="f-ind">
+        <optgroup label="Personas de 6 años a más">
+          <option value="usa_internet" selected>Usó internet el mes anterior</option>
+          <option value="usa_diario">Usa internet a diario</option>
+          <option value="usa_celular">Usó internet desde el celular (2019+)</option>
+          <option value="usa_computadora">Usó internet desde computadora o laptop (2019+)</option>
+        </optgroup>
+        <optgroup label="Hogares">
+          <option value="celular">Hogares con celular</option>
+          <option value="internet">Hogares con internet (incluye móvil desde 2023)</option>
+          <option value="internet_fijo">Hogares con internet fijo (2023+)</option>
+          <option value="internet_solo_movil">Hogares solo con internet móvil (2023+)</option>
+          <option value="sin_tic">Hogares sin teléfono, celular, cable ni internet</option>
+          <option value="tel_fijo">Hogares con teléfono fijo</option>
+        </optgroup>
+      </select>
+    </div>
+    <div class="ctl">
+      <span class="lbl" id="lbl-anio">Año</span>
+      <div class="year-ctl">
+        <button class="btn play" id="f-play" type="button" aria-label="Reproducir la evolución año por año">▶</button>
+        <input type="range" id="f-anio" min="2015" max="2025" step="1" value="2025" aria-labelledby="lbl-anio">
+        <span class="year-out" id="f-anio-out">2025</span>
+      </div>
+    </div>
+    <div class="ctl">
+      <span class="lbl">Ámbito</span>
+      <div class="seg" id="f-ambito" role="group" aria-label="Ámbito">
+        <button type="button" data-v="Total" aria-pressed="true">Total</button>
+        <button type="button" data-v="Urbano" aria-pressed="false">Urbano</button>
+        <button type="button" data-v="Rural" aria-pressed="false">Rural</button>
+      </div>
+    </div>
+    <div class="ctl">
+      <label for="f-geo">Territorio</label>
+      <select id="f-geo"><option value="Perú">Perú (nacional)</option></select>
+    </div>
+    <div class="ctl">
+      <label for="f-dim">Desagregar por</label>
+      <select id="f-dim">
+        <option value="area">Área (urbano / rural)</option>
+        <option value="quintil" selected>Quintil de gasto per cápita</option>
+        <option value="pobreza">Condición de pobreza</option>
+        <option value="grupo_edad">Grupo de edad</option>
+        <option value="lengua">Lengua materna</option>
+        <option value="sexo">Sexo</option>
+      </select>
+    </div>
+    <div class="ctl">
+      <span class="lbl">&nbsp;</span>
+      <button class="btn" id="f-reset" type="button">Restablecer</button>
+    </div>
+    <p class="aviso" id="aviso" aria-live="polite"></p>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="kpis" id="kpis" aria-live="polite"></div>
+
+  <div class="grid">
+    <div class="card span-7">
+      <h3 id="t-mapa">Mapa por departamento</h3>
+      <p class="sub" id="s-mapa"></p>
+      <div class="chart" id="c-mapa"></div>
+      <p class="note">Haz clic en un departamento para filtrar todo el tablero. Gris: menos de 30 observaciones en la muestra.</p>
+    </div>
+    <div class="card span-5">
+      <h3 id="t-rank">Ranking de departamentos</h3>
+      <p class="sub" id="s-rank"></p>
+      <div class="chart" id="c-rank"></div>
+    </div>
+
+    <div class="card span-6">
+      <h3 id="t-serie">Evolución 2015–2025: urbano frente a rural</h3>
+      <p class="sub" id="s-serie"></p>
+      <div class="legend" id="l-serie"></div>
+      <div class="chart" id="c-serie"></div>
+      <p class="note" id="n-serie"></p>
+    </div>
+    <div class="card span-6">
+      <h3 id="t-grupos">Evolución por grupo</h3>
+      <p class="sub" id="s-grupos"></p>
+      <div class="legend" id="l-grupos"></div>
+      <div class="chart" id="c-grupos"></div>
+      <p class="note">Las bandas sombreadas son el intervalo de confianza al 95 %.</p>
+    </div>
+
+    <div class="card span-6">
+      <h3 id="t-barras">La foto del año</h3>
+      <p class="sub" id="s-barras"></p>
+      <div class="chart" id="c-barras"></div>
+      <p class="note">La línea delgada sobre cada barra es el margen de error al 95 %. La línea vertical es el promedio del territorio.</p>
+    </div>
+    <div class="card span-6">
+      <h3>¿Cómo se conectan los hogares?</h3>
+      <p class="sub" id="s-conexion"></p>
+      <div class="legend" id="l-conexion"></div>
+      <div class="chart" id="c-conexion"></div>
+      <p class="note">El tipo de conexión del hogar solo se pregunta desde 2023.</p>
+    </div>
+
+    <div class="card span-12">
+      <h3>Datos de la selección</h3>
+      <p class="sub">Todos los valores del indicador, el territorio y el ámbito elegidos, con margen de error y tamaño de muestra.</p>
+      <button class="btn" id="b-csv" type="button">⬇ Descargar CSV</button>
+      <details class="tabla">
+        <summary>Ver tabla</summary>
+        <div class="tabla-scroll" id="tabla"></div>
+      </details>
+    </div>
+  </div>
+</main>
+
+<section class="bloque" id="hallazgos">
+  <div class="wrap">
+    <h2>Tres hallazgos</h2>
+    <p class="lead">Cifras de la ENAHO con factores de expansión. Todas las diferencias citadas superan los márgenes de error al 95 %.</p>
+    <div class="hallazgos">
+      <article class="hallazgo">
+        <div class="num">HALLAZGO 1</div>
+        <h3>El campo se conectó, y la pandemia aceleró el salto</h3>
+        <div class="cifra">11 % → 61 %</div>
+        <p>En 2015 solo el 11.2 % de la población rural de 6 años a más usaba internet; en 2025 lo hace el 61.3 %. A nivel nacional se pasó de 40.8 % a 81.0 %. La brecha urbano-rural bajó de 38 a 24 puntos. El mayor salto rural ocurrió entre 2019 y 2020 (+13.7 pp), con la educación a distancia.</p>
+      </article>
+      <article class="hallazgo">
+        <div class="num">HALLAZGO 2</div>
+        <h3>La brecha cambió de forma: de tener internet a cómo se tiene</h3>
+        <div class="cifra">6.7 % vs 47.2 %</div>
+        <p>En 2025, el 64 % de los hogares solo tiene internet móvil (79 % en el campo). Apenas el 6.7 % de los hogares del quintil más pobre tiene internet fijo, frente al 47.2 % del más rico. Y solo el 4.1 % de las personas del quintil más pobre usa internet desde una computadora, frente al 44.2 % del quintil más rico.</p>
+      </article>
+      <article class="hallazgo">
+        <div class="num">HALLAZGO 3</div>
+        <h3>Quienes siguen fuera: mayores, hablantes de lenguas indígenas y la sierra y selva</h3>
+        <div class="cifra">13 %</div>
+        <p>Solo el 13.3 % de los adultos mayores rurales (65+) usa internet. Entre quienes tienen una lengua materna indígena, el uso es de 63.6 %, frente a 84.2 % entre castellanohablantes. Cusco, Cajamarca, Amazonas, Loreto y Puno están entre 65 % y 68 %, más de 20 puntos por debajo de Ica y Lima (89 %).</p>
+      </article>
+    </div>
+    <div class="extra"><b>Dato complementario:</b> el uso de internet de los niños de 6 a 11 años saltó de 35 % (2019) a 72 % (2021) con las clases virtuales, y cayó a 56 % en 2022 al volver la presencialidad. La conexión de la pandemia no se sostuvo igual en todos los grupos.</div>
+  </div>
+</section>
+
+<section class="bloque" id="metodologia">
+  <div class="wrap">
+    <h2>Metodología</h2>
+    <div class="cols-2 prose">
+      <div>
+        <h3>Datos y unidades</h3>
+        <ul>
+          <li><b>Personas:</b> residentes habituales de 6 años a más del módulo 03 (Educación). Se pondera con <code>factora07</code>, el factor ajustado por grupos de edad que usa el INEI para indicadores de personas.</li>
+          <li><b>Hogares:</b> hogares con registro en la Sumaria (módulo 34), unidos al módulo 01 (Vivienda y hogar). Se pondera con <code>factor07</code>.</li>
+          <li><b>Uso de internet:</b> pregunta <code>p314a</code> («En el mes anterior, ¿usó el servicio de internet?»). Es la misma en los 11 años, así que es la serie comparable principal.</li>
+          <li><b>Área:</b> estratos 1-5 urbano y 6-8 rural, criterio del INEI. <b>Departamento:</b> los dos primeros dígitos del ubigeo.</li>
+          <li><b>Quintil:</b> gasto per cápita del hogar (<code>gashog2d / mieperho</code>), ponderado por personas y calculado cada año. <b>Lengua indígena:</b> quechua, aimara y lenguas amazónicas (<code>p300a</code>).</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Estimación y validación</h3>
+        <ul>
+          <li>Cada valor es una proporción ponderada. Su margen de error al 95 % se calcula por linealización con el conglomerado (<code>conglome</code>) como unidad primaria de muestreo. No se publican celdas con menos de 30 observaciones.</li>
+          <li>Validación contra cifras oficiales: pobreza monetaria 2024 de <b>27.58 %</b> (INEI: 27.6 %) y 2025 de <b>25.67 %</b> (INEI: 25.7 %); hogares con internet 2015 de <b>23.17 %</b> (INEI: 23.2 %). Uso de internet en 2025: <b>81.0 %</b> anual, frente al 82.0 % del IV trimestre que publica el INEI.</li>
+          <li>Todo el proceso es reproducible con tres scripts de Python: <code>obtener_datos.py</code>, <code>procesar_datos.py</code> y <code>analizar_datos.py</code>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bloque" id="fuentes">
+  <div class="wrap">
+    <h2>Fuentes</h2>
+    <div class="prose">
+      <ul>
+        <li>INEI, <a href="https://proyectos.inei.gob.pe/microdatos/" target="_blank" rel="noopener">Encuesta Nacional de Hogares (ENAHO), microdatos 2015–2025</a>: módulo 01 (Características de la vivienda y del hogar), módulo 03 (Educación) y módulo 34 (Sumaria). Descargados el 8 de noviembre de 2026.</li>
+        <li>INEI, <a href="https://www.gob.pe/institucion/inei/informes-publicaciones/8087825-cifras-de-pobreza-2025" target="_blank" rel="noopener">Informe técnico de pobreza monetaria 2016–2025</a>, para validar.</li>
+        <li>INEI, informes técnicos trimestrales «Estadísticas de las Tecnologías de Información y Comunicación en los Hogares», para validar (por ejemplo, <a href="https://andina.pe/agencia/noticia-inei-uso-internet-alcanzo-al-802-de-poblacion-6-y-mas-anos-edad-1012997.aspx" target="_blank" rel="noopener">nota de Andina sobre el III trimestre de 2024</a> y <a href="https://elperuano.pe/noticia/292141-lima-metropolitana-el-984-de-hogares-conto-con-telefonia-movil-durante-cuarto-trimestre-de-2025" target="_blank" rel="noopener">El Peruano sobre el IV trimestre de 2025</a>).</li>
+        <li>Límites departamentales: <a href="https://github.com/d2cml-ai/Data-Science-Python/tree/main/sessions/06-geoespacial" target="_blank" rel="noopener">GeoJSON del curso Data Science con Python (d2cml-ai)</a>.</li>
+        <li>Código y datos procesados: <a href="https://github.com/FaLuna22/Data-Science-Python-Tareas/tree/main/tarea_3" target="_blank" rel="noopener">repositorio de GitHub</a>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="bloque" id="limitaciones">
+  <div class="wrap">
+    <h2>Limitaciones</h2>
+    <div class="prose">
+      <ul>
+        <li><b>Quiebre de serie en 2023 para «hogares con internet».</b> Desde 2023 la pregunta incluye explícitamente la conexión móvil. Por eso el indicador salta de 55 % a 90 % y no es comparable con los años previos. La comparación de largo plazo usa el uso individual (<code>p314a</code>), cuya pregunta no cambió.</li>
+        <li><b>2020, año atípico.</b> Entre abril y septiembre la entrevista fue telefónica y no se preguntó la frecuencia ni el dispositivo de uso. En esos indicadores, 2020 se calcula solo con los meses presenciales y debe leerse como referencial.</li>
+        <li><b>Usar no es lo mismo que usar bien.</b> La ENAHO mide si una persona usó internet el mes anterior, no la velocidad de la conexión, su costo ni las habilidades digitales.</li>
+        <li><b>Celdas pequeñas.</b> Algunas combinaciones (por ejemplo, rural de Callao o de Lima, o lengua indígena en departamentos de la costa) tienen pocos casos. Esas celdas se ocultan o tienen márgenes de error amplios.</li>
+        <li><b>Asociación, no causalidad.</b> Las diferencias por pobreza, lengua o edad describen brechas. No aíslan la causa: por ejemplo, la lengua indígena coincide con la ruralidad y la pobreza.</li>
+        <li>Las cifras oficiales de uso de internet que publica el INEI son trimestrales y las de este tablero son anuales. Por eso difieren alrededor de 1 punto.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Tarea 3 · Python Intermedio (QLAB PUCP) · Fabricio Luna · 2026.
+    Elaborado con apoyo de inteligencia artificial (Claude Code) para el código y el diseño. Cifras verificadas contra fuentes oficiales.
+    Visualizaciones con <a href="https://d3js.org" target="_blank" rel="noopener">D3.js</a>.
+  </div>
+</footer>
+
+<div class="tip" id="tip" role="tooltip"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

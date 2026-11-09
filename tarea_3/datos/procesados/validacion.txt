@@ -1,0 +1,9 @@
+Validación contra cifras oficiales (valores en %)
+
+Pobreza monetaria 2024 (sumaria, personas)     propio  27.58 | oficial  27.6 | dif -0.02  (INEI, Informe técnico de pobreza 2016-2025)
+Pobreza monetaria 2025 (sumaria, personas)     propio  25.67 | oficial  25.7 | dif -0.03  (INEI, Informe técnico de pobreza 2016-2025)
+Hogares con internet 2015                      propio  23.17 | oficial  23.2 | dif -0.03  (INEI, Perú: Indicadores de TIC en los hogares 2015)
+Personas 6+ que usan internet 2024             propio  79.34 | oficial  80.2 | dif -0.86  (INEI, informe TIC III trim. 2024 (trimestral))
+Personas 6+ que usan internet 2025             propio  81.00 | oficial  82.0 | dif -1.00  (INEI, informe TIC IV trim. 2025 (trimestral))
+
+Las cifras oficiales de uso de internet son trimestrales; la estimación propia es anual.

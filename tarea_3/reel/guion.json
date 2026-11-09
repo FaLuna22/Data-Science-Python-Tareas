@@ -1,0 +1,61 @@
+{
+  "titulo": "La brecha digital en el Perú",
+  "fuente": "INEI, ENAHO 2015-2025",
+  "escenas": [
+    {
+      "id": "gancho",
+      "frase": "En dos mil quince, solo once de cada cien peruanos del campo usaban internet. Hoy son sesenta y uno.",
+      "cifra": "11 % → 61 %",
+      "etiqueta": "Población rural de 6 años a más que usa internet, 2015 y 2025",
+      "visual": "mapa animado del uso de internet rural por departamento, 2015 a 2025",
+      "verificacion": "usa_internet, Perú, Rural: 11.2 (2015) y 61.3 (2025)"
+    },
+    {
+      "id": "duplico",
+      "frase": "En diez años, el uso de internet en el Perú se duplicó: de cuarenta y uno a ochenta y uno por ciento. El mayor salto llegó con la pandemia.",
+      "cifra": "41 % → 81 %",
+      "etiqueta": "Personas de 6 años a más que usan internet",
+      "visual": "líneas urbano, rural y total que se dibujan año a año; 2020 resaltado",
+      "verificacion": "usa_internet, Perú, Total: 40.8 (2015) y 81.0 (2025); Rural 2019→2020: +13.7 pp, el mayor salto anual"
+    },
+    {
+      "id": "movil",
+      "frase": "Pero la brecha cambió de forma. Casi dos de cada tres hogares solo tienen internet móvil; en el campo, ocho de cada diez.",
+      "cifra": "64 %",
+      "etiqueta": "Hogares que solo tienen internet móvil, 2025",
+      "visual": "cuadrícula de 100 hogares: fijo, solo móvil y sin internet",
+      "verificacion": "internet_solo_movil, Perú 2025: Total 63.7, Rural 79.3"
+    },
+    {
+      "id": "fijo",
+      "frase": "En los hogares más pobres, apenas siete de cada cien tienen internet fijo. En los más ricos, casi la mitad.",
+      "cifra": "7 % vs 47 %",
+      "etiqueta": "Hogares con internet fijo por quintil de gasto, 2025",
+      "visual": "barras por quintil que crecen",
+      "verificacion": "internet_fijo, Perú 2025, quintil: Q1 6.7, Q5 47.2"
+    },
+    {
+      "id": "fuera",
+      "frase": "Y todavía hay quienes se quedan fuera: solo trece por ciento de los adultos mayores del campo usa internet, y Cusco, Cajamarca y Puno están más de veinte puntos por debajo de Lima.",
+      "cifra": "13 %",
+      "etiqueta": "Adultos mayores rurales (65+) que usan internet, 2025",
+      "visual": "barras de departamentos: los cinco más bajos frente a Lima e Ica",
+      "verificacion": "usa_internet 2025: Rural 65+ 13.3; Lima 88.5; Cusco 65.2 (−23.3), Cajamarca 67.4 (−21.1), Puno 67.9 (−20.6)"
+    },
+    {
+      "id": "cierre",
+      "frase": "El Perú se conectó, pero no todos de la misma forma. Explora los datos de tu región en el tablero; el enlace está en la publicación.",
+      "cifra": "",
+      "etiqueta": "Explora el tablero interactivo",
+      "visual": "captura del dashboard con desplazamiento, enlace y créditos",
+      "verificacion": "cierre sin cifras"
+    }
+  ],
+  "aviso_ia": "Voz generada con IA (Qwen3-TTS) a partir de mi propia voz",
+  "creditos": [
+    "Datos: INEI, Encuesta Nacional de Hogares (ENAHO) 2015-2025, módulos 01, 03 y 34",
+    "Mapas y gráficos: elaboración propia",
+    "Música: pista original generada por código (scripts en reel/), sin derechos de terceros",
+    "Voz: Qwen3-TTS (Alibaba, Apache 2.0) clonada de mi voz; subtítulos: Whisper large-v3-turbo"
+  ]
+}

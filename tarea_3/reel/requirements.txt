@@ -1,0 +1,13 @@
+# Entorno propio del reel (qwen-tts fija transformers==4.57.3; va separado del pyproject.toml de tarea_3)
+#   uv venv .venv --python 3.12
+#   uv pip install --python .venv/Scripts/python.exe -r requirements.txt
+qwen-tts
+faster-whisper
+imageio-ffmpeg
+soundfile
+jiwer
+num2words
+pillow
+matplotlib
+pandas
+numpy

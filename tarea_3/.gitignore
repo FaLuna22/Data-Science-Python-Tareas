@@ -1,0 +1,9 @@
+datos/originales/
+.venv/
+__pycache__/
+reel/recursos/voz_referencia*
+reel/tmp/
+datos/procesados/*.parquet
+reel/recursos/musica.wav
+reel/recursos/narracion.wav
+reel/tmp_audio.wav
