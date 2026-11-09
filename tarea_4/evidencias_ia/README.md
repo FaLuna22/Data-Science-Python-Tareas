@@ -24,6 +24,7 @@ BCRP no las necesita y `.mcp.json` no contiene ninguna.
 | `skills/` | [`demo_mapa_lenguaje_natural.md`](skills/demo_mapa_lenguaje_natural.md) | *«Haz un mapa de la pobreza monetaria por departamento con ENAHO 2024.»* → `Skill: mapeando-enaho` → `Skill: limpiando-enaho` (no existía la base) → mapa de 25 departamentos |
 | `skills/` | [`demo_grafico_lenguaje_natural.md`](skills/demo_grafico_lenguaje_natural.md) | *«Grafica la pobreza urbana y rural…»* → `Skill: graficando-enaho` |
 | `skills/` | [`demo_invocacion_directa_limpiando.md`](skills/demo_invocacion_directa_limpiando.md) | Invocación directa `/limpiando-enaho 2024` y sus validaciones |
+| `desarrollo/` | [`sesion_desarrollo.md`](desarrollo/sesion_desarrollo.md) | La conversación completa de desarrollo con Claude Code, exportada con `/export` y sanitizada |
 | `integracion/` | [`prompt_integracion.md`](integracion/prompt_integracion.md) | La instrucción de la ejecución integrada |
 | `integracion/` | [`ejecucion_integrada.md`](integracion/ejecucion_integrada.md) | **La ejecución que vale:** 4 herramientas MCP (`buscar_series`, `resumen`, `correlacion`, `graficar_serie`) y 3 skills (`mapeando-enaho`, `limpiando-enaho`, `graficando-enaho`) en una sola corrida, que termina en `informes/borrador_agente.md` |
 | `integracion/` | [`intento1_sin_skill_tool.md`](integracion/intento1_sin_skill_tool.md) | Primer intento: usó el MCP, pero leyó los `SKILL.md` con `cat` en vez de activar las skills. Por eso se repitió |
@@ -47,8 +48,8 @@ estudiante revisó las cifras y los archivos.
 | 9 | Correr la evaluación: modo A en una carpeta vacía sin herramientas; modo B en una copia del proyecto sin las respuestas | A 3/10, B 9/10 |
 | 10 | Verificar a mano 5 cifras (`salidas/verificacion_manual.txt`), cruzar BCRP × ENAHO (`scripts/cruce.py`) y escribir el informe, `comparacion.md` y el README | Entregables |
 
-> **Pendiente para el estudiante:** la política del entorno no permitió copiar automáticamente al repositorio público
-> la transcripción completa de la sesión de desarrollo, porque contiene contexto de la cuenta. Expórtala desde la app
-> de Claude (menú de la sesión → compartir o exportar, o `/export` en Claude Code) y guárdala como
-> `evidencias_ia/desarrollo/sesion_desarrollo.md`. Antes de subirla, revisa que no tenga correos, tokens ni datos
-> personales.
+> **Conversación completa de desarrollo:** [`desarrollo/sesion_desarrollo.md`](desarrollo/sesion_desarrollo.md).
+> Es la exportación (`/export` de Claude Code) de la sesión con la que se construyó todo el proyecto: instrucciones del
+> estudiante, pasos del agente, archivos escritos, comandos ejecutados, correcciones y respuestas. Los comandos aparecen
+> resumidos («Ran N shell commands»), así que su detalle está en las transcripciones `.jsonl` de las demás carpetas. Se
+> le pasó `scripts/sanitizar.py`, que reemplazó los IDs de cuenta por `[id]`.

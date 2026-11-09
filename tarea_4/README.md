@@ -212,7 +212,7 @@ Todo está en [`evidencias_ia/`](evidencias_ia/README.md), con una subcarpeta po
 
 | Subcarpeta | Contenido |
 |---|---|
-| [`README.md`](evidencias_ia/README.md) | Índice y bitácora cronológica de la sesión de desarrollo con Claude Code. La exportación completa de esa sesión la agrega el estudiante (ver la nota al final del índice) |
+| `desarrollo/` | La conversación completa de desarrollo con Claude Code ([`sesion_desarrollo.md`](evidencias_ia/desarrollo/sesion_desarrollo.md)), con su índice y bitácora en [`evidencias_ia/README.md`](evidencias_ia/README.md) |
 | `mcp/` | Demos del MCP |
 | `skills/` | Activación de las skills |
 | `integracion/` | Las dos corridas integradas |
