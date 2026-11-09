@@ -382,6 +382,7 @@
 
   // ---------- Estado y render ----------
   async function render() {
+    if (!META || !GEO) return; // eventos (resize, tema) antes de que carguen los datos
     await asegurarDepto(S.geo);
     avisos(); kpis(); mapa(); ranking(); serieAmbito(); serieGrupos(); barras(); conexion(); tabla();
     try { history.replaceState(null, "", "#" + new URLSearchParams(S).toString()); } catch (e) { /* sin historial */ }
