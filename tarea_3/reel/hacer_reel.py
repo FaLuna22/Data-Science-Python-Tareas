@@ -97,10 +97,10 @@ def escena_mapa(ax, p):
     ax.text(0.98, 0.80, f"Perú rural: {nac:.0f} %", transform=ax.transAxes, ha="right", va="top", fontsize=30, color=TXT2)
     # escala
     for i in range(30):
-        ax.add_patch(Rectangle((0.72 + i * 0.0087, 0.05), 0.0087, 0.022, transform=ax.transAxes, color=CMAP(i / 29), lw=0))
+        ax.add_patch(Rectangle((0.72 + i * 0.0087, 0.50), 0.0087, 0.022, transform=ax.transAxes, color=CMAP(i / 29), lw=0))
     for x, t in [(0.72, "0 %"), (0.85, "45 %"), (0.98, "90 %")]:
-        ax.text(x, 0.085, t, transform=ax.transAxes, fontsize=20, color=MUTED, ha="center")
-    ax.text(0.98, 0.12, "Uso de internet en el campo", transform=ax.transAxes, fontsize=24, color=TXT2, ha="right")
+        ax.text(x, 0.535, t, transform=ax.transAxes, fontsize=20, color=MUTED, ha="center")
+    ax.text(0.98, 0.58, "Uso de internet en el campo", transform=ax.transAxes, fontsize=24, color=TXT2, ha="right")
 
 
 def escena_lineas(ax, p):
@@ -239,7 +239,23 @@ def bloques(palabras, max_palabras=4, max_letras=24):
             actual = []
     if actual:
         out.append(actual)
-    return out
+    # no dejar una palabra corta sola ("sesenta y" / "uno."): se pega al bloque anterior
+    pegado = []
+    for b in out:
+        if pegado and len(b) == 1 and len(b[0][2]) <= 6 and pegado[-1][-1][2][-1] not in ".,;:?!":
+            pegado[-1] = pegado[-1] + b
+        else:
+            pegado.append(b)
+    return pegado
+
+
+def a_srt(palabras, ruta):
+    def hms(t):
+        return f"{int(t // 3600):02}:{int(t % 3600 // 60):02}:{int(t % 60):02},{int(t % 1 * 1000):03}"
+    lineas = []
+    for i, b in enumerate(bloques(palabras), 1):
+        lineas += [str(i), f"{hms(b[0][0])} --> {hms(b[-1][1])}", " ".join(p[2] for p in b), ""]
+    Path(ruta).write_text(chr(10).join(lineas), encoding="utf-8")
 
 
 class Render:
@@ -383,7 +399,7 @@ def main():
         print(f"[{time.time() - t0:5.0f}s] narración de {n.duracion:.1f} s; WER por escena: "
               + ", ".join(f"{e['wer']:.2f}" for e in guion["escenas"]), flush=True)
         palabras = V.subtitulos(n, guion)
-        V.a_srt(n, AQUI / "subtitulos.srt")
+        a_srt(palabras, AQUI / "subtitulos.srt")
         sf.write(REC / "narracion.wav", n.audio, n.sr)
         tiempos = n.escenas
         (AQUI / "tiempos.json").write_text(json.dumps({"escenas": tiempos, "palabras": palabras, "wer": [e["wer"] for e in guion["escenas"]]},
