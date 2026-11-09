@@ -184,8 +184,8 @@ def bajar_audios() -> pd.DataFrame:
 
 def bajar_openslr73(n_por_sexo: int = 3, semilla: int = 2026) -> pd.DataFrame:
     """Frases de español peruano leído con su transcripción oficial. Reusa el lector por partes de la sesión 13."""
-    sys.path.insert(0, str(RAIZ.parent / "sessions" / "13-audio-a-texto"))
-    from datos import ZipRemoto, _guardar_16k
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from datos_sesion13 import ZipRemoto, _guardar_16k
 
     destino = RAW / "audio" / "openslr73"
     destino.mkdir(parents=True, exist_ok=True)

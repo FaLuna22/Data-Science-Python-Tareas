@@ -21,6 +21,7 @@ hechas a mano. El dashboard solo lee los CSV que producen los notebooks.
 | `herramientas/anotar_referencias.py` | App local para transcribir a mano las referencias (oculta la salida de los modelos) |
 | `herramientas/auditar_llm.py` | App local para auditar las 20 extracciones del LLM |
 | `herramientas/extraer_llm.py` | Extracción estructurada con Qwen2.5-3B-Instruct en la GPU |
+| `herramientas/voz.py`, `herramientas/datos_sesion13.py` | Copias sin cambios de `voz.py` y `datos.py` de la sesión 13 del curso (d2cml-ai/Data-Science-Python, licencia MIT), para que la tarea funcione fuera del repositorio del curso |
 | `datos/documentos.csv` | 25 documentos: texto OCR seudonimizado y referencia manual de la muestra |
 | `datos/transcripciones.csv` | Clips de audio: texto ASR seudonimizado con marcas de hablante |
 | `datos/extraccion_llm.csv` | Campos JSON extraídos por el LLM |

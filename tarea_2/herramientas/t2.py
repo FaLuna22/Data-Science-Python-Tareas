@@ -1,6 +1,6 @@
 """Funciones que comparten los dos notebooks de la Tarea 2: OCR, métricas y seudonimización.
 
-El audio usa directamente voz.py de la sesión 13 (VAD, faster-whisper, diarización, SRT/TXT).
+El audio usa voz.py de la sesión 13 del curso, copiado en esta carpeta (VAD, faster-whisper, diarización, SRT/TXT).
 """
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ import pandas as pd
 RAIZ = Path(__file__).resolve().parents[1]
 DATOS = RAIZ / "datos"
 RAW = DATOS / "raw"
-SESION13 = RAIZ.parent / "sessions" / "13-audio-a-texto"
+HERRAMIENTAS = Path(__file__).resolve().parent  # aquí está voz.py (copiado de la sesión 13)
 
 
 # ───────────────────────────────────────────────────────── archivos
@@ -157,7 +157,7 @@ def seudonimizar(texto: str, reemplazos: dict[str, str], parecido: int = 85) -> 
     Devuelve el texto y cuántas entidades se reemplazaron. No reemplaza la revisión humana.
     """
     import sys
-    sys.path.insert(0, str(SESION13))
+    sys.path.insert(0, str(HERRAMIENTAS))
     from voz import seudonimizar as _seudo
 
     if not isinstance(texto, str) or not texto:
