@@ -7,7 +7,7 @@
 |---|---|
 | Dashboard público | **https://faluna22.github.io/Data-Science-Python-Tareas/tarea_3/web/** |
 | Reel (1080×1920) | [`reel/reel.mp4`](reel/reel.mp4) |
-| Publicación de LinkedIn | _pendiente: se agrega al publicar_ |
+| Publicación de LinkedIn | https://lnkd.in/p/e5VWsQvF |
 
 ![Dashboard: KPIs, mapa y ranking por departamento](web/assets/img/captura_mapa.jpg)
 
@@ -99,7 +99,7 @@ y cayó a 56 % en 2022.
 
 - Dashboard: https://faluna22.github.io/Data-Science-Python-Tareas/tarea_3/web/
 - Repositorio: https://github.com/FaLuna22/Data-Science-Python-Tareas/tree/main/tarea_3
-- LinkedIn: _pendiente_
+- LinkedIn: https://lnkd.in/p/e5VWsQvF
 
 ## 7. Cómo reproducir
 
