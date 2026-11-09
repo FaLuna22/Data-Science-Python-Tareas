@@ -1,0 +1,2 @@
+Correlación (Pearson, 25 departamentos) entre pobreza monetaria y peso del gasto en alimentos: r = 0.438
+Asociación descriptiva entre unidades territoriales, no causal. Fuente: salidas/indicadores.csv

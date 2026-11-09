@@ -1,0 +1,24 @@
+Herramientas: ['buscar_series', 'serie', 'resumen', 'correlacion', 'graficar_serie']
+<stdin>:8: FastMCPDeprecationWarning: Accessing `ResourceTemplate.uriTemplate` is deprecated; MCP SDK v2 renamed this field to `uri_template`. Update your code to read `.uri_template` instead.
+Plantillas de recurso: ['bcrp://serie/{codigo}']
+Prompts: ['informe']
+
+bcrp://serie/PN01273PM ->
+{
+  "codigo": "PN01273PM",
+  "nombre": "Índice de precios Lima Metropolitana (var% 12 meses) - IPC",
+  "categoria": "Inflación",
+  "frecuencia": "Mensual",
+  "inicio": "Ene-1950",
+  "actualizada": "2026-10-08",
+  "url_consulta": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01273PM/html",
+  "api": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN01273PM/json"
+}
+
+Prompt informe(tema='inflación de alimentos') ->
+Escribe un informe breve sobre «inflación de alimentos» en el Perú usando solo el servidor MCP bcrp.
+1. Usa buscar_series para encontrar la serie oficial y explica por qué la elegiste.
+2. Usa resumen (y serie si hace falta) para el último dato, el cambio y los extremos del periodo.
+3. Si es útil, usa correlacion con otra serie y graficar_serie para una figura.
+4. Cada cifra debe ir con el código de la serie, el periodo y la URL de la fuente. No hagas cuentas a mano ni uses cifras de memoria; si una herramienta falla, dilo.
+5. Cierra con tres viñetas de interpretación y una de limitaciones (asociación no es causalidad).

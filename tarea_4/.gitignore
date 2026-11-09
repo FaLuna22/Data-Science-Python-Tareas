@@ -1,0 +1,11 @@
+# Microdatos originales y cachés (se descargan con las instrucciones del README)
+datos/
+.venv/
+__pycache__/
+.pytest_cache/
+# Base intermedia pesada (se regenera con la skill limpiando-enaho)
+salidas/personas_2024.parquet
+salidas/hogares_2024.parquet
+# Configuración local de Claude Code
+.claude/settings.local.json
+.env

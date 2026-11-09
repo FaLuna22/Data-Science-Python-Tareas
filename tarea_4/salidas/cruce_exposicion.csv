@@ -1,0 +1,7 @@
+grupo,categoria,peso_alimentos_pct,pobreza_pct,poblacion_expandida,exposicion_pico_pts,exposicion_dic2022_pts,exposicion_dic2024_pts
+nacional,Perú,36.41,27.53,34147768,4.79,4.6,0.45
+area,Rural,48.03,39.44,6486385,6.32,6.07,0.6
+area,Urbana,33.69,24.74,27661382,4.43,4.26,0.42
+condicion,No pobre,33.26,0.0,24747318,4.38,4.21,0.42
+condicion,Pobre extremo,49.27,100.0,1878051,6.49,6.23,0.61
+condicion,Pobre no extremo,43.58,100.0,7522396,5.74,5.51,0.54

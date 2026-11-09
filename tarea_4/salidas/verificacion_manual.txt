@@ -1,0 +1,15 @@
+VERIFICACIÓN MANUAL — 2026-11-09T01:52Z
+
+1) BCRP, consulta directa a la API (sin el MCP):
+  https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN09822PM/json/2023-2/2023-2 -> [('Feb.2023', '13.1637473661575')]
+  https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN09822PM/json/2024-12/2024-12 -> [('Dic.2024', '1.24814760630121')]
+  https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN01273PM/json/2024-12/2024-12 -> [('Dic.2024', '1.96630270142824')]
+  https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN01273PM/json/2022-6/2022-6 -> [('Jun.2022', '8.81263294388897')]
+
+2) ENAHO, recálculo independiente con la sumaria a nivel de hogar (factor07 × mieperho), sin la skill:
+  Pobreza nacional:            27.58 %
+  Pobreza Cajamarca (06):      45.01 %
+  Peso alimentos Pobre extremo     49.22 %
+  Peso alimentos Pobre no extremo  43.49 %
+  Peso alimentos No pobre          33.17 %
+  Peso alimentos rural / urbano: 47.78 % / 33.63 %
