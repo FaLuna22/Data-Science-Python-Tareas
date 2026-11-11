@@ -1,13 +1,46 @@
 [
  {
+  "id": "jnKYwaiS9yE",
+  "titulo": "🔴EN VIVO: Llegada del Papa León XIV al Perú 11/11/2026",
+  "organo": "Llegada del Papa León XIV al Perú",
+  "camara": "",
+  "tipo": "otro",
+  "fecha": "2026-11-11",
+  "estado": "en_vivo",
+  "duracion_s": 0,
+  "visto": "2026-11-11T22:49:33+00:00"
+ },
+ {
+  "id": "DCM2d81Mbuc",
+  "titulo": "Mesa de trabajo: Aeropuerto Internacional El Valor, conectividad para el Departamento de Amazonas",
+  "organo": "Mesa de trabajo: Aeropuerto Internacional El Valor, conectividad para el Departamento de Amazonas",
+  "camara": "",
+  "tipo": "otro",
+  "fecha": "2026-11-11",
+  "estado": "terminada",
+  "duracion_s": 12148,
+  "visto": "2026-11-11T22:49:33+00:00"
+ },
+ {
+  "id": "I8tDQiZPfT8",
+  "titulo": "🔴EN VIVO: Sesión del Pleno del Senado de la República | 11/11/2026",
+  "organo": "Pleno del Senado de la República",
+  "camara": "Senado",
+  "tipo": "pleno",
+  "fecha": "2026-11-11",
+  "estado": "terminada",
+  "duracion_s": 9608,
+  "visto": "2026-11-11T22:49:33+00:00"
+ },
+ {
   "id": "2kTRrHDvmpk",
   "titulo": "🔴EN VIVO: Comisión de Modernización de la Gestión del Estado y Contraloría 11/11/2026",
   "organo": "Comisión de Modernización de la Gestión del Estado y Contraloría",
   "camara": "",
   "tipo": "comision",
   "fecha": "2026-11-11",
-  "estado": "programada",
-  "duracion_s": 0,
+  "estado": "terminada",
+  "duracion_s": 10711,
   "visto": "2026-11-11T15:47:43+00:00"
  },
  {
@@ -17,8 +50,8 @@
   "camara": "",
   "tipo": "otro",
   "fecha": "2026-11-11",
-  "estado": "en_vivo",
-  "duracion_s": 0,
+  "estado": "terminada",
+  "duracion_s": 10113,
   "visto": "2026-11-11T14:40:45+00:00"
  },
  {
@@ -40,7 +73,7 @@
   "tipo": "otro",
   "fecha": "2026-11-10",
   "estado": "terminada",
-  "duracion_s": 3648,
+  "duracion_s": 3651,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
