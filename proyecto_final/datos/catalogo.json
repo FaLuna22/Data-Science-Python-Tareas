@@ -1,5 +1,16 @@
 [
  {
+  "id": "2kTRrHDvmpk",
+  "titulo": "🔴EN VIVO: Comisión de Modernización de la Gestión del Estado y Contraloría 11/11/2026",
+  "organo": "Comisión de Modernización de la Gestión del Estado y Contraloría",
+  "camara": "",
+  "tipo": "comision",
+  "fecha": "2026-11-11",
+  "estado": "programada",
+  "duracion_s": 0,
+  "visto": "2026-11-11T15:47:43+00:00"
+ },
+ {
   "id": "DmiGxqblADo",
   "titulo": "🔴EN VIVO: Audiencia pública descentralizada de la Comisión de Energía y Minas 11/11/2026",
   "organo": "Audiencia pública descentralizada de la Comisión de Energía y Minas",
@@ -17,8 +28,8 @@
   "camara": "",
   "tipo": "comision",
   "fecha": "2026-11-11",
-  "estado": "en_vivo",
-  "duracion_s": 0,
+  "estado": "terminada",
+  "duracion_s": 3989,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
