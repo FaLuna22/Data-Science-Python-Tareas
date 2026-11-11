@@ -100,9 +100,9 @@ python pipeline/generar_informe.py LvsY8hVx-ec --temas "sistema financiero" "AFP
 
 **Seguir comisiones sin intervenir** (el vigilante). Cada ronda actualiza `datos/catalogo.json`, busca las sesiones
 terminadas de tus comisiones que aún no están transcritas, las transcribe y, con `--temas`, genera el informe. Las
-que siguen en vivo quedan para la ronda siguiente. Con `--publicar` hace `git commit` y `push` de lo nuevo, y
-Streamlit Cloud redespliega la app: la sesión aparece como **transcrita** en la agenda unos minutos después de
-terminar.
+que siguen en vivo quedan para la ronda siguiente. Con `--publicar` hace `git commit` y `push` de lo nuevo a la rama
+en la que está el repositorio. La sesión aparece como **transcrita** en la agenda cuando la app toma ese commit: en
+las pruebas del 11/11/2026 Streamlit Cloud no lo tomó sola y hubo que reiniciarla («Reboot app»).
 
 ```bash
 # qué haría, sin descargar nada
