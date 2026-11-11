@@ -47,6 +47,17 @@ def guardar(sesion: Sesion, temas: list[str], informe: InformeSesion, uso: Uso, 
     return ruta
 
 
+def sesiones_con_informe(carpeta: Path = CARPETA) -> set[str]:
+    """Id de las sesiones que tienen al menos un informe guardado."""
+    salida = set()
+    for ruta in carpeta.glob("*.json"):
+        try:
+            salida.add(json.loads(ruta.read_text(encoding="utf-8")).get("sesion", ""))
+        except ValueError:
+            continue
+    return salida - {""}
+
+
 def guardados(sesion_id: str, carpeta: Path = CARPETA) -> list[list[str]]:
     """Listas de temas para las que ya hay informe de esta sesión."""
     salida = []

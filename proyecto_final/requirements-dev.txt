@@ -2,3 +2,5 @@
 -r requirements.txt
 yt-dlp
 pytest
+# Con GPU NVIDIA en Windows, además (unos 1.3 GB; sin ellas faster-whisper falla con «cublas64_12.dll is not found»):
+#   pip install nvidia-cublas-cu12 "nvidia-cudnn-cu12>=9,<10"

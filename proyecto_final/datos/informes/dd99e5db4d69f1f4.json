@@ -1,0 +1,436 @@
+{
+ "sesion": "nLlNiZf9eKg",
+ "temas": [
+  "medicamentos",
+  "hospitales",
+  "presupuesto de salud"
+ ],
+ "uso": {
+  "modelo": "claude-opus-5-5",
+  "tokens_entrada": 41543,
+  "tokens_salida": 17042
+ },
+ "informe": {
+  "organo": "Comisión de Salud de la Cámara de Diputados",
+  "tipo_sesion": "Octava sesión ordinaria",
+  "resumen_ejecutivo": "La Comisión de Salud inició en forma informativa por falta de quórum y luego instaló formalmente su octava sesión ordinaria el martes 10 de noviembre de 2026. La jefa del Seguro Integral de Salud (transcrito como 'CIS') informó sobre la atención y el control de medicamentos en salud mental. Anunció que desde diciembre de 2026 ningún tope de medicamento impedirá guardar el registro y calificó como insuficiente el presupuesto de 2.700 millones para 27 millones de asegurados. Los diputados plantearon deudas del seguro con hospitales de Arequipa y Áncash, la falta de cobertura de la amantadina para pacientes con Parkinson y el mantenimiento de equipos; la jefa atribuyó las brechas de pago a la asignación del MEF y se comprometió a responder por escrito. En informes se expusieron problemas de infraestructura y personal en hospitales y centros de salud, el avance del dengue y reclamos por mayor presupuesto en salud. Los predictámenes de los proyectos 045 (residentado de químico farmacéuticos, enfermeras y obstetras) y 150 (atención de emergencia y reembolso de prestaciones) pasaron a cuarto intermedio a la espera de opiniones del MINSA y del MEF. Se aprobó por mayoría la ampliación de dos grupos de trabajo y, al final, el director del Hospital Carrión informó sobre el caso de un supuesto embarazo gemelar.",
+  "agenda": [
+   {
+    "tema": "Informe del Seguro Integral de Salud sobre salud mental y control de medicamentos",
+    "resumen": "La jefa del SIS presentó cifras de atención en salud mental, el sistema de control de medicamentos y los topes de prescripción, así como la ejecución presupuestal de los institutos y hospitales especializados. Los diputados plantearon preguntas sobre prescripciones observadas, cobertura de medicamentos fuera del petitorio, deudas con hospitales y mantenimiento de equipos. La jefa respondió parcialmente y se comprometió a enviar por escrito las respuestas pendientes.",
+    "marca": "00:05:28"
+   },
+   {
+    "tema": "Aprobación de actas",
+    "resumen": "Se aprobaron por unanimidad, sin observaciones, el acta de la séptima sesión ordinaria del 27 de octubre de 2026 y el acta de la primera sesión no ordinaria descentralizada realizada en Piura.",
+    "marca": "00:42:43"
+   },
+   {
+    "tema": "Despacho",
+    "resumen": "La presidencia informó que se remitió a los despachos el reporte de los documentos recibidos y remitidos entre el 26 de octubre y el 6 de noviembre de 2026, así como los proyectos de ley ingresados en ese periodo.",
+    "marca": "00:43:57"
+   },
+   {
+    "tema": "Informes",
+    "resumen": "El presidente informó sobre la sesión descentralizada en Piura y sobre la presentación de un libro sobre sobrepeso y obesidad, prevista para el 17 de noviembre. Los diputados informaron sobre la ausencia de autoridades regionales de Piura, el reglamento de la Ley del Olvido Oncológico, una moción sobre cáncer de cuello uterino, el deterioro de establecimientos y hospitales, el dengue en Áncash, el cierre de un banco de sangre en Huaraz y un falso profesional en el Hospital Hipólito Unanue.",
+    "marca": "00:44:43"
+   },
+   {
+    "tema": "Pedidos",
+    "resumen": "La presidencia dispuso que los pedidos se presenten por escrito. Se plantearon pedidos sobre la citación de gobernadores regionales, el dengue, mayor presupuesto en salud y la ampliación de plazo de dos grupos de trabajo.",
+    "marca": "01:08:44"
+   },
+   {
+    "tema": "Predictamen del proyecto de ley 045/2026-2031 (residentado de químico farmacéuticos, enfermeras y obstetras en el D. Leg. 1153)",
+    "resumen": "El presidente y la autora, diputada Paola Martínez, sustentaron la incorporación de estos residentados al régimen de compensaciones del personal de salud. Las diputadas Yufra y Arminta observaron la falta de costeo del MINSA y de la opinión del MEF, así como una inconsistencia en el texto. Se aceptó un cuarto intermedio.",
+    "marca": "01:18:49"
+   },
+   {
+    "tema": "Predictamen del proyecto de ley 150/2026-2031 (modificación de la Ley General de Salud sobre emergencias, referencia y reembolso de prestaciones)",
+    "resumen": "El autor explicó que la norma busca predictibilidad en las contraprestaciones entre las IAFAS y en el pago oportuno a las IPRESS para garantizar la atención de emergencia. Pidió esperar las respuestas del MEF y del MINSA hasta el día 14, y el predictamen pasó a cuarto intermedio.",
+    "marca": "01:33:52"
+   },
+   {
+    "tema": "Ampliación de plazo de dos grupos de trabajo",
+    "resumen": "Se votó a mano alzada la ampliación por 30 días de los grupos de trabajo coordinados por las diputadas Yufra Lugo y Arminta, que fue aprobada por mayoría. Luego se aprobó la dispensa del trámite de aprobación del acta.",
+    "marca": "01:39:57"
+   },
+   {
+    "tema": "Exposición del director del Hospital Daniel Alcides Carrión sobre un supuesto embarazo gemelar",
+    "resumen": "El director relató las actuaciones documentales y periciales del caso; el informe de anatomía patológica encontró una placenta única, en discordancia con la solicitud de estudio, que consignaba un embarazo doble. La comisión pidió el informe documentado y respuestas escritas a preguntas adicionales. Luego se cerró la sesión.",
+    "marca": "01:41:30"
+   }
+  ],
+  "intervenciones": [
+   {
+    "orador": "Zulman Naya Chacón (también transcrita como Zulma, Zulema, Surma)",
+    "cargo": "Jefa del Seguro Integral de Salud",
+    "postura": "informativa",
+    "resumen": "Informó sobre los controles de medicamentos en salud mental y anunció que desde diciembre de 2026 los topes no impedirán el registro. Calificó como insuficiente el presupuesto del seguro.",
+    "cita_literal": "Nosotros como Seguro Integral de Salud contamos con 2.700 millones para 27 millones de asegurados, lo cual es insuficiente y eso es importante que también acá lo conozcan.",
+    "marca": "00:08:42"
+   },
+   {
+    "orador": "Jessica Benítez",
+    "cargo": "Diputada",
+    "postura": "con observaciones",
+    "resumen": "Señaló que, para que el seguro reconozca ciertas prescripciones, los hospitales registran diagnósticos que el paciente no tiene. Pidió la cobertura de la amantadina para pacientes con Parkinson.",
+    "cita_literal": "pero para que el CIS pueda reconocer la prescripción de la pregabalina de 75, tenían que colocar el diagnóstico de epilepsia,",
+    "marca": "00:20:31"
+   },
+   {
+    "orador": "No identificado",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Pidió a la jefa del SIS visitar los tres hospitales de salud mental de Lima, empezando por el Víctor Larco Herrera, para resolver los inconvenientes con el seguro.",
+    "cita_literal": "que usted pueda visitar los tres centros de salud mental que tenemos en Lima, que no son 50 ni 300.",
+    "marca": "00:24:23"
+   },
+   {
+    "orador": "Arminta (también transcrita como Armita)",
+    "cargo": "Diputada",
+    "postura": "con observaciones",
+    "resumen": "Consultó por una deuda de aproximadamente 60 millones con el Hospital Honorio Delgado de Arequipa y por la posibilidad de que el seguro cubra el mantenimiento de equipos.",
+    "cita_literal": "Porque quisiera saber si técnicamente el CIS también podría cubrir el tema de mantenimiento de equipos como mamógrafos, rayos X y otros.",
+    "marca": "00:29:11"
+   },
+   {
+    "orador": "Leo Miguel (De Paz Lancho)",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Preguntó quién paga los medicamentos que el seguro no reconoce y por la falta de consejo directivo del SIS, que le impediría reembolsar a clínicas privadas y mixtas.",
+    "cita_literal": "Cuando el CIT no reconoce un medicamento, ¿quién lo paga? La familia lo tiene que comprar de su bolsillo, el hospital lo puede asumir, se interrumpe el tratamiento.",
+    "marca": "00:30:08"
+   },
+   {
+    "orador": "Alvaro / Álvaro (Alvarón de la Cruz)",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Denunció una deuda del seguro de 27 millones de soles con un hospital de Huaraz y preguntó cuándo se pagará. También consultó por la actualización del petitorio de salud mental.",
+    "cita_literal": "el CIS mantiene una deuda de 27 millones de soles con el hospital Hinto Ramos Guardia de Huaraz.",
+    "marca": "00:32:33"
+   },
+   {
+    "orador": "Zulman Naya Chacón",
+    "cargo": "Jefa del Seguro Integral de Salud",
+    "postura": "informativa",
+    "resumen": "Sostuvo que las brechas de pago con las unidades ejecutoras se deben a la asignación del MEF y no constituyen deuda del seguro. Precisó que el seguro solo cubre la parte variable de la atención.",
+    "cita_literal": "Como no lo tengo, no podría ser eso una deuda del CIS hacia la ejecutora, sino del MEF hacia la ejecutora.",
+    "marca": "00:37:50"
+   },
+   {
+    "orador": "Leo Miguel",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Expuso la sobredemanda y la pérdida de especialistas del Hospital de Emergencias de Villa El Salvador. Pidió que la comisión respalde su organigrama e invite a Proinversión.",
+    "cita_literal": "Quimioterapia atiende a cuatro personas por turno cuando su meta son 12.",
+    "marca": "00:55:26"
+   },
+   {
+    "orador": "Alexander (Salas Rivera)",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Informó que en el Hospital Regional de Cañete se pide a los pacientes comprar medicamentos fuera. Propuso que los gobiernos regionales no administren salud.",
+    "cita_literal": "los mismos médicos le decían que tenían que comprar el medicamento fuera y todavía le dan la dirección y el número de teléfono.",
+    "marca": "01:01:39"
+   },
+   {
+    "orador": "Domínguez (Carlos Domínguez Herrera)",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Alertó sobre el dengue en Santa y Casma y pidió que la comisión exija mayores presupuestos para salud.",
+    "cita_literal": "necesitamos presupuesto en salud y tenemos que exigir los mayores presupuestos. No podemos estar aquí esperando realmente que esto colapse.",
+    "marca": "01:11:59"
+   },
+   {
+    "orador": "Paola Martínez",
+    "cargo": "Diputada, autora del proyecto 045",
+    "postura": "a favor",
+    "resumen": "Sustentó la incorporación de los residentados de químico farmacéuticos, enfermeras y obstetras al D. Leg. 1153. Pidió votar el predictamen pese a las opiniones pendientes del MINSA y del MEF.",
+    "cita_literal": "Por esto, esta iniciativa legislativa busca corregir una brecha normativa y armonizar nuestra legislación con la evolución del propio sector salud.",
+    "marca": "01:22:40"
+   },
+   {
+    "orador": "Arminta",
+    "cargo": "Diputada",
+    "postura": "con observaciones",
+    "resumen": "Respaldó el fondo del proyecto 045, pero advirtió un riesgo presupuestal por la falta de costeo y de la opinión del MEF, y una inconsistencia en el texto.",
+    "cita_literal": "El dictamen señala que no genera gasto, pero el propio MINSA, mediante el informe 919-2026-OAGAJ-MINSA, advierte que la incorporación implica valorizaciones y entregas económicas.",
+    "marca": "01:28:10"
+   }
+  ],
+  "acuerdos": [
+   {
+    "asunto": "Aprobación de las actas de la séptima sesión ordinaria y de la primera sesión no ordinaria descentralizada",
+    "tipo": "acuerdo sin votación",
+    "resultado": "Aprobadas por unanimidad, sin observaciones",
+    "cita_literal": "No habiendo ninguna observación, se van a dar por aprobadas las dos actas por unanimidad.",
+    "marca": "00:43:26"
+   },
+   {
+    "asunto": "Predictamen del proyecto de ley 045/2026-2031 sobre residentado de químico farmacéuticos, enfermeras y obstetras",
+    "tipo": "acuerdo sin votación",
+    "resultado": "Pasa a cuarto intermedio a la espera de los informes del MINSA y del MEF",
+    "cita_literal": "para después continuar con la votación, presidente, en un futuro. Bien. Ok, entonces está aceptado el cuarto intermedio.",
+    "marca": "01:31:10"
+   },
+   {
+    "asunto": "Predictamen del proyecto de ley 150/2026-2031 sobre atención de emergencia, referencia y reembolso de prestaciones",
+    "tipo": "acuerdo sin votación",
+    "resultado": "Pasa a cuarto intermedio a la espera de las opiniones del MEF y del MINSA",
+    "cita_literal": "el propio diputado a quien felicito por esta propuesta legislativa. Cuarto intermedio presidente. Cuarto intermedio aceptado.",
+    "marca": "01:39:27"
+   },
+   {
+    "asunto": "Ampliación por 30 días de los grupos de trabajo coordinados por las diputadas Yufra Lugo y Arminta",
+    "tipo": "votación",
+    "resultado": "Aprobada por mayoría; según la transcripción, 14 votos a favor y 1 en contra (diputado Flores)",
+    "cita_literal": "votos a favor uno en contra si del diputado flores baliza es por mayoría",
+    "marca": "01:41:01"
+   },
+   {
+    "asunto": "Dispensa del trámite de aprobación del acta para ejecutar los acuerdos",
+    "tipo": "dispensa o trámite",
+    "resultado": "Aprobada sin oposición",
+    "cita_literal": "para ejecutar los acuerdos tomados hasta este momento. Si no hay ninguna oposición, será aprobada la dispensa. Así aprobado.",
+    "marca": "01:41:30"
+   }
+  ],
+  "compromisos": [
+   {
+    "responsable": "Seguro Integral de Salud (jefa Zulman Naya Chacón)",
+    "compromiso": "Enviar por escrito las respuestas a las preguntas de los diputados que no pudo absolver en la sesión.",
+    "plazo": "Sin plazo",
+    "cita_literal": "No todas encajan a la información que nos han solicitado hoy día, en las que no las tengo disponibles, las voy a enviar por escrito tal cual usted está indicando.",
+    "marca": "00:34:14"
+   },
+   {
+    "responsable": "Seguro Integral de Salud",
+    "compromiso": "Agendar una visita, junto con diputados, a los hospitales de salud mental de Lima.",
+    "plazo": "Sin plazo",
+    "cita_literal": "La siguiente es la visita que nos ha solicitado el diputado, que ya lo vamos a agendar.",
+    "marca": "00:35:21"
+   },
+   {
+    "responsable": "Seguro Integral de Salud",
+    "compromiso": "Coordinar, a través de su gerente macro regional, la ubicación y el apoyo a la paciente accidentada en Balsapuerto, Alto Amazonas, Loreto.",
+    "plazo": "Sin plazo",
+    "cita_literal": "conectando con nuestro gerente macro regional para ubicar al paciente y poder darle el apoyo",
+    "marca": "00:35:51"
+   },
+   {
+    "responsable": "Seguro Integral de Salud",
+    "compromiso": "Remitir por escrito las respuestas sobre la deuda con el hospital de Huaraz y sobre el convenio con Áncash, con copia al despacho del diputado y a los miembros de la comisión.",
+    "plazo": "Sin plazo",
+    "cita_literal": "Pido, señor presidente, que la señora jefa remita esas respuestas también por escrito y que se nos haga llegar una copia a mi despacho",
+    "marca": "00:33:17"
+   },
+   {
+    "responsable": "Despacho de la diputada Arminta",
+    "compromiso": "Enviar un oficio al SIS para esclarecer la deuda de aproximadamente 60 millones con el Hospital Honorio Delgado.",
+    "plazo": "Sin plazo",
+    "cita_literal": "Internamente le enviaremos un oficio, doctora, con la finalidad de que nos esclarezca si es que esta deuda es así",
+    "marca": "00:28:25"
+   },
+   {
+    "responsable": "Director del Hospital Daniel Alcides Carrión",
+    "compromiso": "Enviar el informe completo y documentado del caso y responder por escrito las preguntas adicionales de los diputados.",
+    "plazo": "Sin plazo",
+    "cita_literal": "Gracias, diputado. Disculpe. Señor director, información por escrita y las preguntas absueltas por escrito.",
+    "marca": "01:52:23"
+   }
+  ],
+  "menciones_cliente": [
+   {
+    "tema_vigilado": "medicamentos",
+    "relevancia": "alta",
+    "quien": "Zulman Naya Chacón, jefa del SIS",
+    "que_se_dijo": "Anunció que desde diciembre de 2026 ningún tope de medicamento impedirá guardar el registro de la atención. Se trata de un cambio en las reglas de control de prescripciones del seguro público.",
+    "cita_literal": "Es por eso que se está decidiendo que este diciembre de 2026 ningún medicamento tendrá tope para, perdón, ningún tope de medicamento impedirá guardar el registro.",
+    "marca": "00:10:49"
+   },
+   {
+    "tema_vigilado": "medicamentos",
+    "relevancia": "media",
+    "quien": "Zulman Naya Chacón, jefa del SIS",
+    "que_se_dijo": "Explicó que el seguro cubre medicamentos dentro y fuera del Petitorio Único de Medicamentos (PNUME), estos últimos previa sustentación ante el comité farmacoterapéutico. Indicó además que mantiene topes para 40 medicamentos y presentaciones.",
+    "cita_literal": "Entonces, volvemos a recalcar que el CIS cubre medicamentos que están en el fenómeno y aquellos que no están también.",
+    "marca": "00:14:09"
+   },
+   {
+    "tema_vigilado": "medicamentos",
+    "relevancia": "media",
+    "quien": "Diputada Jessica Benítez",
+    "que_se_dijo": "Señaló que los hospitales psiquiátricos registran diagnósticos incorrectos para que el seguro reconozca medicamentos como la pregabalina. Indicó que existe una mesa de trabajo con DIGEMID y el SIS para regularizar esta situación.",
+    "cita_literal": "pero para que el CIS pueda reconocer la prescripción de la pregabalina de 75, tenían que colocar el diagnóstico de epilepsia,",
+    "marca": "00:20:31"
+   },
+   {
+    "tema_vigilado": "medicamentos",
+    "relevancia": "media",
+    "quien": "Diputada Jessica Benítez",
+    "que_se_dijo": "Pidió la cobertura de la amantadina, que no se vende en el país, e informó que la directora de DIGEMID se comprometió a realizar acciones para su financiamiento por el SIS. Esto implica una posible actualización del petitorio.",
+    "cita_literal": "ella manifestó justamente de que van a hacer todas las acciones para que finalmente ese medicamento pueda ser financiado también por el CIS",
+    "marca": "00:22:56"
+   },
+   {
+    "tema_vigilado": "medicamentos",
+    "relevancia": "media",
+    "quien": "Diputado Leo Miguel",
+    "que_se_dijo": "Preguntó quién asume el costo de los medicamentos que el seguro no reconoce y si existen medicamentos pediátricos sin cobertura.",
+    "cita_literal": "Cuando el CIT no reconoce un medicamento, ¿quién lo paga? La familia lo tiene que comprar de su bolsillo, el hospital lo puede asumir, se interrumpe el tratamiento.",
+    "marca": "00:30:08"
+   },
+   {
+    "tema_vigilado": "medicamentos",
+    "relevancia": "media",
+    "quien": "Diputado Alexander (Salas Rivera)",
+    "que_se_dijo": "Informó que en el Hospital Regional de Cañete se indica a los pacientes comprar medicamentos fuera del establecimiento, lo que apunta a problemas de abastecimiento o a prácticas irregulares.",
+    "cita_literal": "los mismos médicos le decían que tenían que comprar el medicamento fuera y todavía le dan la dirección y el número de teléfono.",
+    "marca": "01:01:39"
+   },
+   {
+    "tema_vigilado": "medicamentos",
+    "relevancia": "baja",
+    "quien": "Diputada Paola Martínez",
+    "que_se_dijo": "Señaló que el residentado químico farmacéutico incluido en el proyecto 045 mejoraría el uso seguro de los productos farmacéuticos y la gestión especializada de medicamentos.",
+    "cita_literal": "En química farmacéutica, mejorar el uso seguro y adecuado de los productos farmacéuticos, así como la gestión especializada de medicamentos.",
+    "marca": "00:23:33"
+   },
+   {
+    "tema_vigilado": "presupuesto de salud",
+    "relevancia": "media",
+    "quien": "Zulman Naya Chacón, jefa del SIS",
+    "que_se_dijo": "Calificó como insuficiente el presupuesto del seguro e informó gestiones, con apoyo del ministro de Salud, ante el MEF para una mayor asignación.",
+    "cita_literal": "lo cual se le ha presentado a nuestro Ministro de Salud, quien está de acuerdo también y nos está apoyando en las reuniones con el Ministerio de Economía y Finanzas al respecto.",
+    "marca": "00:39:12"
+   },
+   {
+    "tema_vigilado": "presupuesto de salud",
+    "relevancia": "media",
+    "quien": "Zulman Naya Chacón, jefa del SIS",
+    "que_se_dijo": "Informó que el seguro transfirió el 100% de su presupuesto y reportó niveles de ejecución presupuestal, más bajos en el hospital Hermilio Valdizán.",
+    "cita_literal": "A la fecha tenemos un 67% de ejecución presupuestal, un 61% en el Instituto de Salud Mental, en Hermilio Balizán, estamos en 49",
+    "marca": "00:17:31"
+   },
+   {
+    "tema_vigilado": "presupuesto de salud",
+    "relevancia": "media",
+    "quien": "Zulman Naya Chacón, jefa del SIS",
+    "que_se_dijo": "Precisó que el seguro no financia infraestructura, recursos humanos ni mantenimiento o compra de equipos, y que representa solo el 10% del presupuesto de las unidades ejecutoras.",
+    "cita_literal": "No se cubre infraestructura, no se cubre recursos humanos, no se cubre mantenimiento de equipos ni compra de equipos.",
+    "marca": "00:38:44"
+   },
+   {
+    "tema_vigilado": "presupuesto de salud",
+    "relevancia": "media",
+    "quien": "Diputado Carlos Domínguez",
+    "que_se_dijo": "Pidió que la comisión exija mayores presupuestos para salud frente al dengue, citando la brecha de vacunas en Áncash.",
+    "cita_literal": "necesitamos presupuesto en salud y tenemos que exigir los mayores presupuestos. No podemos estar aquí esperando realmente que esto colapse.",
+    "marca": "01:11:59"
+   },
+   {
+    "tema_vigilado": "presupuesto de salud",
+    "relevancia": "alta",
+    "quien": "Diputada Arminta",
+    "que_se_dijo": "Observó que el proyecto 045 implicaría gasto sin costeo del MINSA ni opinión del MEF, lo que contribuyó a que el predictamen pasara a cuarto intermedio.",
+    "cita_literal": "El dictamen señala que no genera gasto, pero el propio MINSA, mediante el informe 919-2026-OAGAJ-MINSA, advierte que la incorporación implica valorizaciones y entregas económicas.",
+    "marca": "01:28:10"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "media",
+    "quien": "Diputada Arminta",
+    "que_se_dijo": "Informó de una deuda del seguro de aproximadamente 60 millones con el Hospital Honorio Delgado de Arequipa y de problemas de mantenimiento de equipos en ese hospital y en el Goyeneche.",
+    "cita_literal": "el director del nosocomio nos menciona que ahí hay un entrampamiento de deuda de aproximadamente 60 millones.",
+    "marca": "00:28:25"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "media",
+    "quien": "Diputado Alvaro (Alvarón)",
+    "que_se_dijo": "Denunció una deuda de 27 millones de soles del seguro con un hospital de Huaraz y sus efectos en la atención de los pacientes.",
+    "cita_literal": "el CIS mantiene una deuda de 27 millones de soles con el hospital Hinto Ramos Guardia de Huaraz.",
+    "marca": "00:32:33"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "media",
+    "quien": "Diputado no identificado",
+    "que_se_dijo": "Pidió visitas conjuntas con el SIS a los hospitales de salud mental de Lima para resolver inconvenientes con el seguro; la jefa del SIS aceptó agendarlas.",
+    "cita_literal": "que usted pueda visitar los tres centros de salud mental que tenemos en Lima, que no son 50 ni 300.",
+    "marca": "00:24:23"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "media",
+    "quien": "Diputado Leo Miguel",
+    "que_se_dijo": "Expuso la sobredemanda y la pérdida de especialistas del Hospital de Emergencias de Villa El Salvador y pidió acciones de la comisión, incluida la invitación a Proinversión sobre una APP.",
+    "cita_literal": "Entonces, por tal motivo, señor presidente, solicito que esta comisión pueda acordar, respaldar la pronta aprobación del organigrama del hospital de su nueva área de enfermería, invitar a Proinversión",
+    "marca": "00:57:05"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "baja",
+    "quien": "Diputado Alvaro (Alvarón)",
+    "que_se_dijo": "Informó del cierre del banco de sangre de un hospital de EsSalud en Huaraz y de un falso profesional que operaba equipos de rayos X en el Hospital Hipólito Unanue.",
+    "cita_literal": "En el segundo punto, para informar, señor presidente, el banco de sangre del Hospital 2, Salud Huaraz, está cerrado.",
+    "marca": "01:06:24"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "media",
+    "quien": "Diputado Aldo (Bravo Quispe)",
+    "que_se_dijo": "Pidió al Hospital Carrión explicar el posible error de su ecógrafo en el caso del supuesto embarazo gemelar, que tiene denuncia fiscal en curso.",
+    "cita_literal": "vuelvo a repetir el pedido. ¿Qué medida se ha tomado cuando el propio ecógrafo del Hospital Carrión había señalado que era un embarazo gemelar.",
+    "marca": "01:50:34"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "alta",
+    "quien": "Diputado autor del proyecto 150 (no identificado)",
+    "que_se_dijo": "El proyecto 150, que regula los reembolsos entre IAFAS y el pago oportuno a las IPRESS en emergencias, pasó a cuarto intermedio. Su aprobación afectaría el financiamiento de la atención de emergencia en los hospitales.",
+    "cita_literal": "Esta ley busca la predictibilidad en que podamos hacer las contraprestaciones entre las distintas yafas, pueda pagarse de manera oportuna a las CIPRES",
+    "marca": "01:37:35"
+   },
+   {
+    "tema_vigilado": "hospitales",
+    "relevancia": "media",
+    "quien": "Diputado Leo Miguel",
+    "que_se_dijo": "Señaló que el SIS informó no tener conformado su consejo directivo y no poder reembolsar a clínicas privadas y mixtas, lo que afecta a los prestadores.",
+    "cita_literal": "el CIS informó que no tiene conformado aún su consejo directivo y que desde enero del 2017 no puede reembolsar a las clínicas privadas y mixtas.",
+    "marca": "00:31:06"
+   }
+  ],
+  "alertas": [
+   "El SIS anunció que desde diciembre de 2026 los topes de medicamentos dejarán de impedir el registro de las prescripciones, lo que modifica las reglas de control en salud mental.",
+   "Se discutió la posible incorporación de la amantadina al financiamiento del SIS y la actualización del petitorio de medicamentos, con participación anunciada de DIGEMID.",
+   "El SIS atribuye al MEF las deudas con hospitales (60 millones en Arequipa, 27 millones en Huaraz) y propone una reunión con el MEF; existe un frente abierto de conciliación de deudas con las unidades ejecutoras.",
+   "La jefa del SIS calificó como insuficiente su presupuesto y gestiona una mayor asignación ante el MEF con apoyo del ministro de Salud; varios diputados también reclamaron más presupuesto para salud.",
+   "El proyecto 150, sobre reembolso de prestaciones de emergencia entre IAFAS e IPRESS, está en cuarto intermedio y podría votarse tras recibir las opiniones del MEF y del MINSA.",
+   "El proyecto 045 está en cuarto intermedio por el impacto presupuestal no costeado; su autora afirmó que el MEF tiene un informe favorable por remitir.",
+   "Hubo denuncias sobre pacientes a los que se pide comprar medicamentos fuera del Hospital de Cañete, sobre infraestructura precaria en hospitales y sobre la falta de control de profesionales en hospitales públicos."
+  ],
+  "proximos_pasos": [
+   "El SIS remitirá por escrito las respuestas pendientes y agendará visitas a los hospitales de salud mental de Lima con diputados.",
+   "El predictamen del proyecto 045 se retomará cuando lleguen los informes del MINSA y del MEF y se corrija la inconsistencia observada en el texto.",
+   "El predictamen del proyecto 150 se retomará tras las respuestas del MEF y del MINSA, cuyo plazo vence el día 14 según el autor (no se indica el mes).",
+   "El Hospital Carrión enviará su informe documentado y responderá por escrito las preguntas de los diputados.",
+   "La presentación del libro sobre sobrepeso y obesidad se realizará el martes 17 de noviembre de 2026 a las 2:30 p. m. en el Auditorio José Faustino Sánchez Carrión.",
+   "Los pedidos de los diputados (citación de gobernadores regionales, dengue, Hospital de Villa El Salvador) deberán ingresar por escrito a la comisión."
+  ],
+  "limitaciones": [
+   "El nombre de la jefa del SIS aparece de varias formas (Zulman Naya Chacón, Zulma, Zulema, Surma, Zuma, Zulva Naya); se usa la primera forma.",
+   "El Seguro Integral de Salud aparece transcrito como 'CIS', 'CIT', 'GIS' y 'DIT'; el petitorio, como 'penume', 'fenómeno' y 'perume'; DIGEMID, como 'DIGEMIR' y 'Dijemid'.",
+   "Los nombres de diputados presentan variantes: Arminta/Armita/Alminta/Aramita; Alvarón/Alvaro/Álvaro; Tapuyima/Takayama; Infantes/Infantis; Zunini/Zolini; Revilla/Revía. También se nombra a una 'diputada Jacqueline' que no figura en la lista leída.",
+   "Hospitales y lugares posiblemente mal transcritos: 'Hermilio Balizán' (Valdizán), 'Víctor de la Torreda', 'Hinto Ramos Guardia'/'Víctor Ramos Guardia', 'Pansapuerto'/'Basapuerto', 'Hipólito Unal', 'Daníes y Escarrión'.",
+   "No se identifica al diputado que pidió la visita a los hospitales de salud mental ni al autor del proyecto 150.",
+   "La transcripción incluye fragmentos ajenos a la sesión (un programa del canal del Congreso con el 'senador Jaime Delgado', menciones a 'chilenos', 'cooperativa Naranjillo' y alimentos ultraprocesados), que no se consideraron.",
+   "El conteo de asistentes es inconsistente al inicio, y la hora de instalación aparece como 8:27 y 8:30.",
+   "La fecha 'enero del 2017', citada en la intervención sobre los reembolsos del SIS, parece un error de transcripción.",
+   "El plazo del 'día 14' para las respuestas del MEF y del MINSA no indica el mes.",
+   "El conteo de la votación de los grupos de trabajo es el que se oye en la transcripción (14 a favor, 1 en contra) y puede contener errores.",
+   "Algunas intervenciones presentan frases cortadas, en particular la de la diputada Infantes sobre la emergencia en Loreto."
+  ]
+ }
+}
