@@ -46,6 +46,9 @@ algo que no sabe en qué minuto se dijo, ni si se dijo.
 
 ## 4. Solución e insight
 
+0. **Sigues las comisiones de tu cliente.** La agenda lee el canal oficial del Congreso cada 5 minutos y muestra
+   qué sesiones hubo, cuáles están **en vivo** y cuáles ya tienen informe. La selección queda en el enlace
+   (`?sigo=Comisión de Salud&sigo=…`), así que se guarda en favoritos o se comparte con el equipo.
 1. Eliges una sesión pública (o subes un audio, o pegas una transcripción).
 2. Escribes qué vigila tu cliente: sectores, empresas, normas, entidades.
 3. Recibes el informe: resumen ejecutivo, agenda, acuerdos y votaciones, pedidos con responsable y plazo,
@@ -94,6 +97,27 @@ python pipeline/transcribir_sesion.py "https://www.youtube.com/watch?v=LvsY8hVx-
     --organo "Comisión de Economía, Banca, Finanzas e Inteligencia Financiera (Diputados)"
 python pipeline/generar_informe.py LvsY8hVx-ec --temas "sistema financiero" "AFP" "tasas de interés"
 ```
+
+**Seguir comisiones sin intervenir** (el vigilante). Cada ronda actualiza `datos/catalogo.json`, busca las sesiones
+terminadas de tus comisiones que aún no están transcritas, las transcribe y, con `--temas`, genera el informe. Las
+que siguen en vivo quedan para la ronda siguiente. Con `--publicar` hace `git commit` y `push` de lo nuevo, y
+Streamlit Cloud redespliega la app: la sesión aparece como **transcrita** en la agenda unos minutos después de
+terminar.
+
+```bash
+# qué haría, sin descargar nada
+python pipeline/vigilar.py --comisiones "Comisión de Energía y Minas" "Comisión de Salud" --simular
+# sin parar, cada 10 minutos, con informe y publicación
+python pipeline/vigilar.py --comisiones "Comisión de Energía y Minas" --palabras Petroperú \
+    --temas minería canon --cada 600 --publicar
+```
+
+**De dónde sale la agenda.** Del feed RSS público del canal (las 15 emisiones más recientes, sin clave), de la
+página de cada video (si sigue en vivo y cuánto duró) y, en el vigilante, del listado de transmisiones con
+`yt-dlp`. El nombre de la comisión y la cámara se leen del título; como el canal titula la misma comisión de varias
+formas («Defensa Nacional» y «Defensa Nacional y Orden Interno»), las variantes se agrupan bajo un solo nombre.
+Límite: si una comisión del Senado y otra de Diputados se llaman igual, la agenda las sigue juntas y las distingue
+con la etiqueta de cámara.
 
 **Capturas** (sesión de la Comisión de Energía y Minas del 20 de octubre de 2026, 89 minutos):
 
@@ -210,10 +234,12 @@ proyecto_final/
 │   ├── informe.py            transcripción → informe (Claude)
 │   ├── verificar.py          ¿cada cita está en la transcripción?
 │   ├── exportar.py           informe → .docx
-│   └── almacen.py            informes ya generados
-├── pipeline/                 transcribir sesiones completas y pregenerar informes
+│   ├── almacen.py            informes ya generados
+│   └── agenda.py             canal oficial → catálogo de sesiones y seguimiento de comisiones
+├── pipeline/                 transcribir sesiones, pregenerar informes y vigilar el canal (vigilar.py)
+├── datos/catalogo.json       sesiones del canal vistas hasta ahora (crece solo)
 ├── datos/sesiones/           transcripciones de sesiones públicas
 ├── datos/informes/           informes ya generados
 ├── docs/research/            notas de conversaciones con usuarios
-└── tests/                    15 pruebas, sin red ni clave: pytest tests -q
+└── tests/                    27 pruebas, sin red ni clave: pytest tests -q
 ```

@@ -2,9 +2,11 @@
 
     streamlit run app.py
 
-Tres entradas: una sesión ya transcrita (datos/sesiones/), un audio corto que se transcribe aquí
-con Whisper, o una transcripción pegada. Claude devuelve el informe con un esquema fijo y cada
-cita se comprueba contra la transcripción antes de mostrarla.
+Al entrar se ve la agenda: las sesiones del canal oficial del Congreso, filtradas por las comisiones
+que sigues y actualizadas solas cada pocos minutos. Desde ahí, o desde la barra lateral, se abre una
+sesión ya transcrita (datos/sesiones/), se sube un audio corto que se transcribe aquí con Whisper, o
+se pega una transcripción. Claude devuelve el informe con un esquema fijo y cada cita se comprueba
+contra la transcripción antes de mostrarla.
 """
 from __future__ import annotations
 
@@ -13,12 +15,16 @@ import html
 import os
 import re
 import tempfile
+import time
+from concurrent.futures import ThreadPoolExecutor
+from dataclasses import asdict
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import anthropic
 import streamlit as st
 
-from relatoria import LEMA, NOMBRE, almacen
+from relatoria import LEMA, NOMBRE, agenda, almacen
 from relatoria.esquema import InformeSesion
 from relatoria.exportar import a_docx
 from relatoria.informe import MODELO, SinClave, Uso, generar_informe
@@ -30,6 +36,14 @@ SESIONES = RAIZ / "datos" / "sesiones"
 MAX_AUDIO_MB = 25            # tope del audio que se transcribe en el servidor (CPU, 1 GB de RAM)
 MAX_NUEVOS_POR_VISITA = 3    # tope de informes nuevos (llamadas pagadas) por visita
 WHISPER_EN_VIVO = os.environ.get("RELATORIA_WHISPER", "base")
+AGENDA = "Agenda de comisiones"
+TRANSCRITA = "Sesión pública transcrita"
+REFRESCO_S = 300             # cada cuánto se vuelve a consultar el canal (y se redibuja la agenda)
+ESTADO_S = 120               # cada cuánto se vuelve a preguntar si una transmisión sigue en vivo
+MAX_FILAS = 80
+VER = ["Las que sigo", "Todas las comisiones", "Todo el canal"]
+DIAS_SEMANA = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+MESES_CORTOS = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "set", "oct", "nov", "dic"]
 
 st.set_page_config(page_title=f"{NOMBRE} · informes de sesiones", page_icon="🏛️", layout="wide")
 st.markdown("""
@@ -42,6 +56,10 @@ st.markdown("""
 .alta {background: #fde4e1; color: #a12318;} .media {background: #fff1d6; color: #7a5200;} .baja {background: #e8edf3; color: #44505f;}
 .linea {margin: 0 0 .45rem 0; line-height: 1.45;} .linea a {font-weight: 600; text-decoration: none; margin-right: .5rem; font-variant-numeric: tabular-nums;}
 mark {background: #ffe9a8; padding: 0 .1rem;}
+.vivo {background: #a12318; color: #fff;} .prog {background: #e8edf3; color: #44505f;} .pend {background: #fff1d6; color: #7a5200;}
+.camara {font-size: .72rem; color: #44505f; border: 1px solid #c9d3e0; border-radius: 999px; padding: .02rem .45rem; margin-left: .35rem; white-space: nowrap;}
+.titulo-video {font-size: .8rem; color: #6b7685;}
+.dia {font-weight: 700; color: #1F5FA8; margin: 1.1rem 0 .2rem 0; text-transform: capitalize;}
 </style>""", unsafe_allow_html=True)
 
 
@@ -108,6 +126,194 @@ def evidencia(item, res: Resultado | None, sesion: Sesion):
     st.markdown(f'<div class="cita">«{html.escape(item.cita_literal)}» {donde}{sello(res)}</div>', unsafe_allow_html=True)
 
 
+# ───────────────────────────────────────────────────────── agenda de comisiones
+@st.cache_data(ttl=REFRESCO_S, show_spinner=False)
+def _feed_crudo() -> tuple[list[dict], str, str]:
+    """El feed del canal, consultado como mucho una vez cada REFRESCO_S para todos los visitantes.
+    Se guarda como diccionarios: así la caché sobrevive a cambios en la clase Emision."""
+    cuando = datetime.now(agenda.LIMA).strftime("%H:%M")
+    try:
+        return [asdict(e) for e in agenda.leer_rss()], "", cuando
+    except agenda.AgendaNoDisponible as e:
+        return [], str(e), cuando
+
+
+def _feed() -> tuple[list[agenda.Emision], str, str]:
+    crudo, error, cuando = _feed_crudo()
+    return [agenda.Emision(**d) for d in crudo], error, cuando
+
+
+@st.cache_resource(show_spinner=False)
+def _memo_estados() -> dict[str, tuple[float, dict]]:
+    return {}
+
+
+def _estados(ids: list[str]) -> dict[str, dict]:
+    """¿En vivo o terminada? Una consulta por video cada ESTADO_S como máximo, en paralelo."""
+    memo, ahora = _memo_estados(), time.time()
+    faltan = [i for i in ids if ahora - memo.get(i, (0.0, {}))[0] > ESTADO_S]
+    if faltan:
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            for i, info in zip(faltan, ex.map(agenda.consultar_estado, faltan)):
+                memo[i] = (ahora, info)
+    return {i: memo[i][1] for i in ids}
+
+
+def refrescar_catalogo() -> tuple[agenda.Catalogo, str, str]:
+    cat = agenda.Catalogo()
+    nuevas, error, cuando = _feed()
+    cambio = bool(cat.incorporar(nuevas))
+    desde = (agenda.hoy_en_lima() - timedelta(days=1)).isoformat()
+    revisar = [e.id for e in cat.recientes() if e.fecha >= desde and e.estado in ("", "en_vivo", "programada")][:15]
+    for i, info in _estados(revisar).items():
+        cambio |= cat.actualizar_estado(i, info)
+    if cambio:
+        try:
+            cat.guardar()
+        except OSError:      # disco de solo lectura: la agenda se muestra igual
+            pass
+    return cat, error, cuando
+
+
+def _abrir(video_id: str):
+    st.session_state.update(modo=TRANSCRITA, sesion_elegida=video_id, _ir_a_sesion=True, _mostrar_informe=True)
+
+
+def _al_elegir_comisiones():
+    if st.session_state.get("sigo"):
+        st.session_state["ver"] = VER[0]
+
+
+def _nombre_del_dia(iso: str) -> str:
+    try:
+        d = date.fromisoformat(iso)
+    except ValueError:
+        return "Sin fecha"
+    hoy = agenda.hoy_en_lima()
+    if d == hoy:
+        return "Hoy"
+    if d == hoy - timedelta(days=1):
+        return "Ayer"
+    return f"{DIAS_SEMANA[d.weekday()]} {d.day} {MESES_CORTOS[d.month - 1]}"
+
+
+def _duracion(s: int) -> str:
+    if not s:
+        return ""
+    return f"{s // 3600} h {s % 3600 // 60:02d} min" if s >= 3600 else f"{s // 60} min"
+
+
+def _fila(e: agenda.Emision, organo: str, hechas: set[str], con_informe: set[str]):
+    if e.estado == "en_vivo":
+        estado = '<span class="sello vivo">● EN VIVO</span>'
+    elif e.estado == "programada":
+        estado = '<span class="sello prog">programada</span>'
+    elif e.id in hechas:
+        estado = '<span class="sello ok">✓ transcrita</span>'
+    elif e.tipo in ("comision", "pleno"):
+        estado = '<span class="sello pend">por transcribir</span>'
+    else:
+        estado = ""
+    a, b, c, d = st.columns([1.3, 6.2, 1.1, 1.6], vertical_alignment="center")
+    a.markdown(estado, unsafe_allow_html=True)
+    camara = f'<span class="camara">{e.camara}</span>' if e.camara and e.tipo == "comision" else ""
+    b.markdown(f"**{html.escape(organo)}**{camara}<br><span class='titulo-video'>{html.escape(e.titulo_limpio)}</span>",
+               unsafe_allow_html=True)
+    c.caption(_duracion(e.duracion_s))
+    if e.id in hechas:
+        d.button("Abrir informe" if e.id in con_informe else "Abrir sesión", key=f"abrir-{e.id}", type="primary",
+                 on_click=_abrir, args=(e.id,), use_container_width=True)
+    else:
+        d.link_button("▶ En vivo" if e.estado == "en_vivo" else "▶ Video", e.url, use_container_width=True)
+
+
+@st.fragment(run_every=REFRESCO_S)
+def lista_agenda(sigo: tuple[str, ...], palabras: tuple[str, ...], ver: str, dias: int):
+    if st.session_state.pop("_ir_a_sesion", False):   # se pulsó "Abrir": recargar toda la app en esa sesión
+        st.rerun()
+    cat, error, cuando = refrescar_catalogo()
+    canon = cat.canonico()
+    hechas, con_informe = agenda.transcritas(SESIONES), almacen.sesiones_con_informe()
+    desde = (agenda.hoy_en_lima() - timedelta(days=dias - 1)).isoformat()
+    filas = [e for e in cat.recientes() if e.fecha >= desde]
+    if ver == VER[0]:
+        filas = [e for e in filas if agenda.coincide(e, sigo, list(palabras), canon)]
+    elif ver == VER[1]:
+        filas = [e for e in filas if e.tipo in ("comision", "pleno")]
+
+    m1, m2, m3, m4 = st.columns(4)
+    m1.metric("En vivo ahora", sum(e.estado == "en_vivo" for e in filas))
+    m2.metric(f"Sesiones en {dias} día{'s' if dias > 1 else ''}", len(filas))
+    m3.metric("Ya transcritas", sum(e.id in hechas for e in filas))
+    m4.metric("Por transcribir", sum(e.estado == "terminada" and e.id not in hechas and e.tipo != "otro" for e in filas))
+    st.caption(f"Última consulta al canal oficial: {cuando} (hora de Lima). Se vuelve a consultar sola cada "
+               f"{REFRESCO_S // 60} minutos; no hace falta recargar la página.")
+    if error:
+        st.warning(f"{error} Se muestra lo último que se guardó.", icon="📡")
+
+    if ver == VER[0] and not (sigo or palabras):
+        st.info("Elige arriba las comisiones que quieres seguir, o escribe palabras que deban aparecer en el título "
+                "(«minería», «Petroperú»). La selección queda en el enlace de esta página: guárdalo en favoritos.",
+                icon="👆")
+        return
+    if not filas:
+        st.info("No hubo sesiones de lo que sigues en este periodo. Amplía el periodo o revisa «Todas las comisiones».")
+        return
+    dia_actual = None
+    for e in filas[:MAX_FILAS]:
+        if e.fecha != dia_actual:
+            dia_actual = e.fecha
+            st.markdown(f'<div class="dia">{_nombre_del_dia(e.fecha)}</div>', unsafe_allow_html=True)
+        _fila(e, canon.get(e.organo, e.organo) if e.tipo != "otro" else e.organo, hechas, con_informe)
+    if len(filas) > MAX_FILAS:
+        st.caption(f"Se muestran las {MAX_FILAS} más recientes de {len(filas)}. Acorta el periodo o filtra por comisión.")
+
+
+def pagina_agenda():
+    st.title("Agenda de comisiones")
+    st.markdown("Las sesiones del **canal oficial del Congreso**, de la más reciente a la más antigua. Sigue las "
+                "comisiones que le importan a tu cliente y abre el informe de las que ya están transcritas.")
+    if "sigo" not in st.session_state:                       # primera visita: lo que diga el enlace
+        st.session_state["sigo"] = [x for x in st.query_params.get_all("sigo") if x]
+        st.session_state["palabras"] = st.query_params.get("palabras", "")
+        st.session_state["ver"] = VER[0] if st.session_state["sigo"] or st.session_state["palabras"] else VER[1]
+        dias_url = st.query_params.get("dias", "7")
+        st.session_state["dias"] = int(dias_url) if dias_url in ("1", "3", "7", "14", "30") else 7
+    opciones = sorted(set(agenda.Catalogo().organos()) | set(st.session_state["sigo"]), key=normalizar)
+
+    c1, c2 = st.columns([3, 2])
+    sigo = c1.multiselect("Comisiones que sigo", opciones, key="sigo", on_change=_al_elegir_comisiones,
+                          placeholder="Elige una o varias comisiones")
+    texto = c2.text_input("…o palabras en el título", key="palabras", placeholder="minería, Petroperú, El Niño",
+                          help="Separadas por comas. Atrapa también mesas de trabajo, eventos y comisiones nuevas.")
+    c3, c4 = st.columns([3, 2])
+    ver = c3.radio("Mostrar", VER, key="ver", horizontal=True)
+    dias = c4.select_slider("Periodo", [1, 3, 7, 14, 30], key="dias", format_func=lambda d: "hoy" if d == 1 else f"{d} días")
+    palabras = tuple(almacen.temas_limpios(texto.split(",")))
+
+    # la selección vive en el enlace: se puede guardar en favoritos o compartir con el equipo
+    st.query_params.clear()
+    if sigo:
+        st.query_params["sigo"] = sigo
+    if palabras:
+        st.query_params["palabras"] = ", ".join(palabras)
+    if dias != 7:
+        st.query_params["dias"] = str(dias)
+
+    with st.expander("Transcribir solas las sesiones nuevas de estas comisiones"):
+        partes = ["python pipeline/vigilar.py"]
+        if sigo:
+            partes.append("--comisiones " + " ".join(f'"{s}"' for s in sigo))
+        if palabras:
+            partes.append("--palabras " + " ".join(f'"{p}"' for p in palabras))
+        st.markdown("En una máquina con GPU, deja corriendo el vigilante con tu misma selección. Cada 10 minutos "
+                    "revisa el canal y, cuando una sesión termina, baja el audio, la transcribe y (con `--temas`) "
+                    "genera el informe. Con `--publicar` sube el resultado al repositorio y esta app lo muestra "
+                    "como **transcrita** al redesplegarse.")
+        st.code(" ".join(partes) + " --cada 600", language="bash")
+    lista_agenda(tuple(sigo), palabras, ver, dias)
+
+
 # ───────────────────────────────────────────────────────── barra lateral: entrada
 guardadas = sesiones_guardadas()
 with st.sidebar:
@@ -115,12 +321,17 @@ with st.sidebar:
     st.caption(LEMA)
 
     st.markdown("#### 1 · Sesión")
-    opciones = (["Sesión pública transcrita"] if guardadas else []) + ["Subir un audio corto", "Pegar una transcripción"]
-    modo = st.radio("Origen", opciones, label_visibility="collapsed")
+    opciones = [AGENDA] + ([TRANSCRITA] if guardadas else []) + ["Subir un audio corto", "Pegar una transcripción"]
+    modo = st.radio("Origen", opciones, key="modo", label_visibility="collapsed")
     sesion: Sesion | None = None
-    if modo == "Sesión pública transcrita":
+    if modo == AGENDA:
+        st.caption("Sigue comisiones y mira qué sesiones hubo, cuáles están en vivo y cuáles ya tienen informe.")
+    elif modo == TRANSCRITA:
         titulos = {k: _leer_sesion(str(p), p.stat().st_mtime) for k, p in guardadas.items()}
-        elegido = st.selectbox("Sesión", list(titulos), label_visibility="collapsed",
+        ids = sorted(titulos, key=lambda k: (titulos[k].fecha, k), reverse=True)
+        if st.session_state.get("sesion_elegida") not in ids:
+            st.session_state.pop("sesion_elegida", None)
+        elegido = st.selectbox("Sesión", ids, key="sesion_elegida", label_visibility="collapsed",
                                format_func=lambda k: f"{titulos[k].fecha} · {titulos[k].organo or titulos[k].titulo}")
         sesion = titulos[elegido]
     elif modo == "Subir un audio corto":
@@ -142,6 +353,11 @@ with st.sidebar:
             sesion = Sesion(id="texto-" + hashlib.sha256(pegado.encode()).hexdigest()[:12], titulo="Transcripción pegada",
                             organo=organo, duracion_s=segs[-1].fin if segs else 0, modelo_asr="texto pegado", segmentos=segs)
 
+if modo == AGENDA:
+    pagina_agenda()
+    st.stop()
+
+with st.sidebar:
     st.markdown("#### 2 · Qué vigila tu cliente")
     ya = almacen.guardados(sesion.id) if sesion else []
     sugerido = ", ".join(max(ya, key=len)) if ya else ""
@@ -161,6 +377,8 @@ with st.sidebar:
                                   help="Generar un informe nuevo consume la API; los ya generados se ven sin código.") == codigo
     generar = st.button("Ver informe" if en_cache else "Generar informe", type="primary", use_container_width=True,
                         disabled=sesion is None or not sesion.segmentos)
+    if st.session_state.pop("_mostrar_informe", False) and en_cache:   # se llegó con "Abrir informe" desde la agenda
+        generar = True
     if en_cache:
         st.caption("Este informe ya está generado: se abre al instante y sin costo.")
     elif sesion:
@@ -213,7 +431,7 @@ if generar:
                 st.error(str(e))
             else:
                 st.session_state["nuevos"] = nuevos + 1
-                if modo == "Sesión pública transcrita":
+                if modo == TRANSCRITA:
                     almacen.guardar(sesion, temas, inf, uso)   # las sesiones públicas se guardan; lo subido por el usuario no
                 st.session_state["informe"] = (llave, inf, uso)
 

@@ -48,6 +48,45 @@ def fecha_en_lima(info: dict) -> str:
     return f"{f[:4]}-{f[4:6]}-{f[6:]}" if len(f) == 8 else ""
 
 
+def transcribir_fuente(fuente: str, id: str | None = None, titulo: str | None = None, organo: str = "",
+                       fecha: str = "", modelo: str = "large-v3-turbo", dispositivo: str = "auto",
+                       borrar_audio: bool = False) -> Sesion:
+    """Enlace público o archivo -> datos/sesiones/<id>.json. Devuelve la sesión guardada."""
+    url = ""
+    if re.match(r"https?://", fuente):
+        url = fuente
+        ruta, info = descargar(url, RAIZ / "datos" / "audio")
+        id = id or info["id"]
+        titulo = titulo or re.sub(r"^\W*(EN VIVO|LIVE)\W*", "", info.get("title", ""), flags=re.I).strip()
+        fecha = fecha or fecha_en_lima(info)
+        url = info.get("webpage_url", url)
+    else:
+        ruta = Path(fuente)
+        id = id or ruta.stem
+        titulo = titulo or ruta.stem
+
+    t0 = time.perf_counter()
+    ultimo = [0.0]
+
+    def avance(hecho, total):
+        if hecho - ultimo[0] >= 300:
+            ultimo[0] = hecho
+            print(f"  {hhmmss(hecho)} / {hhmmss(total)}", flush=True)
+
+    print(f"Transcribiendo {ruta.name} con {modelo}...", flush=True)
+    segmentos, duracion = transcribir(str(ruta), modelo=modelo, dispositivo=dispositivo, al_avanzar=avance)
+    sesion = Sesion(id=id, titulo=titulo, organo=organo, fecha=fecha, url=url, duracion_s=round(duracion),
+                    modelo_asr=f"faster-whisper {modelo}", segmentos=segmentos)
+    salida = RAIZ / "datos" / "sesiones" / f"{id}.json"
+    sesion.guardar(salida)
+    if borrar_audio and url:
+        ruta.unlink(missing_ok=True)
+    seg = time.perf_counter() - t0
+    print(f"Listo: {salida.relative_to(RAIZ)} · {hhmmss(duracion)} de audio, {sesion.palabras:,} palabras, "
+          f"{seg / 60:.1f} min ({duracion / seg:.1f}x tiempo real)")
+    return sesion
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("fuente", help="Enlace público o ruta de un audio/video")
@@ -58,37 +97,7 @@ def main():
     p.add_argument("--modelo", default="large-v3-turbo")
     p.add_argument("--dispositivo", default="auto", choices=["auto", "cuda", "cpu"])
     a = p.parse_args()
-
-    url = ""
-    if re.match(r"https?://", a.fuente):
-        url = a.fuente
-        ruta, info = descargar(url, RAIZ / "datos" / "audio")
-        a.id = a.id or info["id"]
-        a.titulo = a.titulo or re.sub(r"^\W*(EN VIVO|LIVE)\W*", "", info.get("title", ""), flags=re.I).strip()
-        a.fecha = a.fecha or fecha_en_lima(info)
-        url = info.get("webpage_url", url)
-    else:
-        ruta = Path(a.fuente)
-        a.id = a.id or ruta.stem
-        a.titulo = a.titulo or ruta.stem
-
-    t0 = time.perf_counter()
-    ultimo = [0.0]
-
-    def avance(hecho, total):
-        if hecho - ultimo[0] >= 300:
-            ultimo[0] = hecho
-            print(f"  {hhmmss(hecho)} / {hhmmss(total)}", flush=True)
-
-    print(f"Transcribiendo {ruta.name} con {a.modelo}...", flush=True)
-    segmentos, duracion = transcribir(str(ruta), modelo=a.modelo, dispositivo=a.dispositivo, al_avanzar=avance)
-    sesion = Sesion(id=a.id, titulo=a.titulo, organo=a.organo, fecha=a.fecha, url=url, duracion_s=round(duracion),
-                    modelo_asr=f"faster-whisper {a.modelo}", segmentos=segmentos)
-    salida = RAIZ / "datos" / "sesiones" / f"{a.id}.json"
-    sesion.guardar(salida)
-    seg = time.perf_counter() - t0
-    print(f"Listo: {salida.relative_to(RAIZ)} · {hhmmss(duracion)} de audio, {sesion.palabras:,} palabras, "
-          f"{seg / 60:.1f} min ({duracion / seg:.1f}x tiempo real)")
+    transcribir_fuente(a.fuente, a.id, a.titulo, a.organo, a.fecha, a.modelo, a.dispositivo)
 
 
 if __name__ == "__main__":
