@@ -1,6 +1,6 @@
 # Guion de la presentación (3 minutos)
 
-Abrir antes: la app (https://transciptorcongress.streamlit.app) con la sesión ya elegida y el informe **ya generado** (se abre al instante), y una pestaña con el
+Abrir antes: la app (https://transcriptorcongressv2.streamlit.app) con la sesión ya elegida y el informe **ya generado** (se abre al instante), y una pestaña con el
 video oficial. A los 3:00 cortan.
 
 ## 0:00 – 0:30 · Problema

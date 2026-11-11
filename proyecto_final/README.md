@@ -7,7 +7,7 @@ Proyecto final de la Diplomatura de Data Science con Python (Q-Lab PUCP), [issue
 
 | | |
 |---|---|
-| Demo | **https://transciptorcongress.streamlit.app** |
+| Demo | **https://transcriptorcongressv2.streamlit.app** |
 | Video de respaldo | [`docs/video_respaldo.mp4`](docs/video_respaldo.mp4) (62 s, grabado sobre la app con las sesiones reales) |
 | Correr en local | `pip install -r requirements.txt && streamlit run app.py` |
 
@@ -78,7 +78,7 @@ El analista pasa de ver tres horas a revisar los enlaces que le importan.
 
 ## 6. Demo
 
-**URL:** https://transciptorcongress.streamlit.app (Streamlit Community Cloud). Los informes de las dos sesiones ya están generados y se abren sin costo; generar uno nuevo usa la API.
+**URL:** https://transcriptorcongressv2.streamlit.app (Streamlit Community Cloud). Los informes de las dos sesiones ya están generados y se abren sin costo; generar uno nuevo usa la API.
 
 **En local:**
 
