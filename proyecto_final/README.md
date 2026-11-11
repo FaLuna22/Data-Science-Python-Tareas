@@ -8,7 +8,7 @@ Proyecto final de la Diplomatura de Data Science con Python (Q-Lab PUCP), [issue
 | | |
 |---|---|
 | Demo | **PENDIENTE: URL de Streamlit Community Cloud** |
-| Video de respaldo | **PENDIENTE** (`docs/video_respaldo.mp4`) |
+| Video de respaldo | [`docs/video_respaldo.mp4`](docs/video_respaldo.mp4) (62 s, grabado sobre la app con las sesiones reales) |
 | Correr en local | `pip install -r requirements.txt && streamlit run app.py` |
 
 ## 1. One-liner
@@ -34,7 +34,7 @@ de ningún despacho.
 Su cliente quiere saber, el mismo día, qué se dijo sobre su sector en el Congreso.
 
 **Cuánto le cuesta.** Una sesión de comisión dura entre 1 y 4 horas (las dos que se usan en el demo duran 68 y 89
-minutos; las de Energía y Minas de setiembre y octubre de 2026 superan las 3 horas y media). Con el Congreso
+minutos; otras sesiones de Energía y Minas de setiembre y octubre de 2026 superan las 3 horas y media). Con el Congreso
 bicameral hay comisiones en dos cámaras. Alguien tiene que ver la sesión completa para encontrar los pocos minutos
 que le importan al cliente y luego redactar el informe.
 
@@ -65,12 +65,12 @@ El analista pasa de ver tres horas a revisar los enlaces que le importan.
 - **Transcripción.** Whisper large-v3-turbo transcribe una hora de español peruano en un par de minutos en una GPU
   doméstica, con un error que ya permite leer la sesión ([lo medí en la tarea 2](../tarea_2)). Hace tres años esto
   requería un servicio de pago por minuto.
-- **Contexto largo.** Una sesión de 3 horas son unas 60 mil tokens. Hoy cabe completa en una sola llamada, de modo
+- **Contexto largo.** Una sesión de hora y media son unas 31 mil tokens de entrada (medido); una de 3 horas, unas 60 mil. Hoy cabe completa en una sola llamada, de modo
   que el modelo ve un acuerdo que se abre en el minuto 20 y se cierra en el 150. Antes había que trocear y resumir por
   partes, y se perdían justo esos cruces.
 - **Salidas estructuradas.** La API garantiza que la respuesta cumple un esquema. Eso permite exigir «cita y minuto» en
   cada ítem y verificarlo con código.
-- **Costo.** Leer una sesión completa cuesta centavos de dólar (ver sección 7).
+- **Costo.** El informe de una sesión de hora y media costó US$ 0.51 (ver sección 7).
 - **Congreso bicameral desde julio de 2026.** Más comisiones y más sesiones simultáneas que seguir con el mismo equipo.
 
 ## 6. Demo
@@ -95,7 +95,22 @@ python pipeline/transcribir_sesion.py "https://www.youtube.com/watch?v=LvsY8hVx-
 python pipeline/generar_informe.py LvsY8hVx-ec --temas "sistema financiero" "AFP" "tasas de interés"
 ```
 
-**Capturas:** PENDIENTE (`docs/capturas/`).
+**Capturas** (sesión de la Comisión de Energía y Minas del 20 de octubre de 2026, 89 minutos):
+
+![Informe: indicadores, resumen ejecutivo y agenda](docs/capturas/1_informe.png)
+
+![Menciones a los temas del cliente, cada una con su cita verificada y el enlace al minuto](docs/capturas/2_cliente.png)
+
+![Transcripción con buscador y marcas de tiempo](docs/capturas/3_transcripcion.png)
+
+**Sesiones del demo** (canal oficial del Congreso de la República):
+
+| Sesión | Duración | Palabras | Citas del informe con respaldo |
+|---|---|---|---|
+| [Comisión de Energía y Minas, 20/10/2026](https://www.youtube.com/watch?v=2EIYKlqJBT8) | 1 h 29 min | 9 893 | 44 de 44 |
+| [Comisión de Economía, Banca, Finanzas e Inteligencia Financiera (Diputados), 28/10/2026](https://www.youtube.com/watch?v=LvsY8hVx-ec) | 1 h 08 min | 7 827 | 22 de 22 |
+
+La transcripción de la sesión de 89 minutos tomó 4.1 minutos en una GPU doméstica (21.7 veces más rápido que el audio).
 
 **Arquitectura**
 
@@ -133,18 +148,18 @@ frase se dijo, no que el resumen que la acompaña sea la mejor lectura de ella.
 **Precio.** **S/ 890 al mes** por el seguimiento de hasta 20 sesiones, con los temas de hasta 3 clientes. Sesiones
 adicionales a **S/ 60** cada una.
 
-**Costo por sesión** (sesión de 3 horas, unas 60 mil tokens de entrada y 8 mil de salida):
+**Costo por sesión, medido** en las dos sesiones del demo (tokens que reporta la API; Claude Opus 5.5 a US$ 4 por
+millón de tokens de entrada y US$ 20 por millón de salida):
 
-| Concepto | Cálculo | Costo |
-|---|---|---|
-| Informe con Claude Opus 5.5 | 60 000 × US$ 4/M + 8 000 × US$ 20/M | US$ 0.40 |
-| Transcripción con Whisper en GPU alquilada | ~6 min de GPU a US$ 0.50 la hora | US$ 0.05 |
-| Servidor de la app | Streamlit Community Cloud | US$ 0 |
-| **Total por sesión** | | **≈ US$ 0.45 (S/ 1.70)** |
+| Sesión | Tokens de entrada | Tokens de salida | Costo del informe |
+|---|---|---|---|
+| Economía, 68 min | 24 863 | 11 100 | US$ 0.32 |
+| Energía y Minas, 89 min | 30 841 | 19 467 | US$ 0.51 |
 
-Un cliente que usa sus 20 sesiones cuesta cerca de S/ 34 al mes en tokens y cómputo. La app muestra el costo real
-de cada informe a partir de los tokens que reporta la API. **PENDIENTE: reemplazar la estimación por el costo medido
-en las sesiones del demo.**
+Son unos US$ 0.30 a 0.35 por hora de sesión. La transcripción corre en GPU propia (4 minutos por sesión) y la app en
+Streamlit Community Cloud, sin costo. Un cliente que usa sus 20 sesiones cuesta cerca de US$ 10 al mes en tokens,
+frente a los S/ 890 que paga. Para una sesión de 3 horas el costo se estima en alrededor de US$ 1 (extrapolado, no
+medido). La app muestra el costo real de cada informe.
 
 **Tope de gasto.** La app limita los informes nuevos por visita, guarda los ya generados para no pagarlos dos veces,
 rechaza transcripciones de más de 120 mil palabras y puede pedir un código de acceso (`RELATORIA_CODIGO`). La clave

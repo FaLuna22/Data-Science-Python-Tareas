@@ -37,6 +37,17 @@ def descargar(url: str, carpeta: Path) -> tuple[Path, dict]:
         return Path(y.prepare_filename(info)), info
 
 
+def fecha_en_lima(info: dict) -> str:
+    """Fecha de la transmisión en hora del Perú. `upload_date` viene en UTC y, para una sesión que
+    se sube de noche, cae al día siguiente; por eso se usa la hora de inicio de la transmisión."""
+    from datetime import datetime, timedelta, timezone
+    t = info.get("release_timestamp") or info.get("timestamp")
+    if t:
+        return datetime.fromtimestamp(t, timezone(timedelta(hours=-5))).strftime("%Y-%m-%d")
+    f = info.get("upload_date") or ""
+    return f"{f[:4]}-{f[4:6]}-{f[6:]}" if len(f) == 8 else ""
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("fuente", help="Enlace público o ruta de un audio/video")
@@ -54,8 +65,7 @@ def main():
         ruta, info = descargar(url, RAIZ / "datos" / "audio")
         a.id = a.id or info["id"]
         a.titulo = a.titulo or re.sub(r"^\W*(EN VIVO|LIVE)\W*", "", info.get("title", ""), flags=re.I).strip()
-        f = info.get("upload_date") or ""
-        a.fecha = a.fecha or (f"{f[:4]}-{f[4:6]}-{f[6:]}" if len(f) == 8 else "")
+        a.fecha = a.fecha or fecha_en_lima(info)
         url = info.get("webpage_url", url)
     else:
         ruta = Path(a.fuente)
