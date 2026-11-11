@@ -1,0 +1,4 @@
+# Para transcribir sesiones completas y correr las pruebas en local
+-r requirements.txt
+yt-dlp
+pytest
