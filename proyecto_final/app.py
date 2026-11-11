@@ -11,9 +11,11 @@ from __future__ import annotations
 import hashlib
 import html
 import os
+import re
 import tempfile
 from pathlib import Path
 
+import anthropic
 import streamlit as st
 
 from relatoria import LEMA, NOMBRE, almacen
@@ -199,8 +201,16 @@ if generar:
                 st.error(str(e))
             except ValueError as e:
                 st.error(str(e))
-            except Exception as e:  # errores de la API: se muestran sin tumbar la app
-                st.error(f"No se pudo generar el informe: {type(e).__name__}: {e}")
+            except anthropic.AuthenticationError:
+                st.error("La clave de la API no es válida o fue revocada. Revisa `ANTHROPIC_API_KEY` en los *secrets*.")
+            except anthropic.RateLimitError:
+                st.error("La API está limitando las solicitudes en este momento. Espera un minuto y vuelve a intentar.")
+            except anthropic.APIStatusError as e:
+                st.error(f"La API respondió con un error ({e.status_code}): {e.message}")
+            except anthropic.APIConnectionError:
+                st.error("No se pudo conectar con la API. Revisa la conexión y vuelve a intentar.")
+            except RuntimeError as e:  # informe incompleto o declinado
+                st.error(str(e))
             else:
                 st.session_state["nuevos"] = nuevos + 1
                 if modo == "Sesión pública transcrita":
@@ -306,7 +316,6 @@ with p_trans:
     for b in lineas[:tope]:
         texto = html.escape(b.texto)
         if buscar.strip():
-            import re
             texto = re.sub(f"({re.escape(html.escape(buscar.strip()))})", r"<mark>\1</mark>", texto, flags=re.I)
         marca = (f'<a href="{enlace_al_minuto(sesion.url, b.inicio)}" target="_blank">{hhmmss(b.inicio)}</a>'
                  if sesion.url else f"<a>{hhmmss(b.inicio)}</a>")
