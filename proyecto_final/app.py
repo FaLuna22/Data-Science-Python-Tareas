@@ -152,7 +152,7 @@ with st.sidebar:
     cliente = st.text_input("Cliente (opcional)", placeholder="Nombre que irá en el informe")
 
     en_cache = almacen.leer(sesion, temas) if sesion else None
-    clave_api = secreto("ANTHROPIC_API_KEY")
+    clave_api = secreto("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")
     codigo = secreto("RELATORIA_CODIGO")
     nuevos = st.session_state.get("nuevos", 0)
     codigo_ok = True
