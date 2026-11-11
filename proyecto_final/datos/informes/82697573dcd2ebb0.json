@@ -1,0 +1,441 @@
+{
+ "sesion": "2EIYKlqJBT8",
+ "temas": [
+  "minería",
+  "hidrocarburos",
+  "canon"
+ ],
+ "uso": {
+  "modelo": "claude-opus-5-5",
+  "tokens_entrada": 30841,
+  "tokens_salida": 19467
+ },
+ "informe": {
+  "organo": "Comisión de Energía y Minas (Cámara de Diputados)",
+  "tipo_sesion": "Quinta sesión ordinaria, de carácter presencial (Sala Miguel Grau Seminario, Palacio Legislativo)",
+  "resumen_ejecutivo": "La Comisión de Energía y Minas aprobó el acta de su cuarta sesión. La presidencia informó sobre la audiencia descentralizada realizada en Cusco sobre el transporte de gas en la zona sur, convocó una audiencia pública para el 28 de octubre sobre la Ley de la Pequeña Minería y Minería Artesanal y una sesión descentralizada en Marcona para el 10 de noviembre. También dio lectura a un oficio dirigido al ministro de Energía y Minas en el que pide un debate técnico-económico sobre el Decreto Supremo 021-2026-EM, referido al contrato del lote 192. En el orden del día, la comisión aprobó por 13 votos que sus miembros declaren sus vínculos familiares y laborales con personas o empresas de los sectores minero, energético y petrolero, y aprobó por 12 votos invitar al ministro de Energía y Minas para el martes 27 de octubre. Durante el tercer punto, la viceministra de Minas presentó el proyecto de ley del Ejecutivo sobre pequeña minería y minería artesanal (ley MAPE); varios diputados objetaron debatirlo sin haberlo leído. Se aprobó por mayoría una cuestión previa para suspender la sesión, que concluyó a las 10:38 a. m. sin escuchar al resto de invitados.",
+  "agenda": [
+   {
+    "tema": "Aprobación del acta de la cuarta sesión ordinaria (29 de septiembre de 2026)",
+    "resumen": "El acta se remitió previamente a los diputados por medios institucionales. Al no formularse observaciones, la presidencia la declaró aprobada por unanimidad de los presentes.",
+    "marca": "00:03:46"
+   },
+   {
+    "tema": "Estación de despacho",
+    "resumen": "Se dio cuenta de los cuadros resumen de documentos recibidos y enviados entre el 26 de septiembre y el 16 de octubre de 2026. También se informó que se remitió el reporte de proposiciones legislativas.",
+    "marca": "00:04:17"
+   },
+   {
+    "tema": "Estación de informes",
+    "resumen": "La presidencia informó sobre la audiencia descentralizada en Cusco referida al transporte de gas en la zona sur y anunció una audiencia pública sobre pequeña minería para el 28 de octubre y una sesión descentralizada en Marcona para el 10 de noviembre. Además, leyó su oficio al ministro de Energía y Minas sobre el Decreto Supremo 021-2026-EM y el lote 192. La diputada Pinasco informó sobre la coordinación del sistema eléctrico aislado de Iquitos.",
+    "marca": "00:05:11"
+   },
+   {
+    "tema": "Estación de pedidos",
+    "resumen": "El diputado Lecker pidió crear un grupo de trabajo sobre seguridad energética, gas natural y regiones productoras de hidrocarburos. Otros diputados pidieron trasladar un documento a Electro Oriente, la presencia de Ocinermín en Pasco, ampliar la agenda del ministro sobre el Decreto Supremo 019-2026-EM (alumbrado público), la intervención del alto comisionado contra la minería ilegal en Jaén y la citación de Ingemet.",
+    "marca": "00:18:11"
+   },
+   {
+    "tema": "Orden del día 1: pedido para que los miembros declaren vínculos con los sectores minero, energético y petrolero",
+    "resumen": "El diputado Lecker Torres sustentó el pedido con base en las normas de ética del reglamento. A propuesta de la diputada Muñoz, se retiró el vínculo amical. El pedido fue aprobado por unanimidad de los presentes, con 13 votos a favor.",
+    "marca": "00:33:48"
+   },
+   {
+    "tema": "Orden del día 2: invitación al ministro de Energía y Minas, Guillermo Chino Huamaní",
+    "resumen": "La comparecencia prevista para el viernes 23 de octubre quedó descartada por la agenda del ministro, que iba a presentar la ley MAPE. La invitación se aprobó por unanimidad de los presentes, con 12 votos a favor, para el martes 27 de octubre de 2026.",
+    "marca": "00:45:43"
+   },
+   {
+    "tema": "Orden del día 3: propuestas para el nuevo marco legal de la pequeña minería y minería artesanal, crimen organizado en la minería y derechos ancestrales",
+    "resumen": "La viceministra presentó el proyecto de ley MAPE del Ejecutivo. Varios diputados cuestionaron debatir un proyecto recién ingresado y que no habían leído, y el diputado Columbus Murata pidió reconsiderar la citación al ministro.",
+    "marca": "00:50:52"
+   },
+   {
+    "tema": "Cuestión previa para suspender la sesión",
+    "resumen": "El diputado Abenzur planteó una cuestión previa para suspender el debate hasta la próxima sesión, con el ministro presente. La presidencia encargada se opuso por respeto a los invitados que llegaron de lejos, pero la cuestión previa se aprobó por mayoría. La sesión se suspendió a las 10:38 a. m.",
+    "marca": "01:15:41"
+   }
+  ],
+  "intervenciones": [
+   {
+    "orador": "Paredes Navarro (firma como Jenny Fernández Párez Navarro)",
+    "cargo": "Presidenta de la comisión, diputada",
+    "postura": "con observaciones",
+    "resumen": "Leyó su oficio al ministro de Energía y Minas en el que cuestiona el Decreto Supremo 021-2026-EM sobre el lote 192: la participación del 75 % que se daría a una empresa egipcia y la falta de información sobre el garante corporativo. Pidió un debate técnico-económico antes de la firma del contrato.",
+    "cita_literal": "solicito que previamente a la firma del contrato autorizado por el Ministerio de Energía y Minas, mediante decreto",
+    "marca": "00:13:18"
+   },
+   {
+    "orador": "Nari Pinasco",
+    "cargo": "Diputada",
+    "postura": "informativa",
+    "resumen": "Informó sobre la falta de coordinación entre las generadoras del sistema aislado de Iquitos. Consideró positivo el decreto supremo que permite encargar la coordinación al COES.",
+    "cita_literal": "El domingo el ministro de Energía y Minas publicó el decreto supremo, la 022-2026, donde apruebe el reglamento que regula la coordinación de la operación de los sistemas aislados",
+    "marca": "00:16:18"
+   },
+   {
+    "orador": "Frank Licker / Lecker Torres",
+    "cargo": "Diputado",
+    "postura": "a favor",
+    "resumen": "Pidió crear un grupo de trabajo por 180 días sobre seguridad energética, masificación del gas natural y regiones productoras de hidrocarburos. Sostuvo que existen reservas de petróleo que no se exploran por falta de gestión.",
+    "cita_literal": "solicito la creación de este grupo de trabajo sobre seguridad energética, masificación del gas natural y regiones productoras de hidrocarburos por un plazo de 180 días",
+    "marca": "00:20:06"
+   },
+   {
+    "orador": "Raúl Camargo Porta",
+    "cargo": "Diputado, vicepresidente de la comisión",
+    "postura": "con observaciones",
+    "resumen": "Cuestionó el Decreto Supremo 019-2026-EM sobre la facturación del alumbrado público. Pidió ampliar la agenda de la comparecencia del ministro y que el presidente de Ocinermín informe sobre el posible aumento de los recibos de luz.",
+    "cita_literal": "solicito formalmente que se amplíe la agenda de la comparecencia del ministro de Energía y Minas, programada para el día 23 de octubre",
+    "marca": "00:29:19"
+   },
+   {
+    "orador": "Kim Muñoz (Muñoz Yurivilca)",
+    "cargo": "Diputada",
+    "postura": "con observaciones",
+    "resumen": "Denunció la mala prestación del servicio eléctrico de Electrocentro y Electro Oriente y la falta de fiscalización. Pidió que Ocinermín se haga presente en Pasco y en la región centro.",
+    "cita_literal": "solicitamos que Ocinermin se haga presente en la región de Pasco y en verdad en todas las regiones del centro del Perú",
+    "marca": "00:26:21"
+   },
+   {
+    "orador": "Ana Yufra (Yufra Lugo)",
+    "cargo": "Diputada",
+    "postura": "en contra",
+    "resumen": "Transmitió el rechazo de una comunidad cafetalera de Jaén a la minería ilegal. Pidió la intervención del alto comisionado contra la minería ilegal de la PCM.",
+    "cita_literal": "pedirle puntualmente a la comisión, a través de su presidencia, que intervenga el alto comisionado, porque ya hay socavones en donde están actuando con minería ilegal",
+    "marca": "00:31:36"
+   },
+   {
+    "orador": "Frank Lecker Torres",
+    "cargo": "Diputado",
+    "postura": "a favor",
+    "resumen": "Sustentó que los miembros declaren públicamente sus vínculos con los sectores minero, energético y de hidrocarburos como un acto de transparencia. Aclaró que esa declaración no impide votar.",
+    "cita_literal": "simplemente es un acto de transparencia en cumplimiento de este reglamento para evitar problemas en la comisión de ética más adelante",
+    "marca": "00:36:59"
+   },
+   {
+    "orador": "Jaime Abenzur (Abenzur Pinasco)",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Propuso que la declaración de vínculos se haga por escrito. Sostuvo que quien tenga un interés directo en un tema debe abstenerse de votar.",
+    "cita_literal": "yo agregaría al pedido del doctor Kerker que esta manifestación se haga desde ya, señora presidenta, por escrito.",
+    "marca": "00:39:45"
+   },
+   {
+    "orador": "Mayra Mercedes Elizabeth Figueredo Valderrama",
+    "cargo": "Viceministra (de Minas), Ministerio de Energía y Minas",
+    "postura": "informativa",
+    "resumen": "Presentó el proyecto de ley de pequeña minería y minería artesanal, que crea un régimen ordinario y un régimen de consolidación de 18 meses para los inscritos en el REINFO, además del organismo Formape. También prevé el acceso a la banca mediante el Banco de la Nación y la fiscalización temporal de las plantas por OEFA, Sunafil y Ocinermín.",
+    "cita_literal": "y el régimen de consolidación, que es un régimen cerrado, temporal, por 18 meses, en donde pasarían aquellos mineros que están a puertas de lograr un proceso de formalización",
+    "marca": "00:58:51"
+   },
+   {
+    "orador": "Columbus Murata (Columbo Murata)",
+    "cargo": "Diputado",
+    "postura": "en contra",
+    "resumen": "Pidió que la comisión reconsidere la citación al ministro, porque el ministerio ya estaba representado. Solicitó registrar su voto a favor del pedido de Lecker y en contra de la invitación al ministro.",
+    "cita_literal": "sería importante, señor presidente, que usted reconsidere o que la comisión reconsidere el citar al ministro de Energía y Minas",
+    "marca": "01:09:21"
+   },
+   {
+    "orador": "Jaime Abenzur",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Planteó una cuestión previa para suspender la sesión y retomar el tema la semana siguiente, con el ministro presente y con el proyecto del Ejecutivo ya conocido.",
+    "cita_literal": "voy a plantear una cuestión previa, señor presidente, con la finalidad de que se suspenda esta sesión para que la próxima semana,",
+    "marca": "01:15:41"
+   },
+   {
+    "orador": "No identificado",
+    "cargo": "Presidente encargado de la sesión",
+    "postura": "en contra",
+    "resumen": "Se opuso a la cuestión previa por respeto a los invitados que llegaron de lejos. Sostuvo que la ley MAPE no estaba en la agenda.",
+    "cita_literal": "Bueno, yo insisto, creo la cuestión previa en este escenario no procedería, porque hay personal que ha venido de lejos",
+    "marca": "01:19:01"
+   }
+  ],
+  "acuerdos": [
+   {
+    "asunto": "Aprobación del acta de la cuarta sesión ordinaria del 29 de septiembre de 2026",
+    "tipo": "acuerdo sin votación",
+    "resultado": "Aprobada por unanimidad de los presentes, sin observaciones; no se indica el conteo.",
+    "cita_literal": "el acta de la cuarta sesión ordinaria de la comisión de fecha 29 de septiembre del 2026 de carácter presencial queda aprobada por unanimidad",
+    "marca": "00:04:17"
+   },
+   {
+    "asunto": "Pedido del diputado Lecker Torres para que los miembros declaren vínculos familiares o laborales con personas o empresas de los sectores minero, energético o petrolero (sin el vínculo amical)",
+    "tipo": "votación",
+    "resultado": "Aprobado por unanimidad de los presentes: 13 votos a favor, ninguno en contra y ninguna abstención.",
+    "cita_literal": "Ha sido aprobado por unanimidad los presentes por 13 votos a favor, ningún voto en contra, ninguna abstención.",
+    "marca": "00:44:49"
+   },
+   {
+    "asunto": "Invitación al ministro de Energía y Minas, Guillermo Chino Huamaní, para la sesión del martes 27 de octubre de 2026",
+    "tipo": "votación",
+    "resultado": "Aprobada por unanimidad de los presentes: 12 votos a favor, ninguno en contra y ninguna abstención. Después, el diputado Columbus Murata pidió que se registre su voto en contra y que se reconsidere la invitación.",
+    "cita_literal": "Ha sido aprobado por unanimidad los presentes por 12 votos a favor, ningún voto en contra, ninguna abstención.",
+    "marca": "00:50:24"
+   },
+   {
+    "asunto": "Cuestión previa del diputado Abenzur para suspender la sesión y postergar el tratamiento del tercer punto",
+    "tipo": "votación",
+    "resultado": "Aprobada por mayoría de los presentes; no se indica el conteo final. La sesión se suspendió a las 10:38 a. m.",
+    "cita_literal": "Bien, ha sido aprobado por mayoría de presentes la cuestión previa para suspender la sesión.",
+    "marca": "01:26:08"
+   },
+   {
+    "asunto": "Creación de un grupo de trabajo sobre seguridad energética, masificación del gas natural y regiones productoras de hidrocarburos",
+    "tipo": "pendiente",
+    "resultado": "Se tendrá en cuenta para la siguiente sesión; no se votó.",
+    "cita_literal": "Se tendrá en cuenta para la siguiente sesión. Damos la palabra al diputado Raúl Camargo.",
+    "marca": "00:21:04"
+   }
+  ],
+  "compromisos": [
+   {
+    "responsable": "Ministro de Energía y Minas, Guillermo Chino Huamaní (pedido de la presidenta mediante oficio)",
+    "compromiso": "Realizar un debate técnico-económico sobre el Decreto Supremo 021-2026-EM y el contrato del lote 192.",
+    "plazo": "Antes de la firma del contrato",
+    "cita_literal": "se realice un debate técnico económico sobre las materias que eventualmente podría conducir a una reflectificación del contenido de la disposición promulgada",
+    "marca": "00:13:43"
+   },
+   {
+    "responsable": "Presidencia de la comisión",
+    "compromiso": "Trasladar a Electro Oriente el documento de la diputada Pinasco para que gestione ante el MINEM que el COES coordine el sistema aislado de Iquitos.",
+    "plazo": "Cuando llegue el documento",
+    "cita_literal": "Teniendo en cuenta, en cuanto llegue el documento se hará el traslado correspondiente.",
+    "marca": "00:24:41"
+   },
+   {
+    "responsable": "Presidencia de la comisión / Ocinermín",
+    "compromiso": "Enviar a Ocinermín el pedido de la diputada Muñoz para que fiscalice el servicio eléctrico en Pasco y la región centro.",
+    "plazo": "Sin plazo",
+    "cita_literal": "se ha tomado su pedido y se hará la documentación necesaria para enviar a Ocinermín",
+    "marca": "00:27:22"
+   },
+   {
+    "responsable": "Ministro de Energía y Minas y presidente de Ocinermín (pedido del diputado Camargo)",
+    "compromiso": "Explicar el Decreto Supremo 019-2026-EM y su impacto en los recibos de luz durante la comparecencia ministerial.",
+    "plazo": "En la comparecencia del ministro (originalmente prevista para el 23 de octubre)",
+    "cita_literal": "solicito que el presidente Ocinermín informe cuánto podrían incrementarse los recibos de luz, cómo se calculen los costos",
+    "marca": "00:29:46"
+   },
+   {
+    "responsable": "Presidencia de la comisión / alto comisionado contra la minería ilegal (PCM)",
+    "compromiso": "Gestionar la intervención del alto comisionado ante la minería ilegal en la provincia de Jaén.",
+    "plazo": "Sin plazo",
+    "cita_literal": "Gracias, diputada Yufra, por la visita a la región de Cajamarca y también estamos anotando su pedido.",
+    "marca": "00:32:02"
+   },
+   {
+    "responsable": "Presidente ejecutivo de Ingemet",
+    "compromiso": "Concurrir a la comisión para informar sobre cinco aspectos pedidos por el diputado Pérez Alcahuamán; estaba en la agenda del día, pero la sesión se suspendió.",
+    "plazo": "Sin plazo",
+    "cita_literal": "ejecutivo del Instituto Geológico Minero y Metalúrgico Ingemet, conforme consta en la página 5 del acta de la cuarta sesión ordinaria",
+    "marca": "00:32:54"
+   },
+   {
+    "responsable": "Miembros de la comisión",
+    "compromiso": "Declarar sus vínculos familiares o laborales con personas, empresas u organizaciones de los sectores minero, energético o petrolero.",
+    "plazo": "Sin plazo",
+    "cita_literal": "ha sido aprobado por unanimidad el pedido del diputado Frank Leker Torres para que los miembros de la comisión manifiesten si tienen algún interés",
+    "marca": "00:45:14"
+   },
+   {
+    "responsable": "Presidencia de la comisión",
+    "compromiso": "Enviar la invitación al ministro en cuanto se conozca la fecha de su agenda.",
+    "plazo": "Martes 27 de octubre de 2026, según el acuerdo",
+    "cita_literal": "entonces informo a ustedes para realizar la votación pero con la condición de que en cuanto nosotros tengamos fecha de",
+    "marca": "00:46:38"
+   }
+  ],
+  "menciones_cliente": [
+   {
+    "tema_vigilado": "hidrocarburos",
+    "relevancia": "media",
+    "quien": "Paredes Navarro, presidenta",
+    "que_se_dijo": "El oficio cuestiona el Decreto Supremo 021-2026-EM, que modifica el contrato del lote 192 y daría el 75 % de participación a una empresa egipcia como socio de PetroPerú. Anticipa una posible fiscalización de la comisión sobre ese contrato.",
+    "cita_literal": "del 75 por ciento como socio estratégico de Petro Perú. Bajo este esquema, la petrolera estatal perdería el 75 por ciento de participación en dicho proyecto.",
+    "marca": "00:12:01"
+   },
+   {
+    "tema_vigilado": "hidrocarburos",
+    "relevancia": "media",
+    "quien": "Paredes Navarro, presidenta",
+    "que_se_dijo": "El oficio señala presuntos indicios de corrupción por la falta de información sobre el garante corporativo en el contrato del lote 192.",
+    "cita_literal": "fichas en las condiciones contractuales, lo cual genera presuntos indicios de corrupción.",
+    "marca": "00:12:52"
+   },
+   {
+    "tema_vigilado": "hidrocarburos",
+    "relevancia": "baja",
+    "quien": "Paredes Navarro, presidenta",
+    "que_se_dijo": "Informó sobre la audiencia descentralizada en Cusco referida al sistema de transporte de gas de la zona sur, con exposiciones del MINEM, Ocinermín, Proinversión y un expresidente de PetroPerú.",
+    "cita_literal": "cuyo tema tratado fue el Sistema Integral de Transporte de Gas Zona Sur del país, CITGAS, agenda del adenda del contrato cálida.",
+    "marca": "00:05:39"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "media",
+    "quien": "Paredes Navarro, presidenta",
+    "que_se_dijo": "Convocó una audiencia pública para el 28 de octubre sobre la Ley de la Pequeña Minería y Minería Artesanal.",
+    "cita_literal": "cuyo tema sería análisis de la Ley de la Pequeña Minería y Minería Artesanal.",
+    "marca": "00:07:24"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "media",
+    "quien": "Paredes Navarro, presidenta",
+    "que_se_dijo": "La sesión descentralizada del 10 de noviembre en Marcona tratará concesiones mineras, derechos laborales mineros y fiscalización socioambiental de las empresas.",
+    "cita_literal": "Concesiones mineras y desarrollo territorial, derechos laborales de los trabajadores mineros, fiscalización socioambiental y compromisos de las empresas",
+    "marca": "00:07:52"
+   },
+   {
+    "tema_vigilado": "hidrocarburos",
+    "relevancia": "media",
+    "quien": "Frank Licker / Lecker Torres",
+    "que_se_dijo": "Pidió un grupo de trabajo sobre hidrocarburos y gas natural para evaluar el marco normativo. Atribuyó la falta de exploración de petróleo a problemas de gestión y a un marco normativo menos atractivo que el de otros países.",
+    "cita_literal": "pero lamentablemente no se está explorando ni explotando por un tema básicamente de falta de gestión.",
+    "marca": "00:19:15"
+   },
+   {
+    "tema_vigilado": "hidrocarburos",
+    "relevancia": "media",
+    "quien": "Raúl Camargo Porta",
+    "que_se_dijo": "Respaldó el pedido del grupo de trabajo, mencionó la refinería de Talara, el puerto de Bayóvar y los oleoductos, e informó que ya se está formando una comisión sobre el tema.",
+    "cita_literal": "Lo que ha referido nuestro colega es exactamente cierto, pero es la gestión y las políticas energéticas que tenemos que fortalecer.",
+    "marca": "00:21:31"
+   },
+   {
+    "tema_vigilado": "hidrocarburos",
+    "relevancia": "baja",
+    "quien": "Demetrio Palqui / Malki",
+    "que_se_dijo": "Transmitió la preocupación de pobladores de Pacasmayo y Salaverry por el petróleo en las franjas costeras y pidió reforzar la comisión de seguimiento.",
+    "cita_literal": "están diciendo que hay que tomar mayor mayor preocupación por los temas de nuestras fronjas costeras, de que se encuentre petróleo.",
+    "marca": "00:27:50"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "media",
+    "quien": "Ana Yufra",
+    "que_se_dijo": "Pidió la intervención del alto comisionado contra la minería ilegal en Jaén (Cajamarca), donde una comunidad rechaza la actividad.",
+    "cita_literal": "con la presidencia del Consejo de Ministros a través del alto comisionado para el combate a la lucha de la minería ilegal.",
+    "marca": "00:30:43"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "baja",
+    "quien": "Jesús Pérez Alcahuamán",
+    "que_se_dijo": "Saludó a gremios de mineros artesanales en proceso de formalización presentes en la sala y reiteró su pedido pendiente de citar a Ingemet.",
+    "cita_literal": "y saludar también a diferentes gremios que están presentes acá de mineros artesanos,",
+    "marca": "00:32:02"
+   },
+   {
+    "tema_vigilado": "minería e hidrocarburos",
+    "relevancia": "alta",
+    "quien": "Comisión (pedido de Frank Lecker Torres)",
+    "que_se_dijo": "Se aprobó que los miembros declaren sus vínculos con personas o empresas de los sectores minero, energético o petrolero. Esto afecta la relación de los diputados con actores de esos sectores.",
+    "cita_literal": "laboral o amical o de otra índola con relación a personas, empresas u organizaciones relacionadas con el sector minero, energético o petrolero.",
+    "marca": "00:34:16"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "alta",
+    "quien": "Paredes Navarro, presidenta",
+    "que_se_dijo": "El ministro iba a presentar la ley MAPE el 23 de octubre. Se aprobó invitarlo para el martes 27 de octubre.",
+    "cita_literal": "El día viernes 23 a las tres de la tarde el señor ministro nos había informado que venía a presentar la ley mape en la comisión",
+    "marca": "00:46:38"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "alta",
+    "quien": "Mayra Figueredo Valderrama, viceministra",
+    "que_se_dijo": "Informó que el Ejecutivo presentó el proyecto de ley de pequeña minería y minería artesanal, que establece un régimen ordinario y otro de consolidación de 18 meses.",
+    "cita_literal": "el día 16 de octubre se ingresó ante la plataforma del Congreso el proyecto de ley de la pequeña minería y minería artesanal",
+    "marca": "00:57:15"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "alta",
+    "quien": "Mayra Figueredo Valderrama, viceministra",
+    "que_se_dijo": "El proyecto crea Formape, que asumiría por cinco años la supervisión, fiscalización y sanción que hoy tienen las direcciones regionales de energía y minas.",
+    "cita_literal": "El proyecto de ley también establece la creación de Formape, un organismo adscrito al Ministerio de Energía y Minas,",
+    "marca": "00:58:51"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "alta",
+    "quien": "Mayra Figueredo Valderrama, viceministra",
+    "que_se_dijo": "OEFA, Sunafil y Ocinermín fiscalizarían por cinco años las plantas de 25 toneladas o más. Esto cambia el régimen de supervisión de las plantas de procesamiento.",
+    "cita_literal": "la facultad que asumirían la OEFA, Zunafil y Ocinermin para fiscalizar por un periodo de cinco años también, supervisar y fiscalizar a las plantas de 25 toneladas a más.",
+    "marca": "01:00:11"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "alta",
+    "quien": "Mayra Figueredo Valderrama, viceministra",
+    "que_se_dijo": "Quienes hayan usado mal el REINFO serán excluidos. Los trámites de formalización y de exclusión en curso se mantendrán.",
+    "cita_literal": "aquellos que no han cumplido sus condiciones y que en todo caso han venido mal usando el reinfo, también serán excluidos.",
+    "marca": "01:02:31"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "baja",
+    "quien": "No identificado (diputado)",
+    "que_se_dijo": "Mencionó que entre los invitados de la sociedad civil había gremios mineros y propuso escucharlos.",
+    "cita_literal": "Consejo Nacional de Minería, Sociedad Nacional de Minería, Petróleo y Energía, Confederación Nacional de Pequeña",
+    "marca": "01:13:32"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "media",
+    "quien": "No identificado (diputado)",
+    "que_se_dijo": "Afirmó que el ministro de Energía y Minas visitará las bancadas para explicar la ley MAPE.",
+    "cita_literal": "tengo conocimiento que el ministro de Energía y Minas va a visitar esta semana y la próxima a las bancadas para profundizar el tema.",
+    "marca": "01:22:46"
+   },
+   {
+    "tema_vigilado": "minería",
+    "relevancia": "alta",
+    "quien": "Jaime Abenzur",
+    "que_se_dijo": "Su cuestión previa, aprobada por mayoría, postergó el debate sobre el marco legal de la pequeña minería hasta la próxima sesión con el ministro.",
+    "cita_literal": "que ya en mejores condiciones, señor presidente, se pueda empezar con el ministro ya presente, se pueda hacer este ejercicio democrático",
+    "marca": "01:16:10"
+   }
+  ],
+  "alertas": [
+   "El proyecto de ley MAPE del Ejecutivo ya está en la comisión. Crea el organismo Formape, un régimen de consolidación de 18 meses para los inscritos en el REINFO con exclusión de quienes lo usaron mal, y fiscalización temporal de las plantas de 25 toneladas o más por OEFA, Sunafil y Ocinermín. Su debate fue postergado y debe seguirse.",
+   "La comparecencia del ministro de Energía y Minas sobre la ley MAPE quedó fijada para el martes 27 de octubre, pero el diputado Columbus Murata pidió reconsiderarla, lo que deja incertidumbre sobre su realización.",
+   "La audiencia pública del 28 de octubre sobre la Ley de la Pequeña Minería y Minería Artesanal es una oportunidad para presentar aportes.",
+   "La sesión descentralizada del 10 de noviembre en Marcona tratará concesiones mineras, derechos laborales mineros y fiscalización socioambiental de las empresas.",
+   "La presidenta de la comisión cuestiona el Decreto Supremo 021-2026-EM sobre el lote 192 y menciona presuntos indicios de corrupción. Esto anticipa acciones de fiscalización en hidrocarburos.",
+   "Se propuso un grupo de trabajo de 180 días sobre hidrocarburos y gas natural que evaluaría el marco normativo del sector; su creación está pendiente para la siguiente sesión.",
+   "Los diputados deberán declarar sus vínculos familiares y laborales con personas o empresas de los sectores minero y petrolero. Esto puede incidir en las relaciones de los gremios y empresas con los miembros de la comisión.",
+   "Hubo pedidos para que intervenga el alto comisionado contra la minería ilegal en Jaén (Cajamarca).",
+   "El canon no se mencionó en la sesión."
+  ],
+  "proximos_pasos": [
+   "Sesión ordinaria con la comparecencia del ministro de Energía y Minas, Guillermo Chino Huamaní, para el martes 27 de octubre de 2026, sujeta al pedido de reconsideración.",
+   "Continuación del tercer punto (marco legal de la pequeña minería y minería artesanal, crimen organizado en la minería y derechos ancestrales) en la próxima sesión, tras la cuestión previa aprobada.",
+   "Audiencia pública sobre la Ley de la Pequeña Minería y Minería Artesanal: miércoles 28 de octubre, desde las 11 de la mañana, en el Auditorio Alberto Andrae Carmona.",
+   "Sesión y audiencia pública descentralizadas en Marcona (Nazca, Ica): martes 10 de noviembre de 2026.",
+   "Evaluación en la siguiente sesión del pedido de crear el grupo de trabajo sobre seguridad energética, gas natural y regiones productoras de hidrocarburos.",
+   "Pedido pendiente de citar al presidente ejecutivo de Ingemet.",
+   "Pedido de ampliar la agenda del ministro con el Decreto Supremo 019-2026-EM (alumbrado público) y de que informe el presidente de Ocinermín."
+  ],
+  "limitaciones": [
+   "La fecha no coincide entre fuentes: la transcripción dice martes 20 de octubre de 2026, los datos indican 2026-10-21 y el título publicado dice «20/1072026».",
+   "El apellido del diputado que propuso la declaración de vínculos aparece como Licker, Lecker, Leker, Lécker, Reckleck y Kerker; también figuran «Carlec Torres», «Carlos Torres» y «Carles Torres» en las votaciones, que podrían ser la misma persona.",
+   "Otros nombres aparecen con variantes: Abenzur / Abenzú / Bensur / Avensur / Benzúr Pinajo; Columbo / Columbus / Colón Murata; Paredes Navarro / Párez Navarro; Santa Navarra / Santanavera / Santa Anavera; Zongo / Sonco Villanueva; Demetrio Palqui / Malki / Pérez Malqui; Nari / Nadie Pinasco.",
+   "Las entidades figuran como «Ocinermín», «Ingemet / Ingemed», «Zunafil», «Yenren / Genren / Jenren» y «CITGAS»; se mantienen tal como aparecen en la transcripción.",
+   "La frase «agenda del adenda del contrato cálida» es confusa.",
+   "Desde el debate del tercer punto, la sesión la conduce un «señor presidente» o «presidente encargado» cuyo nombre no se dice.",
+   "Varias intervenciones del debate sobre la ley MAPE no identifican a su orador.",
+   "No se indica el conteo final de la cuestión previa. En la lista nominal no se oyen los votos de las diputadas Paredes Navarro, Santanavera y Yufra Lugo.",
+   "Hay discrepancias sobre el proyecto MAPE. La viceministra dice que se ingresó el 16 de octubre y se registró el 19. Un diputado dice que el Ejecutivo lo presentó el viernes pasado y otros que llegó a la comisión «ayer».",
+   "El diputado Columbus Murata pidió registrar su voto a favor del pedido de vínculos y en contra de la invitación al ministro; no consta si se registró.",
+   "La sesión estuvo suspendida entre las 00:51:19 y las 00:55:27 para el ingreso de los invitados; ese tramo no tiene contenido.",
+   "La invitación al ministro se aprobó primero en referencia al martes siguiente y luego se anunció para el martes 27 de octubre. El pedido del diputado Camargo menciona la fecha anterior del 23 de octubre."
+  ]
+ }
+}

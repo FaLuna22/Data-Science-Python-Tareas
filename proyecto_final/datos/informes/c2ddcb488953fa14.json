@@ -1,0 +1,238 @@
+{
+ "sesion": "LvsY8hVx-ec",
+ "temas": [
+  "sistema financiero",
+  "AFP",
+  "tasas de interés"
+ ],
+ "uso": {
+  "modelo": "claude-opus-5-5",
+  "tokens_entrada": 24863,
+  "tokens_salida": 11100
+ },
+ "informe": {
+  "organo": "Comisión de Economía, Banca, Finanzas e Inteligencia Financiera (Diputados)",
+  "tipo_sesion": "No se indica",
+  "resumen_ejecutivo": "La comisión recibió al ministro de Comercio Exterior y Turismo, Roger Martín Valencia Espinosa, y a su equipo, quienes informaron sobre las zonas económicas especiales privadas reguladas por la Ley 32449, a un año de su vigencia. El ministerio indicó que aún no hay conversaciones directas con inversionistas y que falta que el Ministerio de Economía y Finanzas complete las disposiciones tributarias y aduaneras. Los diputados preguntaron por la transferencia tecnológica, la ausencia de obligaciones de investigación y desarrollo con universidades y la situación de la Zofra Tacna frente al nuevo régimen. Luego la comisión aprobó tres predictámenes: la proposición legislativa 507 sobre donaciones ante emergencias (12 votos a favor, por unanimidad); las proposiciones 306 y 508 que restablecen el reintegro del IGV para editoriales del libro (14 votos a favor, por unanimidad); y las proposiciones 509 y 581 que prorrogan hasta el 31 de diciembre de 2029 las exoneraciones del artículo 19 de la Ley del Impuesto a la Renta (13 a favor y 1 abstención, por mayoría). Se aprobó la dispensa del trámite de aprobación del acta y se levantó la sesión. En la sesión no se trataron los temas vigilados por el cliente: sistema financiero, AFP y tasas de interés.",
+  "agenda": [
+   {
+    "tema": "Informe del ministro de Comercio Exterior y Turismo sobre las zonas económicas especiales privadas (Ley 32449)",
+    "resumen": "El ministro expuso las características, los requisitos, los beneficios tributarios y aduaneros y las etapas de creación de las zonas económicas especiales privadas, así como sus próximos pasos de implementación. Los diputados consultaron por los avances, la relación con las universidades en investigación y desarrollo y la articulación con las zonas públicas, en particular la Zofra Tacna. El sector señaló que el artículo 4 de la ley limita lo que puede reglamentarse y que falta el reglamento tributario y aduanero a cargo del MEF.",
+    "marca": "00:00:00"
+   },
+   {
+    "tema": "Predictamen de la proposición legislativa 507 (Poder Ejecutivo) sobre donaciones ante emergencias por peligro inminente",
+    "resumen": "La propuesta amplía el régimen de donaciones y servicios gratuitos a emergencias por peligro inminente de origen natural, incorpora 79 bienes y 17 servicios y permite culminar servicios hasta 60 días calendario después de la emergencia. Según la exposición, cuenta con opinión favorable del MEF. Fue aprobada por unanimidad con 12 votos a favor.",
+    "marca": "00:51:11"
+   },
+   {
+    "tema": "Predictamen de las proposiciones legislativas 306 y 508 sobre el reintegro del IGV para editoriales del libro",
+    "resumen": "El texto sustitutorio restablece únicamente el reintegro del IGV para las editoriales, con un plazo de tres años, y no incorpora la exoneración del impuesto a la renta sobre regalías, sobre la cual el MEF opinó en contra. Prevé publicaciones de información cada 180 días y una evaluación integral. Fue aprobado por unanimidad con 14 votos a favor.",
+    "marca": "00:55:27"
+   },
+   {
+    "tema": "Dictamen de las proposiciones legislativas 509 y 581 sobre la prórroga de las exoneraciones del artículo 19 de la Ley del Impuesto a la Renta",
+    "resumen": "La propuesta prorroga las exoneraciones hasta el 31 de diciembre de 2029 y condiciona el beneficio a la presentación de declaraciones anual e informativa, con pérdida de la exoneración si no se subsanan las omisiones en 30 días calendario. Fue aprobada por mayoría con 13 votos a favor y 1 abstención.",
+    "marca": "01:01:41"
+   },
+   {
+    "tema": "Dispensa del trámite de aprobación del acta y levantamiento de la sesión",
+    "resumen": "El presidente pidió a los diputados permanecer hasta el final de las sesiones. Se aprobó sin observaciones la dispensa del trámite de aprobación del acta y se levantó la sesión a las 16 horas del 28 de octubre.",
+    "marca": "01:06:55"
+   }
+  ],
+  "intervenciones": [
+   {
+    "orador": "Roger Martín Valencia Espinosa",
+    "cargo": "Ministro de Comercio Exterior y Turismo (transcrito como 'Comercio, Estudio y Turismo')",
+    "postura": "informativa",
+    "resumen": "Explicó el modelo de zonas económicas especiales privadas, cuyo principal beneficio es una exoneración escalonada del impuesto a la renta, junto con un régimen aduanero especial.",
+    "cita_literal": "Principal beneficio, una exoneración escalonada del impuesto a la renta. En 25 años, el pago del impuesto va a ser igual a cualquier otra empresa en el país.",
+    "marca": "00:05:46"
+   },
+   {
+    "orador": "Roger Martín Valencia Espinosa",
+    "cargo": "Ministro de Comercio Exterior y Turismo",
+    "postura": "informativa",
+    "resumen": "Indicó que no ha habido conversaciones directas con interesados porque el reglamento es reciente y la promoción recién comienza, aunque hubo consultas puntuales, por ejemplo sobre joyería.",
+    "cita_literal": "No han habido conversaciones directas de interesados en tanto de que este reglamento ha sido aprobado recientemente",
+    "marca": "00:16:00"
+   },
+   {
+    "orador": "No identificado",
+    "cargo": "Diputado",
+    "postura": "con observaciones",
+    "resumen": "Advirtió el riesgo de que empresas existentes se acojan al beneficio y cuestionó que el reglamento no obligue a crear laboratorios de investigación y desarrollo con la universidad pública.",
+    "cita_literal": "Queríamos saber si de repente existe alguna iniciativa desde su sector para modificar esa parte del reglamento",
+    "marca": "00:18:59"
+   },
+   {
+    "orador": "Sayuri Bayona Matsuda (también transcrita como 'Sayuri Villona')",
+    "cargo": "Viceministra de Comercio Exterior",
+    "postura": "informativa",
+    "resumen": "Señaló que la ley y el reglamento se elaboraron en línea con los lineamientos de la OCDE, para que en las zonas se desarrollen solo actividades nuevas.",
+    "cita_literal": "se ha elaborado tanto la ley como el reglamento justamente para salvaguardar eso y buscar que las actividades que se realicen en esta zona sean actividades nuevas",
+    "marca": "00:20:35"
+   },
+   {
+    "orador": "No identificado (presentada como 'nuestra directora general')",
+    "cargo": "Directora general, Ministerio de Comercio Exterior y Turismo",
+    "postura": "informativa",
+    "resumen": "Afirmó que no se puede promocionar el régimen sin la normativa tributaria y aduanera completa, que está pendiente en el MEF, y que la obligación de investigación y desarrollo requeriría una modificación legislativa.",
+    "cita_literal": "Entonces, creo que tenemos que culminar esa última parte a través del Ministerio de Economía y Finanzas, la relación de este reglamento tributario y aduanero.",
+    "marca": "00:21:53"
+   },
+   {
+    "orador": "Barbarán (transcrita también como 'Boran')",
+    "cargo": "Diputada",
+    "postura": "a favor",
+    "resumen": "Defendió las zonas económicas como herramienta de competitividad internacional y preguntó por la situación real de la reglamentación, las primeras regiones beneficiadas y los acercamientos de empresas extranjeras.",
+    "cita_literal": "Entonces, yo sí, presidente, a través suyo, yo les pido que seamos muy cuidadosos cuando hablamos de temas de exoneraciones.",
+    "marca": "00:27:39"
+   },
+   {
+    "orador": "No identificado",
+    "cargo": "Presidente de la comisión",
+    "postura": "con observaciones",
+    "resumen": "Respaldó la ley, pero preguntó cómo se asegurará la transferencia tecnológica y por qué no se reglamenta la sinergia con la academia, para que el país no se limite a ensamblar.",
+    "cita_literal": "cómo, por supuesto, desde la Cámara de Diputados se puede ayudar para trabajar en conjunto con esa mirada que va más allá de ser un mero ensamblador.",
+    "marca": "00:31:16"
+   },
+   {
+    "orador": "Roger Martín Valencia Espinosa",
+    "cargo": "Ministro de Comercio Exterior y Turismo",
+    "postura": "informativa",
+    "resumen": "Citó experiencias de la región en las que las zonas francas devuelven entre dos y siete veces su valor, y las presentó como una estrategia de competitividad.",
+    "cita_literal": "En nuestro entorno, en América cercana, estas zonas francas devuelven a las economías que han generado la zona franca de dos a siete veces su valor.",
+    "marca": "00:31:58"
+   },
+   {
+    "orador": "Jorge (Villavicencio, según la presentación inicial)",
+    "cargo": "Director de la Dirección de Zonas Económicas Especiales",
+    "postura": "informativa",
+    "resumen": "Explicó que el artículo 4 de la ley restringe las actividades permitidas a la industria, el ensamblaje y los servicios asociados, lo que impidió reglamentar la investigación y desarrollo; mencionó además observaciones de un sector del Ejecutivo.",
+    "cita_literal": "Entonces, el candado, la imposibilidad de que nosotros hayamos podido reglamentar en la materia que usted está acertadamente comentando, es porque en la ley este artículo cuarto nos lo impide.",
+    "marca": "00:34:32"
+   },
+   {
+    "orador": "Fernández",
+    "cargo": "Diputada, representante de la región Tacna",
+    "postura": "con observaciones",
+    "resumen": "Preguntó cómo se articularán las zonas públicas y privadas, cuál es la estrategia para fortalecer la Zofra Tacna y cuál es la posición del Mincetur sobre la eliminación de los licores de la franquicia de compra de Tacna.",
+    "cita_literal": "cómo se van a articular ambos modelos y qué hará el ministerio desde los oficios para evitar que las zonas públicas queden en desventaja frente a este nuevo régimen.",
+    "marca": "00:40:09"
+   },
+   {
+    "orador": "Roger Martín Valencia Espinosa",
+    "cargo": "Ministro de Comercio Exterior y Turismo",
+    "postura": "informativa",
+    "resumen": "Sostuvo que los regímenes públicos y privados son complementarios y que el decreto supremo aprobado permite la inversión extranjera en la Zofra Tacna bajo un esquema de alquiler.",
+    "cita_literal": "Estos dos sistemas son complementarios, no son un sistema u el otro, sino los sistemas, los modelos de las zonas económicas especiales en el Perú",
+    "marca": "00:42:55"
+   },
+   {
+    "orador": "No identificado",
+    "cargo": "Funcionaria del Ministerio de Comercio Exterior y Turismo",
+    "postura": "informativa",
+    "resumen": "Explicó que las zonas públicas tienen más actividades permitidas y exoneración de 0% hasta 2042, y que el ministerio participa en reuniones sobre la restricción a los licores que rige desde el 1 de enero de 2027.",
+    "cita_literal": "nosotros estamos participando en todas las reuniones que convoque el Congreso, el CPM, todo, para ver cómo puede darse algún tipo de medida que pueda hacer.",
+    "marca": "00:46:49"
+   }
+  ],
+  "acuerdos": [
+   {
+    "asunto": "Predictamen que recomienda aprobar con modificaciones la proposición legislativa 507 (Poder Ejecutivo) sobre donaciones ante emergencias por peligro inminente",
+    "tipo": "votación",
+    "resultado": "Aprobado por unanimidad: 12 votos a favor, 0 en contra, 0 abstenciones.",
+    "cita_literal": "12 votos a favor, 0 votos en contra, 0 abstenciones. Ha sido aprobado por unanimidad de los cogresistas presentes en el momento de la votación.",
+    "marca": "00:54:28"
+   },
+   {
+    "asunto": "Constancia en actas de votos de diputados en la votación de la proposición legislativa 507",
+    "tipo": "dispensa o trámite",
+    "resultado": "Se pidió que constaran en actas los votos de los diputados Zaponte y Nava Sánchez; luego la diputada Fernández González pidió que constara su voto a favor.",
+    "cita_literal": "Felicitaciones, señores diputados, por el consenso en unanimidad Estamos, por favor, señor secretario técnico Que conste en actas el voto de los diputados",
+    "marca": "00:54:58"
+   },
+   {
+    "asunto": "Predictamen que recomienda aprobar con modificaciones las proposiciones legislativas 306 y 508, que restablecen el reintegro del IGV para editoriales del libro",
+    "tipo": "votación",
+    "resultado": "Aprobado por unanimidad: 14 votos a favor, 0 en contra, 0 abstenciones.",
+    "cita_literal": "han respondido a la asistencia a la votación 14 diputados. El resultado es el siguiente. 14 a favor, 0 votos en contra, 0 abstenciones.",
+    "marca": "01:01:12"
+   },
+   {
+    "asunto": "Predictamen que recomienda aprobar con modificaciones las proposiciones legislativas 509 y 581, que prorrogan hasta el 31 de diciembre de 2029 las exoneraciones del artículo 19 de la Ley del Impuesto a la Renta",
+    "tipo": "votación",
+    "resultado": "Aprobado por mayoría: 13 votos a favor, 0 en contra, 1 abstención.",
+    "cita_literal": "13 votos a favor, 0 votos en contra y 1 abstención por tanto ha sido aprobado por mayoría",
+    "marca": "01:06:02"
+   },
+   {
+    "asunto": "Dispensa del trámite de aprobación del acta para ejecutar los acuerdos adoptados",
+    "tipo": "dispensa o trámite",
+    "resultado": "Aprobada sin observaciones.",
+    "cita_literal": "Con el curvo reglamentario se solicita la dispensa del trámite de aprobación del acta para proceder a ejecutar los acuerdos adoptados.",
+    "marca": "01:07:21"
+   }
+  ],
+  "compromisos": [
+   {
+    "responsable": "Ministerio de Economía y Finanzas (según lo señalado por el Mincetur)",
+    "compromiso": "Culminar las disposiciones del reglamento tributario y aduanero de las zonas económicas especiales privadas, requisito previo para su promoción.",
+    "plazo": "Sin plazo",
+    "cita_literal": "Entonces, creo que tenemos que culminar esa última parte a través del Ministerio de Economía y Finanzas, la relación de este reglamento tributario y aduanero.",
+    "marca": "00:21:53"
+   },
+   {
+    "responsable": "Ministerio de Comercio Exterior y Turismo",
+    "compromiso": "Trabajar con las universidades en los procesos de promoción y realizar capacitaciones y fortalecimiento de capacidades.",
+    "plazo": "Sin plazo",
+    "cita_literal": "vamos a trabajar con las universidades, vamos a hacer capacitaciones y fortalecimiento de capacidades.",
+    "marca": "00:23:08"
+   },
+   {
+    "responsable": "Presidente de la comisión y Ministerio de Comercio Exterior y Turismo",
+    "compromiso": "Continuar el diálogo para ajustar el marco normativo sobre transferencia tecnológica e investigación y desarrollo.",
+    "plazo": "Sin plazo",
+    "cita_literal": "que podamos poner foco en ese tema y a total predisposición de esta comisión y por supuesto mi despacho",
+    "marca": "00:38:49"
+   },
+   {
+    "responsable": "Ministerio de Cultura, en coordinación con SUNAT y la Biblioteca Nacional del Perú (según el dictamen)",
+    "compromiso": "Publicar información periódica sobre el beneficio del reintegro del IGV a editoriales.",
+    "plazo": "Cada 180 días",
+    "cita_literal": "El Ministerio de Cultura, en coordinación con SUNAT y la Biblioteca Nacional del Perú, publicarán información cada 180 días",
+    "marca": "00:58:28"
+   },
+   {
+    "responsable": "Diputados miembros de la comisión",
+    "compromiso": "Permanecer hasta el final de las sesiones, en especial durante la aprobación del acta, según el pedido del presidente.",
+    "plazo": "En las próximas sesiones",
+    "cita_literal": "les agradeceré a todos, respetuosamente, que a futuro, en la parte final de las sesiones, nos quedemos hasta el final.",
+    "marca": "01:06:55"
+   }
+  ],
+  "menciones_cliente": [],
+  "alertas": [],
+  "proximos_pasos": [
+   "El MEF debe emitir las disposiciones tributarias y aduaneras de las zonas económicas especiales privadas. Después vendrán la interoperabilidad con la VUCE y la SUNAT y la promoción a través de PROMPERÚ y PROINVERSIÓN.",
+   "El presidente de la comisión propuso seguir conversando con el Mincetur sobre una posible modificación de la Ley 32449 (artículo 4) para incluir obligaciones de investigación y desarrollo.",
+   "La restricción a los licores en la franquicia de compra de Tacna rige desde el 1 de enero de 2027, según lo mencionado en la sesión; el Mincetur indicó que participa en reuniones sobre el tema.",
+   "Los predictámenes aprobados (PL 507; PL 306 y 508; PL 509 y 581) continúan su trámite. La transcripción no precisa la siguiente etapa ni fechas.",
+   "Al cierre se mencionó una sesión bicameral en curso sobre la ley de presupuesto, y la sesión se levantó para que los diputados asistieran al Pleno."
+  ],
+  "limitaciones": [
+   "La sesión no abordó los temas vigilados por el cliente (sistema financiero, AFP, tasas de interés); por eso las menciones y alertas están vacías.",
+   "El título publicado indica el 28/10/2026, la fecha de los datos es el 2026-10-29 y en la sesión se dice que se levanta el 28 de octubre.",
+   "La transcripción escribe el nombre del ministerio como 'Comercio, Estudio y Turismo' y 'Comercio, Historia y Turismo', y el del ministro como 'Roger Martín Valencia Espinosa' y 'Roger Marín Valencia Espinosa'.",
+   "La viceministra aparece como 'Sayuri Bayona Matsuda' y como 'Sayuri Villona'. La directora general que interviene no es nombrada al hablar; al inicio se presentó a Claudia Silva como directora general de Facilitación del Comercio Exterior.",
+   "El apellido de la diputada Barbarán aparece también como 'Boran', 'Barbara Sánchez' y 'Arbarán Reyes'. En 00:38:25 se la menciona junto a 'presidente de esta comisión', lo que no permite identificar con certeza al presidente.",
+   "El presidente de la comisión y el diputado que pregunta en 00:15:16 no se identifican por nombre.",
+   "No queda claro si la diputada 'Fernández' que habla por Tacna es Fernández de la Torre o Fernández González. Tampoco es seguro quién responde la última pregunta: se anuncia al ministro, pero la respuesta parece de una funcionaria.",
+   "Hay términos con errores probables de transcripción: 'SUNAP' (posiblemente SUNAT), 'BUSE' (posiblemente VUCE), 'IGB' (posiblemente IGV), 'Zofra Tajna/Sofra Tacna/Tacona/Sofratagna', 'prohibición legislativa 507', 'ley 3498'/'ley 398', 'Ley 3244.9', 'Decreto Supremo 3.24.2023', 'decreto supremo 00926'/'09'/'9-2026', 'examen de 2005' y 'código incremental referencial'.",
+   "En la votación de las PL 509 y 581, la lista nominal transcrita registra menos 'a favor' audibles que los 13 anunciados. En la de la PL 507 se anuncian 12 respuestas, aunque la lista transcrita está incompleta.",
+   "Entre 00:49:39 y 00:50:44 hay un tramo sin transcripción, que corresponde a la suspensión para despedir al ministro."
+  ]
+ }
+}

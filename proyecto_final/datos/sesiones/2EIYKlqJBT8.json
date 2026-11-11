@@ -1,0 +1,4571 @@
+{
+ "id": "2EIYKlqJBT8",
+ "titulo": "Sesión de la Comisión de Energía y Minas | 20/1072026",
+ "organo": "Comisión de Energía y Minas",
+ "fecha": "2026-10-21",
+ "url": "https://www.youtube.com/watch?v=2EIYKlqJBT8",
+ "duracion_s": 5320,
+ "modelo_asr": "faster-whisper large-v3-turbo",
+ "segmentos": [
+  {
+   "inicio": 0.0,
+   "fin": 10.92,
+   "texto": "Para la presente sesión se va a pasar lista para comprobar el corum respectivo. Señor secretario técnico, abogado Iván Walter León Ramírez, proceda a pasar lista."
+  },
+  {
+   "inicio": 11.7,
+   "fin": 12.72,
+   "texto": "Gracias, presidenta."
+  },
+  {
+   "inicio": 15.98,
+   "fin": 17.24,
+   "texto": "Diputada Paredes Navarro."
+  },
+  {
+   "inicio": 17.62,
+   "fin": 18.2,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 20.5,
+   "fin": 21.92,
+   "texto": "Diputado Camargo Porta."
+  },
+  {
+   "inicio": 23.34,
+   "fin": 23.82,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 25.51,
+   "fin": 26.75,
+   "texto": "Diputada Santa Navarra."
+  },
+  {
+   "inicio": 27.65,
+   "fin": 28.17,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 30.8,
+   "fin": 36.12,
+   "texto": "Diputado Columbo Murata. Se encuentra en la Comisión de Salud. Va a reincorporarse en breves momentos."
+  },
+  {
+   "inicio": 36.62,
+   "fin": 40.24,
+   "texto": "Diputada Muñoz Yurivilca."
+  },
+  {
+   "inicio": 41.23,
+   "fin": 41.77,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 42.39,
+   "fin": 47.12,
+   "texto": "Diputado Palma Mendoza."
+  },
+  {
+   "inicio": 48.22,
+   "fin": 48.74,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 50.25,
+   "fin": 50.85,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 52.62,
+   "fin": 55.08,
+   "texto": "Diputado Quezada Castro."
+  },
+  {
+   "inicio": 56.43,
+   "fin": 56.83,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 60.37,
+   "fin": 62.03,
+   "texto": "Diputada Pinasco Montenegro."
+  },
+  {
+   "inicio": 63.42,
+   "fin": 64.02,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 68.18,
+   "fin": 69.38,
+   "texto": "Diputada Yufra Lugo."
+  },
+  {
+   "inicio": 72.94,
+   "fin": 74.04,
+   "texto": "Diputada Yufra Lugo."
+  },
+  {
+   "inicio": 75.96,
+   "fin": 77.72,
+   "texto": "Diputado Pérez Alcahuamán."
+  },
+  {
+   "inicio": 79.7,
+   "fin": 80.18,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 80.18,
+   "fin": 84.67,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 84.67,
+   "fin": 127.41,
+   "texto": "Diputado Flores Valdizán, diputado Flores Valdizán, diputado Lavado Valdivia se encuentra con licencia, diputada Isla Rojas, diputada Isla Rojas, diputada Laisa Macera se encuentra con licencia, diputada Girache Pizarro está en otra comisión, en la misma hora, también con licencia, diputado Changapuy se encuentra con licencia,"
+  },
+  {
+   "inicio": 127.41,
+   "fin": 129.97,
+   "texto": "Diputado Carlec Torres."
+  },
+  {
+   "inicio": 131.75,
+   "fin": 132.21,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 134.8,
+   "fin": 136.14,
+   "texto": "Diputado Valky Calderón."
+  },
+  {
+   "inicio": 139.52,
+   "fin": 140.72,
+   "texto": "Diputado Valky Calderón."
+  },
+  {
+   "inicio": 143.96,
+   "fin": 145.32,
+   "texto": "Diputado Zongo Villanueva."
+  },
+  {
+   "inicio": 146.28,
+   "fin": 146.7,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 149.55,
+   "fin": 151.75,
+   "texto": "Bien, pasamos a lista, miembros accesitarios."
+  },
+  {
+   "inicio": 153.2,
+   "fin": 154.58,
+   "texto": "Diputado Castro Grandes."
+  },
+  {
+   "inicio": 154.72,
+   "fin": 155.9,
+   "texto": "Diputado Gamarra Pita."
+  },
+  {
+   "inicio": 156.52,
+   "fin": 157.76,
+   "texto": "Diputado Tiglia Rafael."
+  },
+  {
+   "inicio": 158.46,
+   "fin": 159.54,
+   "texto": "Diputada Mesa Rivera."
+  },
+  {
+   "inicio": 160.42,
+   "fin": 161.9,
+   "texto": "Diputado Abenzur Pinasco."
+  },
+  {
+   "inicio": 162.62,
+   "fin": 163.02,
+   "texto": "Presente."
+  },
+  {
+   "inicio": 165.97,
+   "fin": 167.49,
+   "texto": "Diputada Tacayama Jiménez."
+  },
+  {
+   "inicio": 167.49,
+   "fin": 168.71,
+   "texto": "Diputado Pérez Malqui."
+  },
+  {
+   "inicio": 168.71,
+   "fin": 193.13,
+   "texto": "diputada Palomino Casavilca, diputado Pablo Aguamaní, diputada Soto Ferrari, diputada Márquez Huanca, diputado Castrejón Fernández, diputado Prado Vallejos, diputado Duarte Patiño de Peset, diputado Bahía Malca, diputado Segura Figueroa, diputado Albañil Carmona, diputada Janko Janko, diputado Menezes Crispín."
+  },
+  {
+   "inicio": 193.13,
+   "fin": 197.37,
+   "texto": "Bien, han registrado su asistencia 11, señores diputados."
+  },
+  {
+   "inicio": 197.49,
+   "fin": 198.75,
+   "texto": "Existe el corum de reglamento."
+  },
+  {
+   "inicio": 199.35,
+   "fin": 201.47,
+   "texto": "Adelante, señorita presidenta."
+  },
+  {
+   "inicio": 201.47,
+   "fin": 211.0,
+   "texto": "Con el corum reglamentario y siendo las 9 y 15 horas del martes 20 de octubre del 2026,"
+  },
+  {
+   "inicio": 211.18,
+   "fin": 216.5,
+   "texto": "damos inicio a nuestra quinta sesión ordinaria de manera presencial de la Comisión de Energía"
+  },
+  {
+   "inicio": 216.5,
+   "fin": 223.66,
+   "texto": "y Minas, la cual se realiza en la Sala Miguel Grau Seminario, ubicada en el Palacio Legislativo."
+  },
+  {
+   "inicio": 224.5,
+   "fin": 226.04,
+   "texto": "Uno, aprobación del acta."
+  },
+  {
+   "inicio": 226.18,
+   "fin": 231.34,
+   "texto": "Estimados señores diputados, se ha remitido el acta de la cuarta sesión de la comisión"
+  },
+  {
+   "inicio": 231.34,
+   "fin": 238.34,
+   "texto": "con fecha 29 de septiembre al 2026, realizada en la Sala Miguel Grau Seminario del Palacio"
+  },
+  {
+   "inicio": 238.34,
+   "fin": 243.72,
+   "texto": "Legislativo de Carácter Presencial, a través de sus correos institucionales y WhatsApp,"
+  },
+  {
+   "inicio": 243.98,
+   "fin": 248.96,
+   "texto": "tanto de diputados como de asesores, además por el sistema de trámite documentario y del"
+  },
+  {
+   "inicio": 248.96,
+   "fin": 251.34,
+   "texto": "sistema de gestión de sesiones de comisiones."
+  },
+  {
+   "inicio": 251.34,
+   "fin": 254.64,
+   "texto": "De no existir observaciones, damos por aprobada."
+  },
+  {
+   "inicio": 257.44,
+   "fin": 259.82,
+   "texto": "¿Alguna observación, señores diputados?"
+  },
+  {
+   "inicio": 263.28,
+   "fin": 268.78,
+   "texto": "Bien, el acta de la cuarta sesión ordinaria de la comisión de fecha 29 de septiembre"
+  },
+  {
+   "inicio": 268.78,
+   "fin": 274.02,
+   "texto": "del 2026 de carácter presencial queda aprobada por unanimidad en los presentes."
+  },
+  {
+   "inicio": 274.16,
+   "fin": 275.62,
+   "texto": "Pasamos a la siguiente estación."
+  },
+  {
+   "inicio": 276.1,
+   "fin": 277.4,
+   "texto": "Estación despacho."
+  },
+  {
+   "inicio": 278.16,
+   "fin": 286.08,
+   "texto": "Los cuadros resúmenes de los documentos recibidos como enviados por la comisión del 26 de septiembre"
+  },
+  {
+   "inicio": 286.08,
+   "fin": 293.64,
+   "texto": "del 2026 al 16 de octubre del 2026 han sido remitidos a través de los correos institucionales"
+  },
+  {
+   "inicio": 293.64,
+   "fin": 298.26,
+   "texto": "y WhatsApp, así como a través del sistema de trámite documentario y del sistema de"
+  },
+  {
+   "inicio": 298.26,
+   "fin": 300.22,
+   "texto": "gestión de sesiones de comisiones."
+  },
+  {
+   "inicio": 300.68,
+   "fin": 306.9,
+   "texto": "De igual manera se ha remitido el reporte de preposiciones legislativas integradas a"
+  },
+  {
+   "inicio": 306.9,
+   "fin": 308.56,
+   "texto": "la fecha para su conocimiento."
+  },
+  {
+   "inicio": 309.22,
+   "fin": 311.1,
+   "texto": "Pasamos a la estación de informes."
+  },
+  {
+   "inicio": 311.1,
+   "fin": 316.94,
+   "texto": "La presidencia tiene a bien informar que hemos recibido diversa documentación, la"
+  },
+  {
+   "inicio": 316.94,
+   "fin": 322.76,
+   "texto": "cual se encuentra en los cuadros resúmenes de los documentos recibidos 26 de septiembre"
+  },
+  {
+   "inicio": 322.76,
+   "fin": 327.34,
+   "texto": "al 16 de octubre del 2026, lo cual di cuenta en la estación despacho."
+  },
+  {
+   "inicio": 327.76,
+   "fin": 334.38,
+   "texto": "La presidencia informa que el martes 13 de octubre del 2026 se efectuó la primera audiencia"
+  },
+  {
+   "inicio": 334.38,
+   "fin": 339.9,
+   "texto": "pública descentralizada de nuestra comisión en la ciudad de Cusco, en el auditorio del"
+  },
+  {
+   "inicio": 339.9,
+   "fin": 345.4,
+   "texto": "Paraninfo Universitario de la Universidad Nacional San Antonio Abad del Cusco, cuyo"
+  },
+  {
+   "inicio": 345.4,
+   "fin": 352.48,
+   "texto": "tema tratado fue el Sistema Integral de Transporte de Gas Zona Sur del país, CITGAS, agenda"
+  },
+  {
+   "inicio": 352.48,
+   "fin": 355.12,
+   "texto": "del adenda del contrato cálida."
+  },
+  {
+   "inicio": 355.62,
+   "fin": 362.04,
+   "texto": "Las exposiciones técnicas tuvieron a cargo de la viceministra de Hidrocarburos, del Ministerio"
+  },
+  {
+   "inicio": 362.04,
+   "fin": 369.76,
+   "texto": "de Energía y Minas, señora Iris Marleny Cárdenas Pino, del gerente de Gas Natural"
+  },
+  {
+   "inicio": 369.76,
+   "fin": 375.38,
+   "texto": "de Ocinermín, señor Raúl Montoya Benítez, del director de Proyectos de Proinversión,"
+  },
+  {
+   "inicio": 375.48,
+   "fin": 381.5,
+   "texto": "señor Renzo Rojas Jiménez y del expresidente del directorio de PetroPerú, el economista"
+  },
+  {
+   "inicio": 381.5,
+   "fin": 382.7,
+   "texto": "Alejandro Narváez."
+  },
+  {
+   "inicio": 383.12,
+   "fin": 387.82,
+   "texto": "También intervinieron los señores diputados Raúl Camargo Porta, vicepresidente de la"
+  },
+  {
+   "inicio": 387.82,
+   "fin": 394.32,
+   "texto": "comisión, Milagro Santanavera, secretaria de la comisión de Tel Columbos Murata, Nari"
+  },
+  {
+   "inicio": 394.32,
+   "fin": 401.64,
+   "texto": "Pinasco Montenegro, Azucena Isla, Jesús Pérez, Julián Malki y mi persona como miembros"
+  },
+  {
+   "inicio": 401.64,
+   "fin": 402.44,
+   "texto": "de la comisión."
+  },
+  {
+   "inicio": 402.86,
+   "fin": 407.72,
+   "texto": "También intervinieron los diputados por el Cusco, César Augusto Holguín Loaiza, Eber"
+  },
+  {
+   "inicio": 407.72,
+   "fin": 411.83,
+   "texto": "López Letona y Edwin Espinosa Ilka."
+  },
+  {
+   "inicio": 412.25,
+   "fin": 416.31,
+   "texto": "Finalmente, también intuvieron el senador Paul Cusco, Wilfredo Verano."
+  },
+  {
+   "inicio": 417.13,
+   "fin": 422.41,
+   "texto": "Cabe señalar que el pasado viernes 16 de octubre le remitimos vía sistema de trámite"
+  },
+  {
+   "inicio": 422.41,
+   "fin": 428.71,
+   "texto": "documentario, correos institucionales y WhatsApp, tanto de diputados como de sus asesores, un"
+  },
+  {
+   "inicio": 428.71,
+   "fin": 434.13,
+   "texto": "informe detallado de la referida audiencia pública descentralizada a conocimiento de"
+  },
+  {
+   "inicio": 434.13,
+   "fin": 434.37,
+   "texto": "todos."
+  },
+  {
+   "inicio": 434.37,
+   "fin": 439.45,
+   "texto": "Mi agradecimiento a todos los parlamentarios que asistieron a la primera audiencia pública"
+  },
+  {
+   "inicio": 439.45,
+   "fin": 444.57,
+   "texto": "en la ciudad de Cusco y de manera muy especial a la mesa directiva de nuestra comisión."
+  },
+  {
+   "inicio": 444.57,
+   "fin": 453.39,
+   "texto": "Por otro lado, la presidencia informa que el miércoles 28 de octubre se realizará la"
+  },
+  {
+   "inicio": 453.39,
+   "fin": 459.19,
+   "texto": "audiencia pública a partir de las 11 de la mañana en el Auditorio Alberto Andrae Carmona,"
+  },
+  {
+   "inicio": 459.19,
+   "fin": 466.07,
+   "texto": "cuyo tema sería análisis de la Ley de la Pequeña Minería y Minería Artesanal."
+  },
+  {
+   "inicio": 466.91,
+   "fin": 472.87,
+   "texto": "Finalmente, la presidencia informa que el martes 10 de noviembre del 2026 se realizará"
+  },
+  {
+   "inicio": 472.87,
+   "fin": 478.89,
+   "texto": "nuestra sesión descentralizada y una audiencia pública descentralizada en el distrito de"
+  },
+  {
+   "inicio": 478.89,
+   "fin": 482.65,
+   "texto": "Marcona, provincia de Nazca, departamento de Ica."
+  },
+  {
+   "inicio": 483.01,
+   "fin": 488.77,
+   "texto": "En dicha sesión y audiencia pública se tratarán de manera prioritaria los siguientes temas."
+  },
+  {
+   "inicio": 489.19,
+   "fin": 494.99,
+   "texto": "Concesiones mineras y desarrollo territorial, derechos laborales de los trabajadores mineros,"
+  },
+  {
+   "inicio": 495.43,
+   "fin": 501.19,
+   "texto": "fiscalización socioambiental y compromisos de las empresas, nuevo terminal portuario"
+  },
+  {
+   "inicio": 501.19,
+   "fin": 505.87,
+   "texto": "de San Juan de Marcona, Desarrollo Económico y Social de Marcona."
+  },
+  {
+   "inicio": 505.87,
+   "fin": 527.12,
+   "texto": "Los señores diputados, he presentado el oficio número 85-2026-2027-YPN-CDR con fecha 16"
+  },
+  {
+   "inicio": 527.12,
+   "fin": 533.4,
+   "texto": "de octubre del 2026 al señor Guillermo Chinohuamaní, ministro de Energía y Minas."
+  },
+  {
+   "inicio": 533.9,
+   "fin": 536.62,
+   "texto": "Asunto, solicito debate técnico económico."
+  },
+  {
+   "inicio": 536.9,
+   "fin": 542.0,
+   "texto": "Es grato dirigirme a usted a fin de saludarlo cordialmente y en mi condición de diputada"
+  },
+  {
+   "inicio": 542.0,
+   "fin": 547.08,
+   "texto": "de la República comunicarle que he tomado conocimiento de la promulgación del decreto"
+  },
+  {
+   "inicio": 547.08,
+   "fin": 554.66,
+   "texto": "supremo número 021-2026-EM, decreto supremo que modifique el contrato de licencias para"
+  },
+  {
+   "inicio": 554.66,
+   "fin": 561.2,
+   "texto": "la exportación de hidrocarburos del lote 192, cuyo artículo 2 autoriza a Petro Perú"
+  },
+  {
+   "inicio": 561.2,
+   "fin": 569.28,
+   "texto": "USA a suscribir con las empresas Altamesa, Energeti, Perusac y Petróleos del Perú para"
+  },
+  {
+   "inicio": 569.28,
+   "fin": 574.72,
+   "texto": "la modificación de dicho contrato que se apruebe en el artículo 1 del referido decreto"
+  },
+  {
+   "inicio": 574.72,
+   "fin": 581.82,
+   "texto": "supremo, teniendo en cuenta que el artículo 12 del texto único ordinado de la ley número"
+  },
+  {
+   "inicio": 581.82,
+   "fin": 588.3,
+   "texto": "26.22.1, Ley Orgánica de Hidrocarburos, aprobado mediante decreto supremo número"
+  },
+  {
+   "inicio": 588.3,
+   "fin": 597.16,
+   "texto": "042-2005-EM establece que los contratos una vez aprobados y suscritos sólo podrán ser"
+  },
+  {
+   "inicio": 597.16,
+   "fin": 600.38,
+   "texto": "modificados de acuerdo a escrito entre las partes."
+  },
+  {
+   "inicio": 600.8,
+   "fin": 607.62,
+   "texto": "Las modificaciones serán aprobadas por decreto supremo refrendado por el ministro de Economía"
+  },
+  {
+   "inicio": 607.62,
+   "fin": 609.96,
+   "texto": "y Finanzas y Energía y Minas."
+  },
+  {
+   "inicio": 609.96,
+   "fin": 616.84,
+   "texto": "En esa misma línea, la suscripción del contrato Petro Perú S.A. con la empresa Altamesa"
+  },
+  {
+   "inicio": 616.84,
+   "fin": 626.66,
+   "texto": "Perusac y Petróleos del Perú sobre un bien público como el lote 192, exige mayor conocimiento"
+  },
+  {
+   "inicio": 626.66,
+   "fin": 632.12,
+   "texto": "previo a la opinión pública nacional sobre el tema y no solamente la aplicación de procedimientos"
+  },
+  {
+   "inicio": 632.12,
+   "fin": 639.66,
+   "texto": "administrativos, teniendo presente que el lote 192 tiene el mayor volumen en reservas"
+  },
+  {
+   "inicio": 639.66,
+   "fin": 642.78,
+   "texto": "aprobadas por más de 125 millones de barriles."
+  },
+  {
+   "inicio": 643.3,
+   "fin": 650.26,
+   "texto": "Asimismo, el artículo 17 del texto único ordenado de la Ley 26.22.1 establece que el"
+  },
+  {
+   "inicio": 650.26,
+   "fin": 656.26,
+   "texto": "contratista o cualquiera de las personas naturales o jurídicas que lo conforme podrá ceder"
+  },
+  {
+   "inicio": 656.26,
+   "fin": 662.96,
+   "texto": "su posición contractual o asociarse con terceros, previa aprobación por decreto supremo refrendado"
+  },
+  {
+   "inicio": 662.96,
+   "fin": 668.44,
+   "texto": "por los ministros de Economía y Finanzas y de Energía y Minas."
+  },
+  {
+   "inicio": 668.44,
+   "fin": 675.88,
+   "texto": "Las sesiones conllevan al mantenimiento de las mismas responsabilidades en lo concerniente"
+  },
+  {
+   "inicio": 675.88,
+   "fin": 680.88,
+   "texto": "a las garantías y obligaciones otorgadas asumidas en el contrato por el contratista."
+  },
+  {
+   "inicio": 681.08,
+   "fin": 686.12,
+   "texto": "La norma en mención no garantiza que los hechos que nos ocupan se conduzcan sobre la"
+  },
+  {
+   "inicio": 686.12,
+   "fin": 690.06,
+   "texto": "base del principio constitucional de libre competencia."
+  },
+  {
+   "inicio": 691.86,
+   "fin": 699.14,
+   "texto": "Por otra parte, el Decreto Supremo 021-2026-EM ha sido excluido del alcance del análisis"
+  },
+  {
+   "inicio": 699.14,
+   "fin": 707.04,
+   "texto": "del impacto regulatorio ex ante la materia argumentando de que se trataría de una disposición"
+  },
+  {
+   "inicio": 707.04,
+   "fin": 708.18,
+   "texto": "de carácter particular."
+  },
+  {
+   "inicio": 708.7,
+   "fin": 714.24,
+   "texto": "El decreto supremo en referencia no considera que posteriormente el contrato se apruebe"
+  },
+  {
+   "inicio": 714.24,
+   "fin": 721.54,
+   "texto": "que contempla otorgar a la empresa egipcia Chardon Petroleum Corporación una participación"
+  },
+  {
+   "inicio": 721.54,
+   "fin": 725.62,
+   "texto": "del 75 por ciento como socio estratégico de Petro Perú."
+  },
+  {
+   "inicio": 725.62,
+   "fin": 732.5,
+   "texto": "Bajo este esquema, la petrolera estatal perdería el 75 por ciento de participación en dicho"
+  },
+  {
+   "inicio": 732.5,
+   "fin": 732.98,
+   "texto": "proyecto."
+  },
+  {
+   "inicio": 733.36,
+   "fin": 740.23,
+   "texto": "Tampoco se observa que en la disposición promulgada la dedicada situación de los empresarios"
+  },
+  {
+   "inicio": 740.23,
+   "fin": 747.05,
+   "texto": "peruanos con los que Altemisa, Perusac, ha incluido en pagarle como proveedores de bienes"
+  },
+  {
+   "inicio": 747.05,
+   "fin": 753.85,
+   "texto": "y servicios, los mismos que mantienen un proceso consursual con Indecopy, cuyo expediente es"
+  },
+  {
+   "inicio": 753.85,
+   "fin": 758.45,
+   "texto": "El número 048-2025 se encuentra en trámite."
+  },
+  {
+   "inicio": 758.95,
+   "fin": 765.81,
+   "texto": "Adicionalmente, del decreto supremo número 021-2026-EM no brinda información sobre quién"
+  },
+  {
+   "inicio": 765.81,
+   "fin": 772.11,
+   "texto": "asumirá las obligaciones del garante corporativo, considerando que se estaría excluyendo dichas"
+  },
+  {
+   "inicio": 772.11,
+   "fin": 778.03,
+   "texto": "fichas en las condiciones contractuales, lo cual genera presuntos indicios de corrupción."
+  },
+  {
+   "inicio": 778.03,
+   "fin": 784.05,
+   "texto": "Por las razones antes expuestas en el amparo del numeral 2 del artículo 102 de la Constitución"
+  },
+  {
+   "inicio": 784.05,
+   "fin": 789.91,
+   "texto": "Política del Perú, el artículo 4 del reglamento del Congreso de la República aprobado mediante"
+  },
+  {
+   "inicio": 789.91,
+   "fin": 798.07,
+   "texto": "resolución legislativa del Congreso número 004-2025-2026-CR, el artículo 9 del reglamento"
+  },
+  {
+   "inicio": 798.07,
+   "fin": 807.41,
+   "texto": "de la Cámara de Diputados aprobado mediante resolución legislativa del Congreso 005-2025-2026-CRM"
+  },
+  {
+   "inicio": 807.41,
+   "fin": 813.51,
+   "texto": "en las aras de la transparencia en el ejercicio del Poder Ejecutivo y en cumplimiento de las"
+  },
+  {
+   "inicio": 813.51,
+   "fin": 818.87,
+   "texto": "funciones del control de fiscalización del Congreso de la República, solicito que previamente"
+  },
+  {
+   "inicio": 818.87,
+   "fin": 823.83,
+   "texto": "a la firma del contrato autorizado por el Ministerio de Energía y Minas, mediante decreto"
+  },
+  {
+   "inicio": 823.83,
+   "fin": 830.35,
+   "texto": "supremo que lleva la firma de la presidenta de la República y el titural del sector,"
+  },
+  {
+   "inicio": 830.71,
+   "fin": 836.15,
+   "texto": "se realice un debate técnico económico sobre las materias que eventualmente podría conducir"
+  },
+  {
+   "inicio": 836.15,
+   "fin": 842.39,
+   "texto": "a una reflectificación del contenido de la disposición promulgada."
+  },
+  {
+   "inicio": 842.39,
+   "fin": 848.05,
+   "texto": "Sin otro particular, hago propicia la oportunidad para expresarle mis sinceros sentimientos"
+  },
+  {
+   "inicio": 848.05,
+   "fin": 849.51,
+   "texto": "y mi especial consideración."
+  },
+  {
+   "inicio": 849.63,
+   "fin": 854.01,
+   "texto": "Atentamente, Jenny Fernández Párez Navarro, diputada de la República."
+  },
+  {
+   "inicio": 855.08,
+   "fin": 860.2,
+   "texto": "Señores diputados, si desean formular algún informe, sí va a manifestarlo levantando la"
+  },
+  {
+   "inicio": 860.2,
+   "fin": 862.02,
+   "texto": "mano para el orden correspondiente."
+  },
+  {
+   "inicio": 873.75,
+   "fin": 876.43,
+   "texto": "Adelante, diputada Nari Pinasco."
+  },
+  {
+   "inicio": 876.43,
+   "fin": 882.48,
+   "texto": "Buenos días, presidenta, buenos días a la mesa y buenos días con todos los colegas"
+  },
+  {
+   "inicio": 882.48,
+   "fin": 884.08,
+   "texto": "y los invitados."
+  },
+  {
+   "inicio": 884.9,
+   "fin": 891.8,
+   "texto": "Señora presidenta, informo que preocupada por el servicio de energía eléctrica en Iquitos"
+  },
+  {
+   "inicio": 891.8,
+   "fin": 897.7,
+   "texto": "mejore y considerando que la solución al problema demanda una articulación entre los"
+  },
+  {
+   "inicio": 897.7,
+   "fin": 903.18,
+   "texto": "actores involucrados, en mi última semana de representación me reuní con directivos"
+  },
+  {
+   "inicio": 903.18,
+   "fin": 907.72,
+   "texto": "del Yenren y también visité la planta de generación eléctrica."
+  },
+  {
+   "inicio": 909.52,
+   "fin": 914.2,
+   "texto": "Ya antes lo había hecho con Electro Oriente, pero necesitaba coordinar del sistema aislado"
+  },
+  {
+   "inicio": 914.2,
+   "fin": 914.78,
+   "texto": "de Iquitos."
+  },
+  {
+   "inicio": 915.36,
+   "fin": 922.74,
+   "texto": "No debe ser asumido por Yenren, pero tampoco por ellos, sino por un tercero independiente."
+  },
+  {
+   "inicio": 922.74,
+   "fin": 928.32,
+   "texto": "Eso contribuirá a superar la desconfianza que existe entre ambos."
+  },
+  {
+   "inicio": 928.32,
+   "fin": 938.74,
+   "texto": "Señora presidenta, el coordinador es el responsable de determinar que la generadora de los equipos"
+  },
+  {
+   "inicio": 938.74,
+   "fin": 944.8,
+   "texto": "más eficientes y a menor costo para ingresar a producir la energía eléctrica de Iquitos,"
+  },
+  {
+   "inicio": 945.6,
+   "fin": 953.16,
+   "texto": "cuando los equipos de Genren entran en mantenimiento, utiliza el ingreso de los equipos de Electro-Oriente."
+  },
+  {
+   "inicio": 953.16,
+   "fin": 962.71,
+   "texto": "Este prende el Grupo Oaxila, pero poco tiene tiempo de duración de la energía."
+  },
+  {
+   "inicio": 963.33,
+   "fin": 968.35,
+   "texto": "Cuando ya están operativos los equipos de Genre, esto pide al electroriente que suspenda"
+  },
+  {
+   "inicio": 968.35,
+   "fin": 969.23,
+   "texto": "la generación."
+  },
+  {
+   "inicio": 971.63,
+   "fin": 978.53,
+   "texto": "Esto perjudica sustancialmente al electroriente, porque el Grupo Oaxila es un grupo que cuando"
+  },
+  {
+   "inicio": 978.53,
+   "fin": 986.23,
+   "texto": "le prendes y apagas, ya no entra en funcionamiento cuando necesita que la energía vuelva a"
+  },
+  {
+   "inicio": 986.23,
+   "fin": 988.43,
+   "texto": "aprender para la ciudad de Iquitos."
+  },
+  {
+   "inicio": 989.13,
+   "fin": 998.1,
+   "texto": "El domingo el ministro de Energía y Minas publicó el decreto supremo, la 022-2026, donde"
+  },
+  {
+   "inicio": 998.1,
+   "fin": 1002.82,
+   "texto": "apruebe el reglamento que regula la coordinación de la operación de los sistemas aislados,"
+  },
+  {
+   "inicio": 1003.34,
+   "fin": 1004.72,
+   "texto": "como es el caso de Iquitos."
+  },
+  {
+   "inicio": 1005.28,
+   "fin": 1009.24,
+   "texto": "En ella se indica que el coordinador de la operación es el distribuidor."
+  },
+  {
+   "inicio": 1009.24,
+   "fin": 1017.36,
+   "texto": "En este caso se entiende que Electro Oriente, que es parte de esta generadora como YENREN,"
+  },
+  {
+   "inicio": 1018.1,
+   "fin": 1020.84,
+   "texto": "es la distribuidora del servicio eléctrico de Iquitos."
+  },
+  {
+   "inicio": 1021.5,
+   "fin": 1027.44,
+   "texto": "En esa misma normativa se indica que el Ministerio de Energía y Minas puede encargar al COES,"
+  },
+  {
+   "inicio": 1028.2,
+   "fin": 1032.08,
+   "texto": "a la coordinadora de operación de un sistema aislado."
+  },
+  {
+   "inicio": 1032.08,
+   "fin": 1037.78,
+   "texto": "Para tal efecto, el distribuidor responsable de la coordinadora presenta al ministerio"
+  },
+  {
+   "inicio": 1037.78,
+   "fin": 1041.77,
+   "texto": "una solicitud para este encargo."
+  },
+  {
+   "inicio": 1041.77,
+   "fin": 1051.46,
+   "texto": "Esto es bueno, presidenta, porque va a solucionar el primer problema que surge de la desconfianza"
+  },
+  {
+   "inicio": 1051.46,
+   "fin": 1057.52,
+   "texto": "y la poca coordinación entre ambos, tanto en el electro-oriente como de Jenren."
+  },
+  {
+   "inicio": 1057.52,
+   "fin": 1060.83,
+   "texto": "Es todo, señora presidenta, lo que tengo que informar."
+  },
+  {
+   "inicio": 1060.83,
+   "fin": 1061.83,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 1061.83,
+   "fin": 1064.83,
+   "texto": "Gracias, diputada Pinasco."
+  },
+  {
+   "inicio": 1064.83,
+   "fin": 1069.45,
+   "texto": "Señora presidenta, buen día. Asistencia, por favor. Disculpe la tardanza."
+  },
+  {
+   "inicio": 1069.95,
+   "fin": 1075.53,
+   "texto": "No se preocupe. Secretario, anotar la asistencia del diputado Demetrio."
+  },
+  {
+   "inicio": 1076.07,
+   "fin": 1079.51,
+   "texto": "¿Algún diputado más que desee hacer algún informe?"
+  },
+  {
+   "inicio": 1079.81,
+   "fin": 1090.95,
+   "texto": "No habiendo más informes, pasamos a la siguiente estación, estación pedidos."
+  },
+  {
+   "inicio": 1091.17,
+   "fin": 1098.93,
+   "texto": "Los señores diputados que quieran formular algún pedido, sirvase manifestarlo levantando la mano para el orden correspondiente."
+  },
+  {
+   "inicio": 1100.3,
+   "fin": 1102.62,
+   "texto": "Tiene la palabra el diputado Frank Licker."
+  },
+  {
+   "inicio": 1102.62,
+   "fin": 1106.46,
+   "texto": "Muchas gracias, señora presidente."
+  },
+  {
+   "inicio": 1108.04,
+   "fin": 1128.36,
+   "texto": "Ayer envié el oficio 081-2026-2027, FKTSD, dirigido a usted, en el cual solicito la creación de un grupo de trabajo sobre seguridad energética, masificación del gas natural y regiones productoras de hidrocarburos."
+  },
+  {
+   "inicio": 1128.36,
+   "fin": 1137.84,
+   "texto": "Es muy interesante, pero en los últimos años se han descubierto bastantes reservas potenciales de petróleo,"
+  },
+  {
+   "inicio": 1138.66,
+   "fin": 1147.36,
+   "texto": "lo cual podría hacer que Perú, de ser un importador neto, en algún momento pudiera tener mayor autosuficiencia."
+  },
+  {
+   "inicio": 1147.6,
+   "fin": 1155.44,
+   "texto": "Actualmente producimos 40 mil barriles de petróleo al día, pero nuestras necesidades son de 240 mil aproximadamente."
+  },
+  {
+   "inicio": 1155.44,
+   "fin": 1169.22,
+   "texto": "Y tenemos petróleo, hay petróleo en las selvas, se han encontrado petróleo en las costas de la Libertad, de Tumbes, de Lambayeque, pero lamentablemente no se está explorando ni explotando por un tema básicamente de falta de gestión."
+  },
+  {
+   "inicio": 1169.22,
+   "fin": 1177.54,
+   "texto": "Hay países como Ecuador, Venezuela, que tienen un marco normativo mucho más atractivo para las inversiones"
+  },
+  {
+   "inicio": 1177.54,
+   "fin": 1186.06,
+   "texto": "y nosotros estamos perdiendo esas inversiones que podrían producir petróleo y hacer que el costo de vida de todos los peruanos sea menor."
+  },
+  {
+   "inicio": 1186.46,
+   "fin": 1193.16,
+   "texto": "Entonces, creo que es importante hacer seguimiento y promover este tema, así como el tema del gas natural."
+  },
+  {
+   "inicio": 1194.13,
+   "fin": 1202.47,
+   "texto": "También en Piura se han encontrado reservas importantes de gas natural, 145 mil…"
+  },
+  {
+   "inicio": 1202.47,
+   "fin": 1206.91,
+   "texto": "Bueno, no tengo la cifra exacta, pero hay una buena cantidad de gas natural que se ha"
+  },
+  {
+   "inicio": 1206.91,
+   "fin": 1212.05,
+   "texto": "encontrado en Piura y esto también tiene que promoverse, porque puede llegar al punto"
+  },
+  {
+   "inicio": 1212.05,
+   "fin": 1217.01,
+   "texto": "que esta región sea autosostenible energéticamente y también el norte de Perú."
+  },
+  {
+   "inicio": 1217.01,
+   "fin": 1225.11,
+   "texto": "y energía barata significa reducir el costo de vida para todos nuestros compatriotas."
+  },
+  {
+   "inicio": 1225.61,
+   "fin": 1230.29,
+   "texto": "En ese sentido, solicito la creación de este grupo de trabajo sobre seguridad energética,"
+  },
+  {
+   "inicio": 1230.41,
+   "fin": 1235.65,
+   "texto": "masificación del gas natural y regiones productoras de hidrocarburos por un plazo de 180 días"
+  },
+  {
+   "inicio": 1235.65,
+   "fin": 1240.89,
+   "texto": "para que pueda hacer un diagnóstico del sector, para que pueda evaluar el marco normativo,"
+  },
+  {
+   "inicio": 1240.95,
+   "fin": 1246.43,
+   "texto": "a ver si puede haber algunas mejoras y se pueda presentar un informe a esta comisión,"
+  },
+  {
+   "inicio": 1246.43,
+   "fin": 1253.05,
+   "texto": "señora presidente, estoy seguro de que con su presidencia podemos hacer historia y lograr"
+  },
+  {
+   "inicio": 1253.05,
+   "fin": 1258.27,
+   "texto": "que Perú sea una potencia en tema de hidrocarburos, que ya lo es en minería."
+  },
+  {
+   "inicio": 1258.65,
+   "fin": 1259.85,
+   "texto": "Muchas gracias, señora presidente."
+  },
+  {
+   "inicio": 1260.94,
+   "fin": 1263.44,
+   "texto": "Muchas gracias, diputado Frank."
+  },
+  {
+   "inicio": 1264.16,
+   "fin": 1266.46,
+   "texto": "Se tendrá en cuenta para la siguiente sesión."
+  },
+  {
+   "inicio": 1267.0,
+   "fin": 1269.14,
+   "texto": "Damos la palabra al diputado Raúl Camargo."
+  },
+  {
+   "inicio": 1271.6,
+   "fin": 1275.78,
+   "texto": "Gracias, señorita presidencia y a todos los colegas."
+  },
+  {
+   "inicio": 1275.78,
+   "fin": 1283.88,
+   "texto": "Entonces, acolando a lo que ha manifestado nuestro colega Frank, exactamente yo tuve"
+  },
+  {
+   "inicio": 1283.88,
+   "fin": 1291.84,
+   "texto": "la oportunidad de estar en Talara, Bayoban, Piura, y efectivamente tenemos muchos activos"
+  },
+  {
+   "inicio": 1291.84,
+   "fin": 1298.24,
+   "texto": "que están en perfectas condiciones para poder ser una potencia petrolera en el medio."
+  },
+  {
+   "inicio": 1298.24,
+   "fin": 1306.8,
+   "texto": "Lo que ha referido nuestro colega es exactamente cierto, pero es la gestión y las políticas"
+  },
+  {
+   "inicio": 1306.8,
+   "fin": 1309.18,
+   "texto": "energéticas que tenemos que fortalecer."
+  },
+  {
+   "inicio": 1309.96,
+   "fin": 1318.0,
+   "texto": "Tenemos, por ejemplo, la mejor refinería de Latinoamérica y una de las ocho mejores"
+  },
+  {
+   "inicio": 1318.0,
+   "fin": 1321.1,
+   "texto": "del mundo con la tecnología de última generación."
+  },
+  {
+   "inicio": 1322.3,
+   "fin": 1329.18,
+   "texto": "Tenemos el puerto de Bayóvar, los dos oleoductos que nos conectan de la selva hasta la costa"
+  },
+  {
+   "inicio": 1329.18,
+   "fin": 1331.6,
+   "texto": "por más de mil 104 kilómetros."
+  },
+  {
+   "inicio": 1331.6,
+   "fin": 1338.3,
+   "texto": "Entonces, hay pozos, sí, efectivamente, que no se ha dado la importancia necesaria para"
+  },
+  {
+   "inicio": 1338.3,
+   "fin": 1342.1,
+   "texto": "la exploración y la gestión no está muy bien."
+  },
+  {
+   "inicio": 1342.86,
+   "fin": 1348.98,
+   "texto": "Por otro lado, también Bayóvar es un potencial, tenemos toda la infraestructura donde calan"
+  },
+  {
+   "inicio": 1348.98,
+   "fin": 1354.5,
+   "texto": "los barcos hasta de un millón de galones de petróleo, inclusive más profundidad tiene"
+  },
+  {
+   "inicio": 1354.5,
+   "fin": 1356.04,
+   "texto": "naturalmente que la de Chancay."
+  },
+  {
+   "inicio": 1356.04,
+   "fin": 1362.48,
+   "texto": "Y con este puerto eso conectaría perfectamente para que estas embarcaciones que vienen al"
+  },
+  {
+   "inicio": 1362.48,
+   "fin": 1368.04,
+   "texto": "puerto de Chancay ahí tendrían que abastecerse, siendo una expectativa de un comercio internacional"
+  },
+  {
+   "inicio": 1368.04,
+   "fin": 1368.68,
+   "texto": "grande."
+  },
+  {
+   "inicio": 1369.42,
+   "fin": 1375.76,
+   "texto": "Entonces, hay muchas posibilidades y condiciones donde efectivamente ya se está formando una"
+  },
+  {
+   "inicio": 1375.76,
+   "fin": 1381.08,
+   "texto": "comisión que lo vamos a compartir con la propuesta del colega para poder impulsar ello."
+  },
+  {
+   "inicio": 1381.08,
+   "fin": 1385.62,
+   "texto": "Creo que es responsabilidad y ha llegado el momento de que todos nos pongamos la camiseta"
+  },
+  {
+   "inicio": 1385.62,
+   "fin": 1391.02,
+   "texto": "peruana y unamos esfuerzos para recuperar nuestra soberanía, nuestros recursos en beneficio"
+  },
+  {
+   "inicio": 1391.02,
+   "fin": 1392.3,
+   "texto": "de los millones de peruanos."
+  },
+  {
+   "inicio": 1392.52,
+   "fin": 1393.08,
+   "texto": "Muchas gracias."
+  },
+  {
+   "inicio": 1394.65,
+   "fin": 1397.09,
+   "texto": "Gracias, diputado Raúl Camargo."
+  },
+  {
+   "inicio": 1397.27,
+   "fin": 1402.61,
+   "texto": "Lo importante de la semana de representación y las visitas, señores diputados, es ver la"
+  },
+  {
+   "inicio": 1402.61,
+   "fin": 1407.79,
+   "texto": "realidad en la que se encuentra nuestro país y venir y discutir leyes y propuestas que"
+  },
+  {
+   "inicio": 1407.79,
+   "fin": 1411.97,
+   "texto": "ayuden a la sostenibilidad de nuestro querido Perú."
+  },
+  {
+   "inicio": 1412.31,
+   "fin": 1416.17,
+   "texto": "Damos la participación a nuestra querida Nadie Pinasco."
+  },
+  {
+   "inicio": 1416.37,
+   "fin": 1417.47,
+   "texto": "Adelante, diputada."
+  },
+  {
+   "inicio": 1419.08,
+   "fin": 1420.78,
+   "texto": "Muchas gracias, señora presidenta."
+  },
+  {
+   "inicio": 1421.44,
+   "fin": 1426.84,
+   "texto": "Señora presidenta, considerando que lo expresé en mi informe y teniendo en cuenta que el"
+  },
+  {
+   "inicio": 1426.84,
+   "fin": 1433.84,
+   "texto": "Ejecutivo ya dio la normativa requerida por el Electro Oriente, donde se faculta al MINEM"
+  },
+  {
+   "inicio": 1433.84,
+   "fin": 1439.74,
+   "texto": "poder encargar al COES, la coordinadora, de un sistema aislado como es de Iquitos."
+  },
+  {
+   "inicio": 1440.51,
+   "fin": 1446.99,
+   "texto": "Pido a usted, señora presidenta, que el documento que hoy haré ingresar a esta comisión sea"
+  },
+  {
+   "inicio": 1446.99,
+   "fin": 1453.45,
+   "texto": "trasladado a Electro Oriente en el más breve plazo posible, para que agilice la petición"
+  },
+  {
+   "inicio": 1453.45,
+   "fin": 1462.46,
+   "texto": "y sustentación ante el MINEM, con el objeto de que este encargado, que es el COES, cumpla"
+  },
+  {
+   "inicio": 1462.46,
+   "fin": 1468.44,
+   "texto": "la función de coordinadora del sistema aislado, con lo cual podemos dar un paso importante"
+  },
+  {
+   "inicio": 1468.44,
+   "fin": 1474.88,
+   "texto": "para mejorar la articulación de los equipos que deben ingresar oportunamente a generar"
+  },
+  {
+   "inicio": 1474.88,
+   "fin": 1477.34,
+   "texto": "la energía eléctrica en la ciudad de Iquitos."
+  },
+  {
+   "inicio": 1477.66,
+   "fin": 1479.2,
+   "texto": "Muchas gracias, señora presidenta."
+  },
+  {
+   "inicio": 1480.12,
+   "fin": 1481.48,
+   "texto": "Gracias, diputada."
+  },
+  {
+   "inicio": 1481.7,
+   "fin": 1485.66,
+   "texto": "Teniendo en cuenta, en cuanto llegue el documento se hará el traslado correspondiente."
+  },
+  {
+   "inicio": 1485.94,
+   "fin": 1489.3,
+   "texto": "Si hay algún diputado más, adelante, diputada Kim."
+  },
+  {
+   "inicio": 1489.82,
+   "fin": 1491.76,
+   "texto": "Muchas gracias, señora presidenta."
+  },
+  {
+   "inicio": 1491.76,
+   "fin": 1496.86,
+   "texto": "Primeramente, muy buenos días a todos los colegas diputados que estamos el día de hoy"
+  },
+  {
+   "inicio": 1496.86,
+   "fin": 1497.82,
+   "texto": "aquí presentes."
+  },
+  {
+   "inicio": 1498.74,
+   "fin": 1503.96,
+   "texto": "Efectivamente, señora presidenta, nosotros tenemos una realidad a nivel nacional sobre"
+  },
+  {
+   "inicio": 1503.96,
+   "fin": 1507.6,
+   "texto": "la mala prestación de servicio en el tema de electrificación."
+  },
+  {
+   "inicio": 1508.16,
+   "fin": 1513.9,
+   "texto": "No solamente es con Electro Oriente, sino también es con electrocentro en el centro"
+  },
+  {
+   "inicio": 1513.9,
+   "fin": 1519.72,
+   "texto": "del Perú que involucra las regiones de Pasco, de Junín, de Huánuco, donde se encuentra"
+  },
+  {
+   "inicio": 1519.72,
+   "fin": 1526.54,
+   "texto": "también en la mala prestación de este servicio de electricidad que prestan a las viviendas"
+  },
+  {
+   "inicio": 1526.54,
+   "fin": 1527.22,
+   "texto": "en estas zonas."
+  },
+  {
+   "inicio": 1527.94,
+   "fin": 1534.08,
+   "texto": "En esta semana de representación, señora presidenta, hemos hecho una visita en el distrito"
+  },
+  {
+   "inicio": 1534.08,
+   "fin": 1539.44,
+   "texto": "de Palcazú, en el cual nos ha acompañado el director nacional de electrificación de"
+  },
+  {
+   "inicio": 1539.44,
+   "fin": 1544.58,
+   "texto": "zona rural del Ministerio de Energía y Minas, con la finalidad de que puedan también desde"
+  },
+  {
+   "inicio": 1544.58,
+   "fin": 1549.1,
+   "texto": "el Ejecutivo poder presenciar una realidad que es a nivel nacional."
+  },
+  {
+   "inicio": 1550.08,
+   "fin": 1554.78,
+   "texto": "Pero ahí surgió un tema, la no presencia de Ocinermín."
+  },
+  {
+   "inicio": 1555.73,
+   "fin": 1566.13,
+   "texto": "Ocinermín tiene la facultad de poder realizar la fiscalización de la mala prestación de servicio que brinda tanto Electrocentro y Electro Oriente,"
+  },
+  {
+   "inicio": 1566.13,
+   "fin": 1569.05,
+   "texto": "pero hasta ahora no hay una verdadera fiscalización."
+  },
+  {
+   "inicio": 1569.05,
+   "fin": 1575.47,
+   "texto": "Y eso en verdad llama bastante la atención, porque la población en muchas ocasiones ha"
+  },
+  {
+   "inicio": 1575.47,
+   "fin": 1581.53,
+   "texto": "remitido su solicitud a Ocinermin para que puedan ir a hacer la fiscalización a estas"
+  },
+  {
+   "inicio": 1581.53,
+   "fin": 1587.09,
+   "texto": "zonas, como es la provincia de Oxapampa, pero donde no han realizado una fiscalización."
+  },
+  {
+   "inicio": 1587.63,
+   "fin": 1593.79,
+   "texto": "Por eso, señora presidenta, a través de su despacho solicitamos que Ocinermin se haga"
+  },
+  {
+   "inicio": 1593.79,
+   "fin": 1598.63,
+   "texto": "presente en la región de Pasco y en verdad en todas las regiones del centro del Perú"
+  },
+  {
+   "inicio": 1598.63,
+   "fin": 1605.21,
+   "texto": "para que pueda haber en realidad estos casos que involucran no solamente a la mala prestación"
+  },
+  {
+   "inicio": 1605.21,
+   "fin": 1611.16,
+   "texto": "de servicio de electricidad, sino también al bolsillo del ciudadano a pie, porque muchos"
+  },
+  {
+   "inicio": 1611.16,
+   "fin": 1618.88,
+   "texto": "de ellos pagan una boleta o un pago de servicio de 300 o 400 soles cuando al mes por lo menos"
+  },
+  {
+   "inicio": 1618.88,
+   "fin": 1626.38,
+   "texto": "son 15 días de corte de luz, por 300 o 400 soles que estas personas logran pagar vendiendo"
+  },
+  {
+   "inicio": 1626.38,
+   "fin": 1630.22,
+   "texto": "sus pequeños productos y sacando a grandes costos a las ciudades."
+  },
+  {
+   "inicio": 1630.74,
+   "fin": 1635.5,
+   "texto": "Esto es el pedido, señora presidenta, y espero que a través de su intermedio podemos nosotros"
+  },
+  {
+   "inicio": 1635.5,
+   "fin": 1639.26,
+   "texto": "realizar esta presencia de Ocinermín en los lugares que estamos señalando."
+  },
+  {
+   "inicio": 1639.42,
+   "fin": 1639.92,
+   "texto": "Muchas gracias."
+  },
+  {
+   "inicio": 1642.18,
+   "fin": 1643.32,
+   "texto": "Gracias, diputada."
+  },
+  {
+   "inicio": 1643.48,
+   "fin": 1648.48,
+   "texto": "Aquí en Muñoz se ha tomado su pedido y se hará la documentación necesaria para enviar"
+  },
+  {
+   "inicio": 1648.48,
+   "fin": 1649.46,
+   "texto": "a Ocinermín."
+  },
+  {
+   "inicio": 1649.46,
+   "fin": 1651.82,
+   "texto": "¿Algún diputado más que quiera hacer?"
+  },
+  {
+   "inicio": 1652.44,
+   "fin": 1656.52,
+   "texto": "Adelante, diputado Demetrio Palqui."
+  },
+  {
+   "inicio": 1657.89,
+   "fin": 1663.37,
+   "texto": "Señorita diputada, justamente en la semana de representación que hemos tenido, hemos"
+  },
+  {
+   "inicio": 1663.37,
+   "fin": 1669.95,
+   "texto": "tenido conversaciones con pobladores de Pacasmayo, igual forma también pobladores de Salaberri,"
+  },
+  {
+   "inicio": 1670.37,
+   "fin": 1676.57,
+   "texto": "que es la zona franca de todo lo que es el mar, y están diciendo que hay que tomar mayor"
+  },
+  {
+   "inicio": 1676.57,
+   "fin": 1680.63,
+   "texto": "mayor preocupación por los temas de nuestras fronjas costeras, de que se encuentre petróleo."
+  },
+  {
+   "inicio": 1681.31,
+   "fin": 1686.77,
+   "texto": "Ya los colegas que nos han bien antecedido, justamente lo que pediría es reforzar esa"
+  },
+  {
+   "inicio": 1686.77,
+   "fin": 1689.95,
+   "texto": "comisión para poder hacer esos seguimientos."
+  },
+  {
+   "inicio": 1690.25,
+   "fin": 1692.45,
+   "texto": "Gracias, señorita presidenta."
+  },
+  {
+   "inicio": 1693.08,
+   "fin": 1694.9,
+   "texto": "Gracias, diputado Malki."
+  },
+  {
+   "inicio": 1695.0,
+   "fin": 1699.58,
+   "texto": "Vamos a dar la participación a nuestro compañero Raúl Camargo, que tiene un informe también."
+  },
+  {
+   "inicio": 1701.98,
+   "fin": 1705.67,
+   "texto": "Gracias por su intermedio, señora presidenta."
+  },
+  {
+   "inicio": 1705.67,
+   "fin": 1713.46,
+   "texto": "En relación al punto 5.2 de nuestra agenda del día de hoy, referido a la invitación"
+  },
+  {
+   "inicio": 1713.46,
+   "fin": 1718.3,
+   "texto": "del ministro Energí Minas, Guillermo Chino Guamaní, solicito que se incorpore el tema"
+  },
+  {
+   "inicio": 1718.3,
+   "fin": 1722.54,
+   "texto": "de suma gravedad que afecta directamente a la economía de millones de familias."
+  },
+  {
+   "inicio": 1723.24,
+   "fin": 1729.36,
+   "texto": "El pasado 14 de octubre el gobierno de la presidenta Fujimori aprobó un decreto supremo"
+  },
+  {
+   "inicio": 1729.36,
+   "fin": 1737.22,
+   "texto": "número 019-2026-EM que modifique el artículo 184 del reglamento de la Ley de Concesiones"
+  },
+  {
+   "inicio": 1737.22,
+   "fin": 1742.26,
+   "texto": "Eléctricas, manteniendo un índice global del cinco por ciento para la facturación"
+  },
+  {
+   "inicio": 1742.26,
+   "fin": 1747.66,
+   "texto": "del alumbrado público y regulando inversiones adicionales bajo el argumento de fortalecer"
+  },
+  {
+   "inicio": 1747.66,
+   "fin": 1749.1,
+   "texto": "la seguridad ciudadana."
+  },
+  {
+   "inicio": 1750.37,
+   "fin": 1755.99,
+   "texto": "Señora presidenta, la seguridad ciudadana es responsabilidad del Estado, no una excusa"
+  },
+  {
+   "inicio": 1755.99,
+   "fin": 1759.01,
+   "texto": "para seguir cargando la factura al pueblo peruano."
+  },
+  {
+   "inicio": 1759.01,
+   "fin": 1767.76,
+   "texto": "que el gobierno nos explique cuánto más pagarán los peruanos, quién autorizó estos"
+  },
+  {
+   "inicio": 1767.76,
+   "fin": 1770.88,
+   "texto": "costos y quiénes serán los verdaderos beneficiarios."
+  },
+  {
+   "inicio": 1771.56,
+   "fin": 1774.46,
+   "texto": "No nos olvidemos que hay muchas concesiones que están en camino."
+  },
+  {
+   "inicio": 1775.53,
+   "fin": 1781.71,
+   "texto": "Por estas razones solicito formalmente que se amplíe la agenda de la comparecencia del"
+  },
+  {
+   "inicio": 1781.71,
+   "fin": 1786.59,
+   "texto": "ministro de Energía y Minas, programada para el día 23 de octubre, a fin de que explique"
+  },
+  {
+   "inicio": 1786.59,
+   "fin": 1791.97,
+   "texto": "los verdaderos motivos, los estudios técnicos y las consecuencias económicas de este decreto"
+  },
+  {
+   "inicio": 1791.97,
+   "fin": 1792.97,
+   "texto": "supremo."
+  },
+  {
+   "inicio": 1792.97,
+   "fin": 1798.43,
+   "texto": "Asimismo, solicito que el presidente Ocinermín informe cuánto podrían incrementarse los"
+  },
+  {
+   "inicio": 1798.43,
+   "fin": 1803.83,
+   "texto": "recibos de luz, cómo se calculen los costos, qué mecanismos protegerán a los usuarios."
+  },
+  {
+   "inicio": 1803.83,
+   "fin": 1809.37,
+   "texto": "Señora presidenta, solicito que este pedido conste expresamente en el acta y se incorpore"
+  },
+  {
+   "inicio": 1809.37,
+   "fin": 1813.03,
+   "texto": "en la agenda de la comparecencia ministerial."
+  },
+  {
+   "inicio": 1813.03,
+   "fin": 1814.03,
+   "texto": "Muchas gracias."
+  },
+  {
+   "inicio": 1814.03,
+   "fin": 1822.32,
+   "texto": "Gracias, diputado Raúl. Se tomará en cuenta su participación."
+  },
+  {
+   "inicio": 1822.82,
+   "fin": 1827.72,
+   "texto": "Quiero dar la palabra a la compañera Ana Yufra. Solicito la palabra. Adelante, diputada."
+  },
+  {
+   "inicio": 1827.72,
+   "fin": 1832.22,
+   "texto": "Gracias, señorita presidenta. Muy buenos días, estimados colegas."
+  },
+  {
+   "inicio": 1832.22,
+   "fin": 1843.41,
+   "texto": "pedirle a nuestra presidenta que la comisión solicite una intervención urgente y articulada"
+  },
+  {
+   "inicio": 1843.41,
+   "fin": 1851.4,
+   "texto": "con la presidencia del Consejo de Ministros a través del alto comisionado para el combate"
+  },
+  {
+   "inicio": 1851.4,
+   "fin": 1854.14,
+   "texto": "a la lucha de la minería ilegal."
+  },
+  {
+   "inicio": 1854.78,
+   "fin": 1862.47,
+   "texto": "Estuve en la provincia de Jaén y he visitado la comunidad de Gualatán, he conversado con"
+  },
+  {
+   "inicio": 1862.47,
+   "fin": 1867.83,
+   "texto": "su teniente gobernador, el señor Raúl Antonio Estrella y con su comunidad."
+  },
+  {
+   "inicio": 1868.43,
+   "fin": 1875.41,
+   "texto": "Es una comunidad cafetalera, tienen cerros llenos del mejor café de repente del Perú"
+  },
+  {
+   "inicio": 1875.41,
+   "fin": 1884.3,
+   "texto": "y ellos quieren proteger su actividad agrícola y ganadera, porque también allí crían ganado,"
+  },
+  {
+   "inicio": 1885.43,
+   "fin": 1888.65,
+   "texto": "una leche muy rica y un queso muy sabroso que también lo he probado."
+  },
+  {
+   "inicio": 1889.61,
+   "fin": 1896.09,
+   "texto": "Saludos, señorita presidenta, su región Cajamarca, por lo menos la provincia de Cajaén, tiene"
+  },
+  {
+   "inicio": 1896.09,
+   "fin": 1898.87,
+   "texto": "12 distritos y todos son productivos."
+  },
+  {
+   "inicio": 1899.09,
+   "fin": 1902.73,
+   "texto": "Esta población rechaza totalmente a la minería ilegal."
+  },
+  {
+   "inicio": 1903.53,
+   "fin": 1908.77,
+   "texto": "Así que me ha pedido el teniente gobernador ser su voz aquí en esta comisión y pedirle"
+  },
+  {
+   "inicio": 1908.77,
+   "fin": 1914.19,
+   "texto": "puntualmente a la comisión, a través de su presidencia, que intervenga el alto comisionado,"
+  },
+  {
+   "inicio": 1914.19,
+   "fin": 1918.83,
+   "texto": "porque ya hay socavones en donde están actuando con minería ilegal."
+  },
+  {
+   "inicio": 1918.91,
+   "fin": 1919.57,
+   "texto": "Muchas gracias."
+  },
+  {
+   "inicio": 1922.34,
+   "fin": 1928.1,
+   "texto": "Gracias, diputada Yufra, por la visita a la región de Cajamarca y también estamos anotando"
+  },
+  {
+   "inicio": 1928.1,
+   "fin": 1928.7,
+   "texto": "su pedido."
+  },
+  {
+   "inicio": 1929.3,
+   "fin": 1933.8,
+   "texto": "Vamos a dar la participación al diputado Jesús Pérez Alcahuaman."
+  },
+  {
+   "inicio": 1934.0,
+   "fin": 1934.94,
+   "texto": "Adelante, diputado."
+  },
+  {
+   "inicio": 1936.78,
+   "fin": 1938.66,
+   "texto": "Gracias, presidenta, por su intermedio."
+  },
+  {
+   "inicio": 1939.4,
+   "fin": 1942.14,
+   "texto": "Un buen día para todos los colegas que estamos en esta sesión."
+  },
+  {
+   "inicio": 1942.14,
+   "fin": 1949.34,
+   "texto": "y saludar también a diferentes gremios que están presentes acá de mineros artesanos,"
+  },
+  {
+   "inicio": 1950.66,
+   "fin": 1953.58,
+   "texto": "quienes están en proceso de formalización."
+  },
+  {
+   "inicio": 1953.96,
+   "fin": 1956.82,
+   "texto": "Saludarles que ustedes están presentes en esta sesión."
+  },
+  {
+   "inicio": 1957.9,
+   "fin": 1965.54,
+   "texto": "Bueno, sólo para reiterarle a la fecha, se encuentra pendiente el pedido del suscrito"
+  },
+  {
+   "inicio": 1965.54,
+   "fin": 1974.42,
+   "texto": "para que la comisión señale fecha y hora para que concurra a esta instalación el presidente"
+  },
+  {
+   "inicio": 1974.42,
+   "fin": 1982.14,
+   "texto": "ejecutivo del Instituto Geológico Minero y Metalúrgico Ingemet, conforme consta en"
+  },
+  {
+   "inicio": 1982.14,
+   "fin": 1993.26,
+   "texto": "la página 5 del acta de la cuarta sesión ordinaria, celebrada el día martes 29.9 del"
+  },
+  {
+   "inicio": 1993.26,
+   "fin": 1999.04,
+   "texto": "dos mil veintinueve, para que informe cinco aspectos que en esa fecha he señalado."
+  },
+  {
+   "inicio": 2000.37,
+   "fin": 2000.93,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 2001.43,
+   "fin": 2023.03,
+   "texto": "Está programado su participación de Ingemed también en esta reunión del día de hoy,"
+  },
+  {
+   "inicio": 2023.17,
+   "fin": 2023.93,
+   "texto": "compañero Jesús."
+  },
+  {
+   "inicio": 2024.79,
+   "fin": 2026.23,
+   "texto": "Está en la agenda del día de hoy."
+  },
+  {
+   "inicio": 2028.05,
+   "fin": 2036.65,
+   "texto": "Si algún diputado tiene algún informe más que realizar, ha pedido."
+  },
+  {
+   "inicio": 2039.4,
+   "fin": 2042.86,
+   "texto": "No habiendo más pedidos, pasamos a la estación orden del día."
+  },
+  {
+   "inicio": 2043.18,
+   "fin": 2044.46,
+   "texto": "Estación orden del día."
+  },
+  {
+   "inicio": 2044.46,
+   "fin": 2051.02,
+   "texto": "Como primer punto tenemos la votación del pedido del diputado Frank Lecker Torres para"
+  },
+  {
+   "inicio": 2051.02,
+   "fin": 2056.28,
+   "texto": "que los miembros de la comisión manifiesten si tienen algún interés o vínculo familiar,"
+  },
+  {
+   "inicio": 2056.84,
+   "fin": 2063.26,
+   "texto": "laboral o amical o de otra índola con relación a personas, empresas u organizaciones relacionadas"
+  },
+  {
+   "inicio": 2063.26,
+   "fin": 2066.76,
+   "texto": "con el sector minero, energético o petrolero."
+  },
+  {
+   "inicio": 2068.02,
+   "fin": 2073.56,
+   "texto": "En tal sentido, le cedemos el uso de la palabra al diputado Frank Lecker Torres para que sustente"
+  },
+  {
+   "inicio": 2073.56,
+   "fin": 2074.18,
+   "texto": "su pedido."
+  },
+  {
+   "inicio": 2076.77,
+   "fin": 2078.25,
+   "texto": "Muchas gracias, señora presidente."
+  },
+  {
+   "inicio": 2079.07,
+   "fin": 2085.57,
+   "texto": "Este pedido se hace tomando como consideración la base legal que es nuestro reglamento del"
+  },
+  {
+   "inicio": 2085.57,
+   "fin": 2086.13,
+   "texto": "Congreso."
+  },
+  {
+   "inicio": 2087.05,
+   "fin": 2094.39,
+   "texto": "El reglamento del Congreso en el título 10 se refiere a ética parlamentaria y en el"
+  },
+  {
+   "inicio": 2094.39,
+   "fin": 2099.45,
+   "texto": "capítulo 2, sobre principios y normas de conducta en el ejercicio del cargo parlamentario,"
+  },
+  {
+   "inicio": 2100.35,
+   "fin": 2105.21,
+   "texto": "nos menciona los senadores y diputados en el ejercicio de sus funciones se conducen"
+  },
+  {
+   "inicio": 2105.21,
+   "fin": 2106.71,
+   "texto": "de acuerdo con los siguientes principios."
+  },
+  {
+   "inicio": 2106.71,
+   "fin": 2109.27,
+   "texto": "Literal A, independencia."
+  },
+  {
+   "inicio": 2109.93,
+   "fin": 2114.05,
+   "texto": "La actuación de los parlamentarios no está sujeto a mandato imperativo debiendo respetar"
+  },
+  {
+   "inicio": 2114.05,
+   "fin": 2116.47,
+   "texto": "el marco establecido en un Estado democrático de derecho."
+  },
+  {
+   "inicio": 2117.43,
+   "fin": 2126.95,
+   "texto": "Deben mantenerse alejados de toda injerencia que pueda amenazar, obstaculizar o influenciar"
+  },
+  {
+   "inicio": 2126.95,
+   "fin": 2132.41,
+   "texto": "el debido desempeño de su actuación parlamentaria, cualquiera sea su procedencia."
+  },
+  {
+   "inicio": 2133.99,
+   "fin": 2140.48,
+   "texto": "Luego, el otro artículo relevante es el 118, deberes de la conducta ética."
+  },
+  {
+   "inicio": 2140.48,
+   "fin": 2145.3,
+   "texto": "Son deberes de la conducta ética de los senadores y diputados los siguientes."
+  },
+  {
+   "inicio": 2146.27,
+   "fin": 2157.04,
+   "texto": "Literal F. En caso de participar en la discusión de temas, investigaciones o en el debate o aprobación de leyes"
+  },
+  {
+   "inicio": 2157.04,
+   "fin": 2164.64,
+   "texto": "en las cuales pudieran estar favorecidos intereses económicos, directos, personales"
+  },
+  {
+   "inicio": 2164.64,
+   "fin": 2168.78,
+   "texto": "o familiares, deben hacer explícitas tales vinculaciones."
+  },
+  {
+   "inicio": 2170.29,
+   "fin": 2177.84,
+   "texto": "En ese sentido, señora presidenta, lo que solicito es que si alguno de los miembros"
+  },
+  {
+   "inicio": 2177.84,
+   "fin": 2189.09,
+   "texto": "de esta comisión tuviera algún vínculo familiar directo o laboral o amical con alguna"
+  },
+  {
+   "inicio": 2189.09,
+   "fin": 2199.2,
+   "texto": "persona u organización de los sectores minero, energético y del sector hidrocarburo que"
+  },
+  {
+   "inicio": 2199.2,
+   "fin": 2203.74,
+   "texto": "simplemente se informe de manera pública en esta comisión."
+  },
+  {
+   "inicio": 2204.12,
+   "fin": 2206.14,
+   "texto": "Esto sería un acto de transparencia."
+  },
+  {
+   "inicio": 2206.14,
+   "fin": 2219.86,
+   "texto": "Yo particularmente he tenido varias reuniones con especialistas de estos sectores, con gremios profesionales, con gremios mineros, y también lo diría, y creo que todos podemos hacerlo."
+  },
+  {
+   "inicio": 2219.86,
+   "fin": 2236.34,
+   "texto": "No tiene nada de malo tener alguna relación con alguna persona o miembro de estos sectores, simplemente es un acto de transparencia en cumplimiento de este reglamento para evitar problemas en la comisión de ética más adelante."
+  },
+  {
+   "inicio": 2236.86,
+   "fin": 2238.94,
+   "texto": "Eso sería todo, señora presidenta. Muchas gracias."
+  },
+  {
+   "inicio": 2239.56,
+   "fin": 2241.24,
+   "texto": "Gracias, diputado Frank."
+  },
+  {
+   "inicio": 2241.24,
+   "fin": 2247.56,
+   "texto": "Señores diputados que deseen hacer uso de la palabra con relación al pedido del diputado"
+  },
+  {
+   "inicio": 2247.56,
+   "fin": 2253.98,
+   "texto": "Frank Lecker Torres, lo puede hacer levantando la mano en la sala Miguel Grau Seminario para"
+  },
+  {
+   "inicio": 2253.98,
+   "fin": 2255.14,
+   "texto": "el orden correspondiente."
+  },
+  {
+   "inicio": 2255.14,
+   "fin": 2259.06,
+   "texto": "Gracias, diputado Frank."
+  },
+  {
+   "inicio": 2259.74,
+   "fin": 2265.12,
+   "texto": "Señores diputados que deseen hacer uso de la palabra con relación al pedido del diputado"
+  },
+  {
+   "inicio": 2265.12,
+   "fin": 2270.24,
+   "texto": "Y no estoy tocando temas virtuales, no voy a tocar una hora aquí y otra allá, estamos"
+  },
+  {
+   "inicio": 2270.24,
+   "fin": 2274.42,
+   "texto": "levantando la mano en la sala Miguel Grau Seminario para la Comunidad de Lima."
+  },
+  {
+   "inicio": 2275.74,
+   "fin": 2278.04,
+   "texto": "Adelante, diputada Kim Muñoz."
+  },
+  {
+   "inicio": 2278.52,
+   "fin": 2279.62,
+   "texto": "Gracias, presidenta."
+  },
+  {
+   "inicio": 2280.08,
+   "fin": 2286.2,
+   "texto": "Efectivamente, lo que está proponiendo nuestro amigo Frank en el tema de su proposición."
+  },
+  {
+   "inicio": 2287.44,
+   "fin": 2290.32,
+   "texto": "Cabe una duda ahí, señora presidenta, en el tema amical."
+  },
+  {
+   "inicio": 2291.22,
+   "fin": 2295.54,
+   "texto": "Cuando hablamos de amistad, debemos definir también en qué sentido,"
+  },
+  {
+   "inicio": 2295.72,
+   "fin": 2298.58,
+   "texto": "porque también la norma es muy amplia cuando hablan de amistad."
+  },
+  {
+   "inicio": 2299.16,
+   "fin": 2302.04,
+   "texto": "Puede ser amistad cercana, amistad íntima, no lo sé."
+  },
+  {
+   "inicio": 2302.78,
+   "fin": 2306.56,
+   "texto": "Entonces, en el resto de su proposición me parece muy bien,"
+  },
+  {
+   "inicio": 2306.68,
+   "fin": 2308.84,
+   "texto": "pero en el tema amical es un poco muy amplio."
+  },
+  {
+   "inicio": 2308.84,
+   "fin": 2313.04,
+   "texto": "Bueno, señores parlamentarios, a través de la presidencia,"
+  },
+  {
+   "inicio": 2313.04,
+   "fin": 2316.66,
+   "texto": "¿algún diputado más que desee hacer uso de la palabra?"
+  },
+  {
+   "inicio": 2316.66,
+   "fin": 2322.12,
+   "texto": "Adelante nuestro diputado Jaime Abenzú."
+  },
+  {
+   "inicio": 2323.32,
+   "fin": 2329.12,
+   "texto": "Señora Presidenta, entiendo que este es un tema que debería ser manifestado"
+  },
+  {
+   "inicio": 2329.12,
+   "fin": 2335.1,
+   "texto": "antes de cada votación por cada miembro de la comisión,"
+  },
+  {
+   "inicio": 2335.6,
+   "fin": 2343.08,
+   "texto": "porque la norma señala claramente que en caso de participar en la discusión"
+  },
+  {
+   "inicio": 2343.08,
+   "fin": 2347.48,
+   "texto": "de temas, investigaciones o en el debate o aprobación de leyes"
+  },
+  {
+   "inicio": 2347.48,
+   "fin": 2351.38,
+   "texto": "en las cuales pudiera estar favorecidos intereses económicos,"
+  },
+  {
+   "inicio": 2351.48,
+   "fin": 2356.32,
+   "texto": "directos, personales o familiares, debe ser explícita tales vinculaciones."
+  },
+  {
+   "inicio": 2357.86,
+   "fin": 2362.32,
+   "texto": "La práctica habitual, señora Presidenta, es que ante cada votación"
+  },
+  {
+   "inicio": 2362.32,
+   "fin": 2367.5,
+   "texto": "de un tema en particular, el diputado tiene que levantar la mano"
+  },
+  {
+   "inicio": 2367.5,
+   "fin": 2372.32,
+   "texto": "y manifestar que tiene una vinculación con una empresa,"
+  },
+  {
+   "inicio": 2372.32,
+   "fin": 2379.1,
+   "texto": "o con algún familiar o alguna de esa naturaleza que advierte su abstención"
+  },
+  {
+   "inicio": 2379.1,
+   "fin": 2384.9,
+   "texto": "con relación a esta materia, justamente para evitar incumplimientos con el reglamento."
+  },
+  {
+   "inicio": 2385.1,
+   "fin": 2389.96,
+   "texto": "Sin embargo, señora Presidenta, esta comisión reviste una particularidad importante,"
+  },
+  {
+   "inicio": 2390.38,
+   "fin": 2393.0,
+   "texto": "reviste una particularidad importante, señora Presidenta,"
+  },
+  {
+   "inicio": 2393.72,
+   "fin": 2397.8,
+   "texto": "y la transparencia, como en todo acto público, tiene que prevalecer ante todo."
+  },
+  {
+   "inicio": 2397.8,
+   "fin": 2412.16,
+   "texto": "En consecuencia, señora presidenta, yo agregaría al pedido del doctor Kerker que esta manifestación se haga desde ya, señora presidenta, por escrito."
+  },
+  {
+   "inicio": 2412.9,
+   "fin": 2424.54,
+   "texto": "Que los parlamentarios manifiesten por escrito que ante tales o cuales materias se abstendrán de votar cuando se traten de estos temas."
+  },
+  {
+   "inicio": 2424.74,
+   "fin": 2425.5,
+   "texto": "Gracias, presidenta."
+  },
+  {
+   "inicio": 2431.14,
+   "fin": 2435.02,
+   "texto": "Gracias, diputado Jaime. Adelante, diputado Frank Lecker."
+  },
+  {
+   "inicio": 2435.76,
+   "fin": 2437.4,
+   "texto": "Dos precisiones, señora presidenta."
+  },
+  {
+   "inicio": 2437.7,
+   "fin": 2444.94,
+   "texto": "Primero, yo no estoy pidiendo que no se vote si es que tuvieran alguna relación con estos temas, ojo,"
+  },
+  {
+   "inicio": 2445.34,
+   "fin": 2454.68,
+   "texto": "porque el reglamento lo que dice es simplemente que se transparente si hubiera algún presunto vínculo o conflicto de intereses,"
+  },
+  {
+   "inicio": 2454.68,
+   "fin": 2459.8,
+   "texto": "pero el reglamento no te prohíbe votar, o sea, tú simplemente manifiestas estos vínculos"
+  },
+  {
+   "inicio": 2459.8,
+   "fin": 2466.18,
+   "texto": "laborales, familiares, y luego puedes votar en el correspondiente debate."
+  },
+  {
+   "inicio": 2466.99,
+   "fin": 2469.27,
+   "texto": "No hay ningún problema con eso, por un lado."
+  },
+  {
+   "inicio": 2469.39,
+   "fin": 2474.41,
+   "texto": "Y por otro lado, sí coincido con mi colega Kim, que quizás el tema Mical sea demasiado"
+  },
+  {
+   "inicio": 2474.41,
+   "fin": 2475.97,
+   "texto": "amplio, demasiado subjetivo."
+  },
+  {
+   "inicio": 2475.97,
+   "fin": 2481.89,
+   "texto": "Entonces, para que no haya problemas, se puede retirar esa parte y lo dejamos en vínculos"
+  },
+  {
+   "inicio": 2481.89,
+   "fin": 2485.33,
+   "texto": "familiares directos y vínculos laborales."
+  },
+  {
+   "inicio": 2486.0,
+   "fin": 2489.38,
+   "texto": "Gracias, señora presidenta."
+  },
+  {
+   "inicio": 2489.38,
+   "fin": 2494.98,
+   "texto": "Adelante, diputado Jaime Abenzul."
+  },
+  {
+   "inicio": 2496.06,
+   "fin": 2507.6,
+   "texto": "Presidenta, lo natural, evidentemente, es que si uno tiene un vínculo directo con una materia que se está exponiendo o que se está debatiendo y que se va a votar,"
+  },
+  {
+   "inicio": 2508.52,
+   "fin": 2513.22,
+   "texto": "lo obvio y natural, presidenta, es que no se vote ni a favor ni en contra, si no te abstengas de votar."
+  },
+  {
+   "inicio": 2514.18,
+   "fin": 2521.26,
+   "texto": "Porque esa es la naturaleza del tema, esa es la advertencia que hace el reglamento sobre ese particular."
+  },
+  {
+   "inicio": 2521.26,
+   "fin": 2530.88,
+   "texto": "Porque obviamente, si tú tienes un interés y votas a favor, entonces, obviamente, estás favoreciendo una posición."
+  },
+  {
+   "inicio": 2532.18,
+   "fin": 2540.08,
+   "texto": "Entonces, eso básicamente, presidenta, por eso es que lo natural y correcto, señora presidenta, es que evidentemente se abstenga."
+  },
+  {
+   "inicio": 2540.3,
+   "fin": 2540.96,
+   "texto": "Gracias, presidenta."
+  },
+  {
+   "inicio": 2542.01,
+   "fin": 2545.73,
+   "texto": "Gracias, diputado Jaime Abenzur, por hacer las aclaraciones."
+  },
+  {
+   "inicio": 2546.57,
+   "fin": 2551.93,
+   "texto": "Habiendo concluido la etapa de intervención de los señores diputados, la presidencia dispone"
+  },
+  {
+   "inicio": 2551.93,
+   "fin": 2556.85,
+   "texto": "de someter a votación el pedido del diputado Frank Lécker Torres para que los miembros"
+  },
+  {
+   "inicio": 2556.85,
+   "fin": 2561.41,
+   "texto": "de la comisión manifiesten si tienen algún interés o vínculo familiar laboral."
+  },
+  {
+   "inicio": 2561.75,
+   "fin": 2563.86,
+   "texto": "Retiramos a Micala."
+  },
+  {
+   "inicio": 2563.86,
+   "fin": 2570.1,
+   "texto": "O de otra índole con relación a las personas, empresas u organizaciones relacionadas al"
+  },
+  {
+   "inicio": 2570.1,
+   "fin": 2572.4,
+   "texto": "sector minero, energético o petrolero."
+  },
+  {
+   "inicio": 2572.4,
+   "fin": 2576.24,
+   "texto": "Señor Secretario, proceda para la votación correspondiente."
+  },
+  {
+   "inicio": 2577.13,
+   "fin": 2578.67,
+   "texto": "Gracias, señorita Presidenta."
+  },
+  {
+   "inicio": 2579.57,
+   "fin": 2580.85,
+   "texto": "Diputada Párez Navarro."
+  },
+  {
+   "inicio": 2581.17,
+   "fin": 2581.57,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2583.21,
+   "fin": 2584.85,
+   "texto": "Diputado Camargo Porta."
+  },
+  {
+   "inicio": 2585.49,
+   "fin": 2585.89,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2587.27,
+   "fin": 2588.51,
+   "texto": "Diputada Santana Vera."
+  },
+  {
+   "inicio": 2589.68,
+   "fin": 2590.2,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2592.0,
+   "fin": 2593.42,
+   "texto": "Diputado Columbo Murata."
+  },
+  {
+   "inicio": 2595.32,
+   "fin": 2597.08,
+   "texto": "Diputada Muñoz Yurivilca."
+  },
+  {
+   "inicio": 2597.52,
+   "fin": 2598.0,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2599.53,
+   "fin": 2600.85,
+   "texto": "Diputado Palma Mendoza."
+  },
+  {
+   "inicio": 2604.55,
+   "fin": 2604.99,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2607.61,
+   "fin": 2608.93,
+   "texto": "Diputado Quezada Castro."
+  },
+  {
+   "inicio": 2610.02,
+   "fin": 2610.52,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2610.52,
+   "fin": 2618.73,
+   "texto": "Diputada Pinasco Montenegro, a favor."
+  },
+  {
+   "inicio": 2619.25,
+   "fin": 2623.3,
+   "texto": "Diputada Yufra Lugo, a favor."
+  },
+  {
+   "inicio": 2624.98,
+   "fin": 2631.61,
+   "texto": "Diputado Pérez Alcahuamán, diputado Pérez Alcahuamán."
+  },
+  {
+   "inicio": 2633.16,
+   "fin": 2638.26,
+   "texto": "Diputado Flores Valdizán, diputado Flores Valdizán."
+  },
+  {
+   "inicio": 2639.89,
+   "fin": 2641.53,
+   "texto": "Diputada Isla Rojas, a favor."
+  },
+  {
+   "inicio": 2642.98,
+   "fin": 2643.76,
+   "texto": "Flores Valdizán."
+  },
+  {
+   "inicio": 2643.86,
+   "fin": 2645.14,
+   "texto": "Flores Valdizán, ya."
+  },
+  {
+   "inicio": 2646.31,
+   "fin": 2649.64,
+   "texto": "Diputada Isla Rojas, a favor."
+  },
+  {
+   "inicio": 2652.57,
+   "fin": 2659.02,
+   "texto": "Diputado Pérez Alcahuamán, a favor."
+  },
+  {
+   "inicio": 2662.4,
+   "fin": 2663.96,
+   "texto": "Diputado Carlos Torres, a favor."
+  },
+  {
+   "inicio": 2665.65,
+   "fin": 2666.13,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2667.75,
+   "fin": 2668.99,
+   "texto": "Diputado Valky Calderón."
+  },
+  {
+   "inicio": 2670.71,
+   "fin": 2671.23,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2672.88,
+   "fin": 2674.16,
+   "texto": "Diputado Sonco Villanueva."
+  },
+  {
+   "inicio": 2678.06,
+   "fin": 2679.18,
+   "texto": "Diputado Sonco Villanueva."
+  },
+  {
+   "inicio": 2680.84,
+   "fin": 2682.28,
+   "texto": "Ahí ya. Perfecto."
+  },
+  {
+   "inicio": 2683.37,
+   "fin": 2685.39,
+   "texto": "Bien, pasamos en lista, miembros necesitarios."
+  },
+  {
+   "inicio": 2685.49,
+   "fin": 2688.61,
+   "texto": "Diputado Castro Grandes, diputado Gama Rapita, diputado Teguera Rafael,"
+  },
+  {
+   "inicio": 2689.31,
+   "fin": 2692.67,
+   "texto": "diputado Mesa Rivera, diputado Ensur Pinasco, diputado Tacayama Jiménez,"
+  },
+  {
+   "inicio": 2692.67,
+   "fin": 2694.87,
+   "texto": "diputado Pérez Malqui, diputado Palomino Casavilca,"
+  },
+  {
+   "inicio": 2695.35,
+   "fin": 2698.35,
+   "texto": "diputado Pomago Amaní, diputado Soto Ferrari, diputado Márquez Juanca,"
+  },
+  {
+   "inicio": 2698.43,
+   "fin": 2700.65,
+   "texto": "diputado Castro Juan Fernández, diputado Parado Vallejos,"
+  },
+  {
+   "inicio": 2701.25,
+   "fin": 2704.81,
+   "texto": "diputado Duarte Patiño, diputado Bahía Malca, diputado Segura Figueroa, diputado"
+  },
+  {
+   "inicio": 2704.81,
+   "fin": 2708.11,
+   "texto": "Bañil Carbona, diputado Jaco Jaco, diputado Mensei Grifín."
+  },
+  {
+   "inicio": 2708.21,
+   "fin": 2712.47,
+   "texto": "Ha sido aprobado por unanimidad los presentes por 13 votos a favor, ningún voto en contra,"
+  },
+  {
+   "inicio": 2712.61,
+   "fin": 2713.55,
+   "texto": "ninguna abstención."
+  },
+  {
+   "inicio": 2713.67,
+   "fin": 2714.87,
+   "texto": "Adelante, señorita presidenta."
+  },
+  {
+   "inicio": 2714.87,
+   "fin": 2720.31,
+   "texto": "En consecuencia, ha sido aprobado por unanimidad el pedido del diputado Frank Leker Torres"
+  },
+  {
+   "inicio": 2720.31,
+   "fin": 2724.87,
+   "texto": "para que los miembros de la comisión manifiesten si tienen algún interés o vínculo familiar"
+  },
+  {
+   "inicio": 2724.87,
+   "fin": 2731.69,
+   "texto": "y familiar laboral o de otra índole con relación a personas, empresas u organizaciones relacionadas"
+  },
+  {
+   "inicio": 2731.69,
+   "fin": 2735.15,
+   "texto": "con el sector minero, energético o petrolero."
+  },
+  {
+   "inicio": 2735.56,
+   "fin": 2743.67,
+   "texto": "Pasamos al segundo punto de orden del día, habiendo concluido con la intervención de"
+  },
+  {
+   "inicio": 2743.67,
+   "fin": 2749.73,
+   "texto": "los señores diputados y recibiendo sus comentarios, aportes y sugerencias con relación al pedido"
+  },
+  {
+   "inicio": 2749.73,
+   "fin": 2755.84,
+   "texto": "formulado por el diputado Frank Lecker, la presidencia dispone de someter a votación…"
+  },
+  {
+   "inicio": 2755.84,
+   "fin": 2763.18,
+   "texto": "No, disculpen, me equivoqué, 5.2, ya."
+  },
+  {
+   "inicio": 2764.51,
+   "fin": 2770.53,
+   "texto": "Como segundo punto, tenemos la aprobación de la invitación al señor Guillermo Chino"
+  },
+  {
+   "inicio": 2770.53,
+   "fin": 2776.05,
+   "texto": "Huamaní, ministro de Energía y Minas, para la primera sesión no ordinaria de la comisión"
+  },
+  {
+   "inicio": 2776.05,
+   "fin": 2786.25,
+   "texto": "con fecha para el viernes 23 de octubre del 2026, teniendo en cuenta que habíamos recibido"
+  },
+  {
+   "inicio": 2786.25,
+   "fin": 2795.73,
+   "texto": "un oficio del señor que iba a participar el día viernes 23 con tema a la relación"
+  },
+  {
+   "inicio": 2795.73,
+   "fin": 2798.69,
+   "texto": "de… y ahora nos ha solicitado el cambio."
+  },
+  {
+   "inicio": 2798.89,
+   "fin": 2804.09,
+   "texto": "El día viernes 23 a las tres de la tarde el señor ministro nos había informado que"
+  },
+  {
+   "inicio": 2804.09,
+   "fin": 2809.33,
+   "texto": "venía a presentar la ley mape en la comisión pero se han comunicado con"
+  },
+  {
+   "inicio": 2809.33,
+   "fin": 2813.91,
+   "texto": "nosotros y nos han mencionado que no tienen tiempo para ese día porque tienen"
+  },
+  {
+   "inicio": 2813.91,
+   "fin": 2819.75,
+   "texto": "una agenda que ha salido el día de ayer entonces informo a ustedes para realizar"
+  },
+  {
+   "inicio": 2819.75,
+   "fin": 2824.49,
+   "texto": "la votación pero con la condición de que en cuanto nosotros tengamos fecha de"
+  },
+  {
+   "inicio": 2824.49,
+   "fin": 2830.43,
+   "texto": "su agenda les enviaremos la invitación correspondiente entendiendo de que es"
+  },
+  {
+   "inicio": 2830.43,
+   "fin": 2834.83,
+   "texto": "Es prioritario también cumplir con la población cuando sea necesario."
+  },
+  {
+   "inicio": 2834.83,
+   "fin": 2863.48,
+   "texto": "Señora presidenta, en tal sentido…"
+  },
+  {
+   "inicio": 2863.48,
+   "fin": 2865.5,
+   "texto": "Señor presidente, un momentito, por favor."
+  },
+  {
+   "inicio": 2865.5,
+   "fin": 2866.5,
+   "texto": "Sí, diputada."
+  },
+  {
+   "inicio": 2866.5,
+   "fin": 2871.68,
+   "texto": "Ha quedado un poco en duda la fecha, lo va a poner el ministro, ¿cierto?, o ya queda"
+  },
+  {
+   "inicio": 2871.68,
+   "fin": 2873.81,
+   "texto": "para el 23?"
+  },
+  {
+   "inicio": 2873.81,
+   "fin": 2880.75,
+   "texto": "No, de acuerdo a su agenda, el viernes 23 queda totalmente descartado."
+  },
+  {
+   "inicio": 2880.75,
+   "fin": 2890.91,
+   "texto": "Nosotros, como presidencia de esta comisión, estamos quedando de que el martes, el siguiente martes, en esta comisión, el ministro pueda venir a sustentar su ley."
+  },
+  {
+   "inicio": 2890.91,
+   "fin": 2898.87,
+   "texto": "En ese sentido, voy a llamar a votación para aprobar la presencia del ministro en esta comisión."
+  },
+  {
+   "inicio": 2902.34,
+   "fin": 2906.46,
+   "texto": "Secretario, llamar a votación, por favor, para la visita del señor ministro."
+  },
+  {
+   "inicio": 2908.44,
+   "fin": 2909.76,
+   "texto": "Gracias, presidenta."
+  },
+  {
+   "inicio": 2915.49,
+   "fin": 2916.69,
+   "texto": "Diputada Párez Navarro."
+  },
+  {
+   "inicio": 2918.02,
+   "fin": 2918.46,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2919.85,
+   "fin": 2921.15,
+   "texto": "Diputado Camargo Porta."
+  },
+  {
+   "inicio": 2921.75,
+   "fin": 2922.17,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2923.57,
+   "fin": 2924.75,
+   "texto": "Diputada Santa Anavera."
+  },
+  {
+   "inicio": 2927.91,
+   "fin": 2928.83,
+   "texto": "Diputado Santa Anavera."
+  },
+  {
+   "inicio": 2929.82,
+   "fin": 2930.96,
+   "texto": "Diputado Colón Murata."
+  },
+  {
+   "inicio": 2932.34,
+   "fin": 2933.92,
+   "texto": "Diputada Muñoz Yurivilca."
+  },
+  {
+   "inicio": 2933.92,
+   "fin": 2934.62,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2935.84,
+   "fin": 2937.4,
+   "texto": "Diputado Palma Mendoza."
+  },
+  {
+   "inicio": 2939.62,
+   "fin": 2940.1,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2941.74,
+   "fin": 2943.0,
+   "texto": "Diputado Quezada Castro."
+  },
+  {
+   "inicio": 2943.46,
+   "fin": 2943.8,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2945.56,
+   "fin": 2947.4,
+   "texto": "Diputada Pinasco Montenegro."
+  },
+  {
+   "inicio": 2947.66,
+   "fin": 2948.16,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2949.97,
+   "fin": 2951.35,
+   "texto": "Diputada Yufra Lugo."
+  },
+  {
+   "inicio": 2953.05,
+   "fin": 2953.55,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2955.08,
+   "fin": 2956.32,
+   "texto": "Diputado Pérez Alcahuamán."
+  },
+  {
+   "inicio": 2958.79,
+   "fin": 2959.19,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2960.51,
+   "fin": 2962.01,
+   "texto": "Diputado Flores Valdizán."
+  },
+  {
+   "inicio": 2963.68,
+   "fin": 2964.06,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2966.9,
+   "fin": 2969.24,
+   "texto": "Diputado Laó Valdía se encuentra con licencia."
+  },
+  {
+   "inicio": 2969.86,
+   "fin": 2971.06,
+   "texto": "Diputada Isla Rojas."
+  },
+  {
+   "inicio": 2972.18,
+   "fin": 2972.74,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2973.34,
+   "fin": 2979.13,
+   "texto": "Diputada Liza Macera se encuentra con licencia."
+  },
+  {
+   "inicio": 2979.21,
+   "fin": 2981.27,
+   "texto": "Gereche Pizarro, Chanapuy con licencia."
+  },
+  {
+   "inicio": 2981.75,
+   "fin": 2982.91,
+   "texto": "Diputado Carles Torres."
+  },
+  {
+   "inicio": 2985.12,
+   "fin": 2985.6,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2987.41,
+   "fin": 2988.71,
+   "texto": "Diputado Valky Calderón."
+  },
+  {
+   "inicio": 2989.87,
+   "fin": 2990.41,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 2991.72,
+   "fin": 2993.1,
+   "texto": "Diputado Sonco Villanueva."
+  },
+  {
+   "inicio": 2995.74,
+   "fin": 2996.9,
+   "texto": "Diputado Sonco Villanueva."
+  },
+  {
+   "inicio": 2996.9,
+   "fin": 2998.38,
+   "texto": "Bien."
+  },
+  {
+   "inicio": 2998.56,
+   "fin": 3024.48,
+   "texto": "Lista de los agitarios, diputado Castro Grande, diputado Marrapita, diputado Tío Rafael, diputado Mesa Rivera, diputado Benzúr Pinajo, diputado Tacayama Jiménez, diputado Pérez Malqui, diputado Palomino Casavilca, diputado Pomaguamaní, diputado Soter Ferrari, diputado Márquez Huanca, diputado Castrojón Fernández, diputado Pablo Vallejos, diputado Duarte Patiño, diputado Valleja Malca, diputado Segura Figueroa, diputado Albañil Carmona, diputado Janko Janko, diputado Menses Crispín."
+  },
+  {
+   "inicio": 3024.48,
+   "fin": 3030.12,
+   "texto": "Ha sido aprobado por unanimidad los presentes por 12 votos a favor, ningún voto en contra, ninguna abstención."
+  },
+  {
+   "inicio": 3030.22,
+   "fin": 3031.32,
+   "texto": "Adelante, señorita presidenta."
+  },
+  {
+   "inicio": 3031.84,
+   "fin": 3038.88,
+   "texto": "En consecuencia, ha sido aprobada por unanimidad la invitación del señor Guillermo Chino Guamaní,"
+  },
+  {
+   "inicio": 3038.88,
+   "fin": 3048.16,
+   "texto": "ministro de Energía y Minas, para la sesión ordinaria de nuestra comisión para el día martes 27 de octubre del 2026."
+  },
+  {
+   "inicio": 3049.09,
+   "fin": 3051.75,
+   "texto": "Pasamos al tercer punto del orden del día."
+  },
+  {
+   "inicio": 3052.17,
+   "fin": 3065.11,
+   "texto": "Habiendo tercer punto, tenemos los siguientes informes."
+  },
+  {
+   "inicio": 3073.36,
+   "fin": 3079.5,
+   "texto": "Propuestas para el nuevo marco legal de la pequeña minería y minería artesanal, medidas"
+  },
+  {
+   "inicio": 3079.5,
+   "fin": 3086.48,
+   "texto": "contra el crimen organizado en la actividad minera, reconocimiento de los derechos ancestrales"
+  },
+  {
+   "inicio": 3086.48,
+   "fin": 3088.8,
+   "texto": "de la pequeña minería y minería artesanal."
+  },
+  {
+   "inicio": 3089.34,
+   "fin": 3094.18,
+   "texto": "Suspendemos brevemente la sesión para que los invitados ingresen a la Sala Miguel Grau"
+  },
+  {
+   "inicio": 3094.18,
+   "fin": 3097.44,
+   "texto": "Seminario para que realicen sus informes correspondientes."
+  },
+  {
+   "inicio": 3327.25,
+   "fin": 3328.69,
+   "texto": "Señora presidenta."
+  },
+  {
+   "inicio": 3328.69,
+   "fin": 3375.51,
+   "texto": "Bien, continuamos con la sesión."
+  },
+  {
+   "inicio": 3375.51,
+   "fin": 3382.59,
+   "texto": "En primer lugar, le damos la bienvenida a la señora Mayra Mercedes Elizabeth Figueredo"
+  },
+  {
+   "inicio": 3382.59,
+   "fin": 3390.13,
+   "texto": "Valderrama, viuda de Sánchez, viceministra del Ministerio de Energía y Minas, para"
+  },
+  {
+   "inicio": 3390.13,
+   "fin": 3392.69,
+   "texto": "que realice sus informes correspondientes."
+  },
+  {
+   "inicio": 3399.66,
+   "fin": 3402.28,
+   "texto": "Señora Presidenta, por favor, para que se registre mi asistencia."
+  },
+  {
+   "inicio": 3405.37,
+   "fin": 3408.49,
+   "texto": "Señora Presidenta, disculpe, dejo constancia de mi asistencia también."
+  },
+  {
+   "inicio": 3409.76,
+   "fin": 3412.24,
+   "texto": "Igual que el mío, señorita Presidenta, por favor."
+  },
+  {
+   "inicio": 3415.94,
+   "fin": 3420.94,
+   "texto": "No se preocupen, su asistencia y su votación ha sido considerada, compañeros diputados."
+  },
+  {
+   "inicio": 3421.1,
+   "fin": 3423.82,
+   "texto": "Les cedemos la palabra a nuestra invitada. Adelante."
+  },
+  {
+   "inicio": 3424.34,
+   "fin": 3431.04,
+   "texto": "Muy buenos días, señorita Presidenta, a la Comisión de Energíminas y a los diputados que nos acompañan el día de hoy,"
+  },
+  {
+   "inicio": 3431.04,
+   "fin": 3435.24,
+   "texto": "así como los profesionales de INGEMED, de la sociedad y el equipo técnico del Ministerio"
+  },
+  {
+   "inicio": 3435.24,
+   "fin": 3442.16,
+   "texto": "de Energía y Minas, hemos sido invitados para tratar varios temas, dentro de los cuales"
+  },
+  {
+   "inicio": 3442.16,
+   "fin": 3446.44,
+   "texto": "están las propuestas para el nuevo marco legal de la pequeña minería y minería artesanal."
+  },
+  {
+   "inicio": 3446.94,
+   "fin": 3452.38,
+   "texto": "Como ustedes saben, el día 16 de octubre se ingresó ante la plataforma del Congreso"
+  },
+  {
+   "inicio": 3452.38,
+   "fin": 3457.4,
+   "texto": "el proyecto de ley de la pequeña minería y minería artesanal, aunque se ha registrado,"
+  },
+  {
+   "inicio": 3457.4,
+   "fin": 3465.86,
+   "texto": "me parece recién del 19, pero en este proyecto de ley nosotros establecemos no sólo la extracción"
+  },
+  {
+   "inicio": 3465.86,
+   "fin": 3469.86,
+   "texto": "correcta de los recursos minerales, cuando hablamos de pequeña minería y mineral artesanal,"
+  },
+  {
+   "inicio": 3470.36,
+   "fin": 3475.08,
+   "texto": "sino también la protección al medio ambiente, a los temas sociales y también en el marco"
+  },
+  {
+   "inicio": 3475.08,
+   "fin": 3483.08,
+   "texto": "de los procedimientos que nos permitan lograr una formalización, luchar contra la minería"
+  },
+  {
+   "inicio": 3483.08,
+   "fin": 3483.64,
+   "texto": "ilegal."
+  },
+  {
+   "inicio": 3483.64,
+   "fin": 3490.82,
+   "texto": "El proyecto de ley tiene 23 artículos, cinco disposiciones complementarias finales,"
+  },
+  {
+   "inicio": 3491.28,
+   "fin": 3496.96,
+   "texto": "diez disposiciones complementarias transitorias y una disposición complementaria modificatoria."
+  },
+  {
+   "inicio": 3498.06,
+   "fin": 3503.68,
+   "texto": "Básicamente, y para hacerles un pequeño resumen, de repente después podemos absorber algunas dudas,"
+  },
+  {
+   "inicio": 3503.8,
+   "fin": 3508.24,
+   "texto": "este proyecto de ley establece dos regímenes claramente diferenciados."
+  },
+  {
+   "inicio": 3508.24,
+   "fin": 3522.92,
+   "texto": "El régimen ordinario que implica que cualquier persona natural o jurídica puede desarrollar actividad minera cumpliendo previamente con los requisitos necesarios y logrando previamente también contar con la autorización de inicio de actividades."
+  },
+  {
+   "inicio": 3523.82,
+   "fin": 3531.18,
+   "texto": "Es un régimen abierto en el que pueden participar, como les comento, cualquier persona natural o jurídica y regula toda la cadena de valor."
+  },
+  {
+   "inicio": 3531.18,
+   "fin": 3538.92,
+   "texto": "y el régimen de consolidación, que es un régimen cerrado, temporal, por 18 meses,"
+  },
+  {
+   "inicio": 3539.12,
+   "fin": 3544.12,
+   "texto": "en donde pasarían aquellos mineros que están a puertas de lograr un proceso de formalización,"
+  },
+  {
+   "inicio": 3544.28,
+   "fin": 3548.64,
+   "texto": "todos aquellos que están hoy inscritos en el reinfo por un periodo de 18 meses,"
+  },
+  {
+   "inicio": 3548.9,
+   "fin": 3554.04,
+   "texto": "que es como un puente que les va a permitir, en caso se formalicen, pasar al régimen ordinario."
+  },
+  {
+   "inicio": 3554.04,
+   "fin": 3560.88,
+   "texto": "El proyecto de ley también establece la creación de Formape, un organismo adscrito al Ministerio de Energía y Minas,"
+  },
+  {
+   "inicio": 3561.34,
+   "fin": 3568.24,
+   "texto": "que consolidaría la toma de decisiones, todos los procedimientos necesarios para que regulen"
+  },
+  {
+   "inicio": 3568.24,
+   "fin": 3574.94,
+   "texto": "el desarrollo de la pequeña minería y minería artesanal, contempla entre sus funciones la"
+  },
+  {
+   "inicio": 3574.94,
+   "fin": 3580.66,
+   "texto": "autorización de inicio de actividades, la promoción de la actividad minera, entre otras"
+  },
+  {
+   "inicio": 3580.66,
+   "fin": 3585.38,
+   "texto": "que fueran necesarias, pero además Formape también va a ser un ente encargado de la"
+  },
+  {
+   "inicio": 3585.38,
+   "fin": 3592.38,
+   "texto": "supervisión, fiscalización y las funciones sancionadoras por parte del Estado."
+  },
+  {
+   "inicio": 3593.6,
+   "fin": 3600.68,
+   "texto": "El proyecto de ley también, perdónenme, FORMAPE asumiría las competencias que hoy todavía"
+  },
+  {
+   "inicio": 3600.68,
+   "fin": 3606.0,
+   "texto": "mantienen las direcciones regionales de energía y minas a nivel nacional respecto a las funciones"
+  },
+  {
+   "inicio": 3606.0,
+   "fin": 3611.2,
+   "texto": "de supervisión y fiscalización y potestad sancionadora por un periodo de cinco años."
+  },
+  {
+   "inicio": 3611.2,
+   "fin": 3618.9,
+   "texto": "Además, el proyecto de ley establece la posibilidad y la facultad que asumirían la OEFA, Zunafil"
+  },
+  {
+   "inicio": 3618.9,
+   "fin": 3624.64,
+   "texto": "y Ocinermin para fiscalizar por un periodo de cinco años también, supervisar y fiscalizar"
+  },
+  {
+   "inicio": 3624.64,
+   "fin": 3627.48,
+   "texto": "a las plantas de 25 toneladas a más."
+  },
+  {
+   "inicio": 3628.56,
+   "fin": 3636.66,
+   "texto": "Las plantas que se encuentren con menor capacidad de procesamiento van a ser sancionadas, supervisadas"
+  },
+  {
+   "inicio": 3636.66,
+   "fin": 3642.32,
+   "texto": "y fiscalizadas en lo que corresponda por forma P en tanto esta entidad se constituya."
+  },
+  {
+   "inicio": 3644.37,
+   "fin": 3648.55,
+   "texto": "Otra de las cosas que tiene este proyecto de ley es que estamos permitiendo el acceso"
+  },
+  {
+   "inicio": 3648.55,
+   "fin": 3654.19,
+   "texto": "a banca de los pequeños mineros a través de la posibilidad y facultar al Banco de la"
+  },
+  {
+   "inicio": 3654.19,
+   "fin": 3658.99,
+   "texto": "Nación para que los mineros puedan aperturar cuentas de ahorro o cuentas corriente."
+  },
+  {
+   "inicio": 3659.57,
+   "fin": 3663.85,
+   "texto": "Obviamente, para esta actividad el Ministerio de Energía y Minas les va a brindar información"
+  },
+  {
+   "inicio": 3663.85,
+   "fin": 3668.73,
+   "texto": "que les permita saber cuál es la condición de la persona que quiere aperturar la cuenta,"
+  },
+  {
+   "inicio": 3668.85,
+   "fin": 3674.37,
+   "texto": "si es un minero formal, si está o pasaba por un proceso de formalización o también"
+  },
+  {
+   "inicio": 3674.37,
+   "fin": 3678.83,
+   "texto": "si ha sido un minero excluido del registro para que se tomen las medidas pertinentes"
+  },
+  {
+   "inicio": 3678.83,
+   "fin": 3680.67,
+   "texto": "que fueran necesarias."
+  },
+  {
+   "inicio": 3681.67,
+   "fin": 3686.83,
+   "texto": "Y otra de las cosas y algunas de las preocupaciones que hemos recibido de los gobiernos regionales"
+  },
+  {
+   "inicio": 3686.83,
+   "fin": 3693.83,
+   "texto": "es que el proyecto de ley establece la posibilidad que haya un fortalecimiento de articulación"
+  },
+  {
+   "inicio": 3693.83,
+   "fin": 3698.67,
+   "texto": "entre los gobiernos regionales y el ministerio, y en todo caso Formape, para que se pueda"
+  },
+  {
+   "inicio": 3698.67,
+   "fin": 3705.09,
+   "texto": "promover el correcto desarrollo de la actividad minera a pequeña escala e inclusive establece"
+  },
+  {
+   "inicio": 3705.09,
+   "fin": 3712.09,
+   "texto": "la posibilidad de que se puedan suscribir convenios con entidades educativas, con instituciones,"
+  },
+  {
+   "inicio": 3712.29,
+   "fin": 3718.97,
+   "texto": "con la academia y con otros que pudieran brindar asistencia o mejora, buenas prácticas en"
+  },
+  {
+   "inicio": 3718.97,
+   "fin": 3721.79,
+   "texto": "temas de innovación, de tecnología y entre otros."
+  },
+  {
+   "inicio": 3721.79,
+   "fin": 3751.78,
+   "texto": "El proyecto de ley establece que una vez aprobado tenemos un plazo de 120 días para presentar el reglamento en donde entraríamos a detalle de cada uno de los procedimientos, pero sí una de las cosas que se quiere es que sea un procedimiento mucho más ágil, más célere, inclusive por eso confiamos en que los 18 meses que establece el periodo de consolidación sean suficientes para que los mineros que efectivamente estén cumpliendo con sus condiciones puedan formalizarse."
+  },
+  {
+   "inicio": 3751.78,
+   "fin": 3757.2,
+   "texto": "pasar al régimen ordinario y aquellos que no han cumplido sus condiciones y que en todo"
+  },
+  {
+   "inicio": 3757.2,
+   "fin": 3760.56,
+   "texto": "caso han venido mal usando el reinfo, también serán excluidos."
+  },
+  {
+   "inicio": 3761.14,
+   "fin": 3765.92,
+   "texto": "Cabe precisar que los procedimientos que a la fecha se mantienen y han sido iniciados"
+  },
+  {
+   "inicio": 3765.92,
+   "fin": 3770.6,
+   "texto": "en el Ministerio de Energía y Minas se van a mantener, no va a ser necesario que haya"
+  },
+  {
+   "inicio": 3770.6,
+   "fin": 3775.64,
+   "texto": "una presentación adicional de documentos, vamos a respetar todo el trámite ya avanzado"
+  },
+  {
+   "inicio": 3775.64,
+   "fin": 3780.54,
+   "texto": "cuando hablamos de lograr la formalización, pero también los procesos de exclusión se"
+  },
+  {
+   "inicio": 3780.54,
+   "fin": 3781.28,
+   "texto": "van a mantener."
+  },
+  {
+   "inicio": 3781.78,
+   "fin": 3786.22,
+   "texto": "Es un poco a grandes rasgos lo que le podría informar a la comisión."
+  },
+  {
+   "inicio": 3786.54,
+   "fin": 3787.28,
+   "texto": "Muchísimas gracias."
+  },
+  {
+   "inicio": 3789.06,
+   "fin": 3789.54,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 3791.24,
+   "fin": 3803.68,
+   "texto": "Si hubiese alguna intervención al respecto para poder aclarar o ampliar de repente el informe que nos está dando acá la señora viceministra de Minas."
+  },
+  {
+   "inicio": 3807.38,
+   "fin": 3808.5,
+   "texto": "Adelante, colega."
+  },
+  {
+   "inicio": 3811.07,
+   "fin": 3817.71,
+   "texto": "Señor presidente, yo más bien pediría que nos explique a través suyo, señor presidente, cuál va a ser la dinámica de la reunión."
+  },
+  {
+   "inicio": 3819.01,
+   "fin": 3823.83,
+   "texto": "Escuchamos a la viceministra sobre un proyecto de ley que acaba de ingresar, entiendo, ha explicado,"
+  },
+  {
+   "inicio": 3824.57,
+   "fin": 3828.31,
+   "texto": "pero entiendo que los señores que nos acompañan el día de hoy venían para otra materia."
+  },
+  {
+   "inicio": 3829.28,
+   "fin": 3832.12,
+   "texto": "Eso es lo que quisiera que nos explique, por favor, no estoy entendiendo bien, presidente."
+  },
+  {
+   "inicio": 3834.88,
+   "fin": 3843.34,
+   "texto": "Bueno, el tema acá es que la señora viceministra nos está informando sobre el proyecto de ley,"
+  },
+  {
+   "inicio": 3843.34,
+   "fin": 3847.67,
+   "texto": "efectivamente, que usted señala, y ya nos ha sustentado."
+  },
+  {
+   "inicio": 3847.67,
+   "fin": 3852.99,
+   "texto": "Entonces, a base de eso, porque también hay otros proyectos de ley, de la ley MAPE que"
+  },
+  {
+   "inicio": 3852.99,
+   "fin": 3859.21,
+   "texto": "se está presentando por iniciativa de muchos diputados, entonces la idea es socializar"
+  },
+  {
+   "inicio": 3859.21,
+   "fin": 3865.53,
+   "texto": "y aportar en referencia a lo que la intencionalidad que está trayendo, como me parece hay buenos"
+  },
+  {
+   "inicio": 3865.53,
+   "fin": 3871.13,
+   "texto": "puntos, como el Banco de la Nación, por ejemplo, que entre a participar directamente para la"
+  },
+  {
+   "inicio": 3871.13,
+   "fin": 3877.09,
+   "texto": "parte financiera de las pequeñas mineras, y también el Formape, que es la entidad"
+  },
+  {
+   "inicio": 3877.09,
+   "fin": 3882.81,
+   "texto": "que inicialmente, según tengo entendido, va a encargarse de controlar y facilitar toda"
+  },
+  {
+   "inicio": 3882.81,
+   "fin": 3891.09,
+   "texto": "la tramitología que necesita para que continúen formalizándose las pequeñas empresas mineras."
+  },
+  {
+   "inicio": 3891.09,
+   "fin": 3899.51,
+   "texto": "Y sobre ello, más bien yo quisiera que haya algunos aportes de los colegas para poder"
+  },
+  {
+   "inicio": 3899.51,
+   "fin": 3904.29,
+   "texto": "Fortalecer o, en todo caso, observar alguna de lo que ya hemos escuchado de las propuestas."
+  },
+  {
+   "inicio": 3904.61,
+   "fin": 3904.93,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 3907.12,
+   "fin": 3908.06,
+   "texto": "Adelante, por favor."
+  },
+  {
+   "inicio": 3909.22,
+   "fin": 3915.54,
+   "texto": "Disculpe, en el mismo sentido del colega Bensur, el día martes está viniendo el ministro de"
+  },
+  {
+   "inicio": 3915.54,
+   "fin": 3919.06,
+   "texto": "Energía y Minas a sustentar la ley MAPE."
+  },
+  {
+   "inicio": 3919.64,
+   "fin": 3924.07,
+   "texto": "Entonces, yo saludo la exposición de la viceministra, pero si ya está exponiendo la"
+  },
+  {
+   "inicio": 3924.07,
+   "fin": 3930.53,
+   "texto": "viceministra la ley MAPE, viene el martes nuevamente el ministro a sustentar la ley"
+  },
+  {
+   "inicio": 3930.53,
+   "fin": 3948.24,
+   "texto": "Y veo aquí, en el orden del día, participación de funcionarios, incluso que no necesariamente tienen que ver con el tema directamente que de repente se va a exponer el día de hoy."
+  },
+  {
+   "inicio": 3948.24,
+   "fin": 3969.15,
+   "texto": "Entonces, y veo nueve participaciones, nueve participaciones, o sea, a mí me parece que, discúlpeme, presidente, que no es metodológico, yo insisto en eso, pero en segundo lugar, si el ministro está viniendo el martes, yo creo que ya no sería necesario que venga el ministro, si ya la viceministra está exponiendo."
+  },
+  {
+   "inicio": 3970.07,
+   "fin": 3974.27,
+   "texto": "Dejemos que ya nuestros funcionarios de gobierno se dediquen a trabajar."
+  },
+  {
+   "inicio": 3976.21,
+   "fin": 3979.49,
+   "texto": "Entonces, yo creo que hay que ordenarnos, presidente, un poquito en la comisión primero"
+  },
+  {
+   "inicio": 3979.49,
+   "fin": 3985.61,
+   "texto": "y luego ver a dónde queremos llegar y qué queremos proponer en las distintas secciones de la comisión."
+  },
+  {
+   "inicio": 3986.03,
+   "fin": 3986.73,
+   "texto": "Eso es todo, presidente."
+  },
+  {
+   "inicio": 3988.85,
+   "fin": 3996.52,
+   "texto": "A ver, para…"
+  },
+  {
+   "inicio": 3996.52,
+   "fin": 4006.46,
+   "texto": "Este, colega, la ley MAPE, esto ya se había convocado antes que llegue la ley MAPE, que"
+  },
+  {
+   "inicio": 4006.46,
+   "fin": 4016.0,
+   "texto": "recién nos ha alcanzado, el día de ayer ya estaban citados los señores para que…"
+  },
+  {
+   "inicio": 4016.0,
+   "fin": 4017.46,
+   "texto": "y todavía no entran a comisión."
+  },
+  {
+   "inicio": 4017.46,
+   "fin": 4025.62,
+   "texto": "Entonces, en ese entender creo que está dando un informe adelantado sobre las propuestas"
+  },
+  {
+   "inicio": 4025.62,
+   "fin": 4030.8,
+   "texto": "para el nuevo marco legal de la pequeña minería y la minería artesanal, que es lo que está"
+  },
+  {
+   "inicio": 4030.8,
+   "fin": 4036.5,
+   "texto": "en agenda, y también las medidas contra el crimen organizado y la actividad minera, que"
+  },
+  {
+   "inicio": 4036.5,
+   "fin": 4045.23,
+   "texto": "son los puntos sensibles y el otro punto es el reconocimiento de los derechos ancestrales"
+  },
+  {
+   "inicio": 4045.23,
+   "fin": 4048.41,
+   "texto": "de la pequeña minería y minería artesanal."
+  },
+  {
+   "inicio": 4048.41,
+   "fin": 4053.23,
+   "texto": "Esto ya estaba agendado antes que llegue la ley, que recién ha llegado la ley MAPI ayer."
+  },
+  {
+   "inicio": 4053.23,
+   "fin": 4062.41,
+   "texto": "Ahora, obviamente el ministro va a tener que complementar estos puntos para poder fortalecer,"
+  },
+  {
+   "inicio": 4062.41,
+   "fin": 4067.33,
+   "texto": "en todo caso socializar, como le digo, con los otros proyectos de ley que están encaminados."
+  },
+  {
+   "inicio": 4067.97,
+   "fin": 4069.23,
+   "texto": "Adelante, ministro."
+  },
+  {
+   "inicio": 4069.47,
+   "fin": 4071.53,
+   "texto": "Perdón, adelante, colega."
+  },
+  {
+   "inicio": 4075.63,
+   "fin": 4077.85,
+   "texto": "Muchísimas gracias, señor presidente."
+  },
+  {
+   "inicio": 4079.56,
+   "fin": 4084.04,
+   "texto": "Primero, agradezco que el secretario técnico haya dado cuenta de que mi demora en incorporarme"
+  },
+  {
+   "inicio": 4084.04,
+   "fin": 4087.8,
+   "texto": "en la comisión ahora ha sido porque estaba en la Comisión de Salud justamente viendo"
+  },
+  {
+   "inicio": 4087.8,
+   "fin": 4088.8,
+   "texto": "un proyecto de ley que ha presentado."
+  },
+  {
+   "inicio": 4088.98,
+   "fin": 4095.94,
+   "texto": "Pero por lo que me ha informado el secretario técnico, en la parte pertinente se ha votado"
+  },
+  {
+   "inicio": 4095.94,
+   "fin": 4101.15,
+   "texto": "para que venga el ministro de Energía y Minas la próxima sesión, ¿no es así?"
+  },
+  {
+   "inicio": 4101.85,
+   "fin": 4108.93,
+   "texto": "Entonces, dado eso, señor presidente, creo que sería oportuno que la comisión reconsidere"
+  },
+  {
+   "inicio": 4108.93,
+   "fin": 4113.31,
+   "texto": "la decisión que ha votado por una cuestión muy simple o sencilla."
+  },
+  {
+   "inicio": 4113.31,
+   "fin": 4119.79,
+   "texto": "Si ya tenemos acá todos los actores involucrados que van a hablar sobre la temática de la ley MAPE,"
+  },
+  {
+   "inicio": 4120.29,
+   "fin": 4128.26,
+   "texto": "¿cuál sería la razón de que tenga que venir el ministro nuevamente si están los representantes del ministerio?"
+  },
+  {
+   "inicio": 4129.78,
+   "fin": 4135.66,
+   "texto": "Salvo que la decisión de la mesa, y no creo que ni usted, señor presidente encargado,"
+  },
+  {
+   "inicio": 4135.66,
+   "fin": 4144.8,
+   "texto": "ni de la diputada Paredes tenga por intención focalizar la participación en la persona"
+  },
+  {
+   "inicio": 4144.8,
+   "fin": 4149.84,
+   "texto": "y no en la institución, porque hoy está representado el Ministerio de Energía y Minas,"
+  },
+  {
+   "inicio": 4149.9,
+   "fin": 4155.5,
+   "texto": "señor presidente, con la señora viceministra, los funcionarios y además, como usted bien"
+  },
+  {
+   "inicio": 4155.5,
+   "fin": 4161.8,
+   "texto": "ha señalado, señor presidente, todos los actores, incluidos los representantes de,"
+  },
+  {
+   "inicio": 4161.8,
+   "fin": 4166.44,
+   "texto": "vamos a llamarlo así, pues la sociedad civil interesada en la materia."
+  },
+  {
+   "inicio": 4167.18,
+   "fin": 4175.1,
+   "texto": "Entonces, sería importante, señor presidente, que usted reconsidere o que la comisión reconsidere"
+  },
+  {
+   "inicio": 4175.1,
+   "fin": 4183.42,
+   "texto": "el citar al ministro de Energía y Minas para un ejercicio que sería básicamente un déjà vuelo"
+  },
+  {
+   "inicio": 4183.42,
+   "fin": 4187.96,
+   "texto": "que ya vamos a hablar, escuchar, debatir e intercambiar opiniones hoy día."
+  },
+  {
+   "inicio": 4188.28,
+   "fin": 4193.48,
+   "texto": "Salvo, señor presidente, una vez más, que la intención sea, cosa que yo me resisto a creer,"
+  },
+  {
+   "inicio": 4193.94,
+   "fin": 4208.16,
+   "texto": "de focalizar el tema en la persona del ministro para, digámoslo, entrampar el debate de la ley MAPE,"
+  },
+  {
+   "inicio": 4208.68,
+   "fin": 4213.78,
+   "texto": "que es algo necesario y urgente, como bien lo ha señalado el plan de trabajo que hemos aprobado."
+  },
+  {
+   "inicio": 4214.34,
+   "fin": 4220.88,
+   "texto": "Dicho esto, señor presidente, les solicitaría, además de ello, que se considere mi voto"
+  },
+  {
+   "inicio": 4220.88,
+   "fin": 4226.94,
+   "texto": "a favor de la propuesta o el pedido que hizo el diputado Frank Reckleck, que ya se votó"
+  },
+  {
+   "inicio": 4226.94,
+   "fin": 4228.74,
+   "texto": "y quiero que se consigne mi voto como a favor."
+  },
+  {
+   "inicio": 4229.4,
+   "fin": 4234.52,
+   "texto": "Respecto de la invitación del señor ministro, dada la coyuntura que se ha dado ahora, mi"
+  },
+  {
+   "inicio": 4234.52,
+   "fin": 4237.44,
+   "texto": "voto va a ser… pido que se registre como voto en contra, por favor."
+  },
+  {
+   "inicio": 4237.54,
+   "fin": 4237.82,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 4240.45,
+   "fin": 4245.25,
+   "texto": "Ok, miren, vamos a ordenarnos para poder poner en contexto el tema."
+  },
+  {
+   "inicio": 4245.47,
+   "fin": 4252.2,
+   "texto": "La ley MAPE recién ayer ha ingresado y no estaba en la agenda, ¿correcto?"
+  },
+  {
+   "inicio": 4252.42,
+   "fin": 4260.14,
+   "texto": "Entonces, los puntos que he referido están justamente para que los técnicos respondan"
+  },
+  {
+   "inicio": 4260.14,
+   "fin": 4262.26,
+   "texto": "sobre estos avances."
+  },
+  {
+   "inicio": 4263.49,
+   "fin": 4269.44,
+   "texto": "Como tercer punto, las propuestas del nuevo marco legal de la pequeña minería y minería"
+  },
+  {
+   "inicio": 4269.44,
+   "fin": 4275.96,
+   "texto": "artesanal, medidas contra el crimen organizado y la actividad minera y reconocimiento de"
+  },
+  {
+   "inicio": 4275.96,
+   "fin": 4281.0,
+   "texto": "los beneficios ancestrales de la pequeña minería y minería artesanal."
+  },
+  {
+   "inicio": 4281.0,
+   "fin": 4289.0,
+   "texto": "Obviamente los técnicos tienen la parte sustantiva y el ministro, él ve el tema general, el"
+  },
+  {
+   "inicio": 4289.0,
+   "fin": 4292.06,
+   "texto": "tema político, él como ministro de Estado."
+  },
+  {
+   "inicio": 4292.06,
+   "fin": 4298.14,
+   "texto": "Entonces, yo creo que también hay otros temas que el ministro tendría que responder sobre"
+  },
+  {
+   "inicio": 4298.14,
+   "fin": 4304.94,
+   "texto": "otros aspectos, no sólo de la minería artesanal, sino también el tema de hidrocarburos, etcétera."
+  },
+  {
+   "inicio": 4304.94,
+   "fin": 4311.95,
+   "texto": "Por lo tanto, pongo a consideración de que se continúe y avancemos con lo que ya está"
+  },
+  {
+   "inicio": 4311.95,
+   "fin": 4318.84,
+   "texto": "agendado, teniendo en cuenta que la ley MAPE recién se va a discutir más adelante, pero"
+  },
+  {
+   "inicio": 4318.84,
+   "fin": 4325.22,
+   "texto": "ya que están acá los señores, vamos avanzando y todavía no ha sido decretado este tema."
+  },
+  {
+   "inicio": 4325.22,
+   "fin": 4328.47,
+   "texto": "Adelante, colega."
+  },
+  {
+   "inicio": 4328.47,
+   "fin": 4332.59,
+   "texto": "Sí, muchas gracias, señor presidente."
+  },
+  {
+   "inicio": 4332.59,
+   "fin": 4337.51,
+   "texto": "Efectivamente, acá tenemos un problema y no es responsabilidad de la mesa, hay que"
+  },
+  {
+   "inicio": 4337.51,
+   "fin": 4345.81,
+   "texto": "decirlo, porque la agenda de esta sesión viene desde la semana pasada y la agenda se"
+  },
+  {
+   "inicio": 4345.81,
+   "fin": 4350.8,
+   "texto": "refería a propuestas para el nuevo marco legal de la pequeña minería y la minería"
+  },
+  {
+   "inicio": 4350.8,
+   "fin": 4355.2,
+   "texto": "artesanal, medidas contra el crimen organizado en la actividad minera y reconocimiento de"
+  },
+  {
+   "inicio": 4355.2,
+   "fin": 4358.24,
+   "texto": "los derechos ancestrales de la pequeña minería y minería artesanal."
+  },
+  {
+   "inicio": 4359.02,
+   "fin": 4367.84,
+   "texto": "Ahora bien, nadie imaginaba que específicamente el día de ayer el Ejecutivo iba a presentar su proyecto de ley."
+  },
+  {
+   "inicio": 4367.84,
+   "fin": 4376.15,
+   "texto": "Y como recién se ha presentado el día de ayer, yo entiendo que los presentes, salvo quizás la viceministra de Minas,"
+  },
+  {
+   "inicio": 4376.49,
+   "fin": 4382.51,
+   "texto": "no creo que hayan podido leer, ni analizar, ni estudiar la ley a profundidad para poder dar sus aportes."
+  },
+  {
+   "inicio": 4382.51,
+   "fin": 4390.09,
+   "texto": "En ese sentido, no sé qué tan fructífera sea esta reunión, porque luego vamos a tener"
+  },
+  {
+   "inicio": 4390.09,
+   "fin": 4393.91,
+   "texto": "una próxima sesión en la que se va a volver a invitar a todos para que vuelvan a hablar"
+  },
+  {
+   "inicio": 4393.91,
+   "fin": 4394.51,
+   "texto": "sobre lo mismo."
+  },
+  {
+   "inicio": 4394.83,
+   "fin": 4397.69,
+   "texto": "Entonces, efectivamente, hay una contradicción aquí."
+  },
+  {
+   "inicio": 4398.73,
+   "fin": 4405.2,
+   "texto": "No sé cuál sería la solución, podría evaluarse, suspenderse la sesión y reprogramar esto"
+  },
+  {
+   "inicio": 4405.2,
+   "fin": 4412.4,
+   "texto": "para una próxima sesión, o en su defecto quizás excusar a los representantes de las"
+  },
+  {
+   "inicio": 4412.4,
+   "fin": 4418.77,
+   "texto": "instituciones públicas para que puedan estudiar y analizar la ley MAPE y escuchar por un tema"
+  },
+  {
+   "inicio": 4418.77,
+   "fin": 4424.63,
+   "texto": "de cortesía a los representantes de la sociedad civil, en la cual nos pueden dar sus aportes"
+  },
+  {
+   "inicio": 4424.63,
+   "fin": 4435.52,
+   "texto": "sobre la pequeña minería en general, porque veo que hay personas, Consejo Nacional de"
+  },
+  {
+   "inicio": 4435.52,
+   "fin": 4439.56,
+   "texto": "Minería, Sociedad Nacional de Minería, Petróleo y Energía, Confederación Nacional de Pequeña"
+  },
+  {
+   "inicio": 4439.56,
+   "fin": 4442.56,
+   "texto": "minería y minería artesanal, Macrosur del Perú."
+  },
+  {
+   "inicio": 4442.92,
+   "fin": 4447.54,
+   "texto": "Entonces, ellos han hecho un esfuerzo por venir y también sería quizás una descortesía"
+  },
+  {
+   "inicio": 4447.54,
+   "fin": 4450.22,
+   "texto": "que no vayan a participar."
+  },
+  {
+   "inicio": 4450.48,
+   "fin": 4455.08,
+   "texto": "Entonces, yo plantearía eso, señor presidente, excusar a los representantes de las instituciones"
+  },
+  {
+   "inicio": 4455.08,
+   "fin": 4460.4,
+   "texto": "públicas para que puedan hacer un mejor análisis y exponer próximamente el tema y escuchar"
+  },
+  {
+   "inicio": 4460.4,
+   "fin": 4462.84,
+   "texto": "a los miembros de la sociedad civil para recoger sus aportes."
+  },
+  {
+   "inicio": 4463.2,
+   "fin": 4464.58,
+   "texto": "Creo que sería una solución intermedia."
+  },
+  {
+   "inicio": 4465.02,
+   "fin": 4466.06,
+   "texto": "Gracias, señor presidente."
+  },
+  {
+   "inicio": 4468.08,
+   "fin": 4468.56,
+   "texto": "Adelante."
+  },
+  {
+   "inicio": 4469.4,
+   "fin": 4481.33,
+   "texto": "Presidente, sí, yo creo que, sigo en mi misma línea, yo creo que cualquier análisis, debate o aporte tiene que ir sobre la base de la ley presentada por el Ejecutivo."
+  },
+  {
+   "inicio": 4482.67,
+   "fin": 4495.01,
+   "texto": "Entonces, cualquier análisis o propuesta ahora, porque yo estoy seguro que tal vez de repente, con el respeto de todos, no se ha podido, digamos, leer bien esta ley que ha sido presentada recién."
+  },
+  {
+   "inicio": 4495.01,
+   "fin": 4503.1,
+   "texto": "Entonces, mal haríamos nosotros proponer cosas sin tener sobre la base la ley presentada por el Ejecutivo prácticamente."
+  },
+  {
+   "inicio": 4504.16,
+   "fin": 4507.22,
+   "texto": "Entonces, eso llevaría de repente a resultados no deseados."
+  },
+  {
+   "inicio": 4508.41,
+   "fin": 4516.61,
+   "texto": "Ahora, aquí hay una propuesta, en todo caso, hay una propuesta del congresista Columbus que yo creo que ha pedido una reconsideración."
+  },
+  {
+   "inicio": 4516.61,
+   "fin": 4525.25,
+   "texto": "O en segundo punto, en todo caso, suspender el debate y adecuar la comisión a la realidad."
+  },
+  {
+   "inicio": 4526.48,
+   "fin": 4532.87,
+   "texto": "Se ha presentado una ley y en base a esa ley se genere el análisis y el debate de las propuestas."
+  },
+  {
+   "inicio": 4533.11,
+   "fin": 4539.91,
+   "texto": "Creo que eso es lo ordenado, porque debatir ahorita, analizar, incluir propuestas que de repente no están ni siquiera en la ley presentadas."
+  },
+  {
+   "inicio": 4541.12,
+   "fin": 4548.58,
+   "texto": "O sea, yo creo eso, presidente, hay que adecuar un poco la comisión también a la realidad y obviamente mi respeto a la sociedad civil presente."
+  },
+  {
+   "inicio": 4548.84,
+   "fin": 4552.24,
+   "texto": "Entonces, presidente, creo que ya usted toma la decisión."
+  },
+  {
+   "inicio": 4552.24,
+   "fin": 4557.54,
+   "texto": "¿Hay un pedido del congresista Columbus o suspender la sesión?"
+  },
+  {
+   "inicio": 4559.58,
+   "fin": 4560.18,
+   "texto": "Adelante."
+  },
+  {
+   "inicio": 4560.84,
+   "fin": 4565.34,
+   "texto": "Señor presidente, voy a, en esta instancia del debate, voy a plantear una cuestión previa, señor presidente,"
+  },
+  {
+   "inicio": 4565.48,
+   "fin": 4569.94,
+   "texto": "con la finalidad de que se suspenda esta sesión para que la próxima semana,"
+  },
+  {
+   "inicio": 4570.44,
+   "fin": 4576.16,
+   "texto": "que ya en mejores condiciones, señor presidente, se pueda empezar con el ministro ya presente,"
+  },
+  {
+   "inicio": 4576.66,
+   "fin": 4581.22,
+   "texto": "se pueda hacer este ejercicio democrático, señor presidente,"
+  },
+  {
+   "inicio": 4581.22,
+   "fin": 4585.96,
+   "texto": "y ya con todos los actores, habiendo tomado pleno conocimiento"
+  },
+  {
+   "inicio": 4585.96,
+   "fin": 4587.76,
+   "texto": "de la propuesta planteada por el Poder Ejecutivo."
+  },
+  {
+   "inicio": 4588.22,
+   "fin": 4590.78,
+   "texto": "Así que lo solicito, presidente, que lo someta a votación, por favor,"
+  },
+  {
+   "inicio": 4591.36,
+   "fin": 4595.0,
+   "texto": "para que todos los señores parlamentarios, los señores diputados,"
+  },
+  {
+   "inicio": 4595.5,
+   "fin": 4601.01,
+   "texto": "puedan manifestar su deseo con relación a este planteamiento de cuestión previa"
+  },
+  {
+   "inicio": 4601.01,
+   "fin": 4604.89,
+   "texto": "que se suspende el debate hasta la próxima sesión, señor presidente."
+  },
+  {
+   "inicio": 4607.21,
+   "fin": 4607.65,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 4608.79,
+   "fin": 4612.13,
+   "texto": "Miren, acá hay un tema también por respeto."
+  },
+  {
+   "inicio": 4613.01,
+   "fin": 4617.91,
+   "texto": "Hay personas que han viajado de muy lejos también para escuchar, porque los señores"
+  },
+  {
+   "inicio": 4617.91,
+   "fin": 4625.21,
+   "texto": "técnicos de los diferentes sectores han venido justamente para no hablar precisamente de la"
+  },
+  {
+   "inicio": 4625.21,
+   "fin": 4628.25,
+   "texto": "IMAPE, ya lo dijo acá, ya lo reiteramos."
+  },
+  {
+   "inicio": 4628.25,
+   "fin": 4636.13,
+   "texto": "Entonces, creo sería irresponsable de nuestra parte dejarlos, hay que escucharles y creo"
+  },
+  {
+   "inicio": 4636.13,
+   "fin": 4640.27,
+   "texto": "también los involucrados han viajado para que escuchen las propuestas."
+  },
+  {
+   "inicio": 4640.27,
+   "fin": 4644.57,
+   "texto": "Y no solamente se van a referir a la ley MAPE, van a hablar de referente a su sector"
+  },
+  {
+   "inicio": 4644.57,
+   "fin": 4646.49,
+   "texto": "otros temas que es de importancia también."
+  },
+  {
+   "inicio": 4647.03,
+   "fin": 4653.09,
+   "texto": "Además, la ley MAPE, acá me va a aclarar la viceministra de Minas, han sido ellos los"
+  },
+  {
+   "inicio": 4653.09,
+   "fin": 4658.93,
+   "texto": "que han elaborado y por lo tanto tienen cierto conocimiento ya de todo lo que se ha vinculado"
+  },
+  {
+   "inicio": 4658.93,
+   "fin": 4660.97,
+   "texto": "para que nos hagan llegar a nosotros."
+  },
+  {
+   "inicio": 4661.29,
+   "fin": 4665.39,
+   "texto": "De repente nosotros todavía no lo hemos leído, pero ellos sí ya tienen conocimiento porque"
+  },
+  {
+   "inicio": 4665.39,
+   "fin": 4667.51,
+   "texto": "ellos son los que han creado esa ley."
+  },
+  {
+   "inicio": 4667.51,
+   "fin": 4677.13,
+   "texto": "En ese sentido, yo rogaría que se reconsidere el pedido del amigo Avensur y pasemos a escuchar"
+  },
+  {
+   "inicio": 4677.13,
+   "fin": 4682.59,
+   "texto": "y tomar nota de lo que nuestros invitados han venido, para que también los otros que"
+  },
+  {
+   "inicio": 4682.59,
+   "fin": 4687.57,
+   "texto": "han venido de lejos escuchen y a la próxima ampliaremos este tema."
+  },
+  {
+   "inicio": 4687.83,
+   "fin": 4688.37,
+   "texto": "Muchas gracias."
+  },
+  {
+   "inicio": 4688.61,
+   "fin": 4691.22,
+   "texto": "Presidente, sobre la mesa."
+  },
+  {
+   "inicio": 4691.22,
+   "fin": 4701.48,
+   "texto": "O en todo caso, podemos a consideración de la comisión para poder tomar una medida."
+  },
+  {
+   "inicio": 4704.14,
+   "fin": 4706.98,
+   "texto": "Señor presidente, solicito que se someta el voto a la cuestión previa, por favor."
+  },
+  {
+   "inicio": 4708.17,
+   "fin": 4708.43,
+   "texto": "Ok."
+  },
+  {
+   "inicio": 4709.99,
+   "fin": 4711.41,
+   "texto": "Sí, Frank Leight."
+  },
+  {
+   "inicio": 4713.74,
+   "fin": 4718.1,
+   "texto": "Señor presidente, yo entiendo las razones y argumentos que han expuesto, aunque a decir verdad,"
+  },
+  {
+   "inicio": 4718.82,
+   "fin": 4723.42,
+   "texto": "no creo que ninguno de los presentes haya podido leer el proyecto de ley sobre la ley MAPE."
+  },
+  {
+   "inicio": 4723.98,
+   "fin": 4728.68,
+   "texto": "Ni siquiera los diputados presentes lo hemos podido leer por la poca brevedad del tiempo."
+  },
+  {
+   "inicio": 4728.68,
+   "fin": 4738.74,
+   "texto": "Entonces, efectivamente es importante tener la debida anticipación para analizarlo y"
+  },
+  {
+   "inicio": 4738.74,
+   "fin": 4740.86,
+   "texto": "luego plantear las propuestas."
+  },
+  {
+   "inicio": 4741.76,
+   "fin": 4745.72,
+   "texto": "Y, señor presidente, cuando una cuestión previa se plantea tiene que votarse de inmediato"
+  },
+  {
+   "inicio": 4745.72,
+   "fin": 4746.68,
+   "texto": "de acuerdo al reglamento."
+  },
+  {
+   "inicio": 4746.94,
+   "fin": 4751.98,
+   "texto": "Entonces, solicito someter a votación la cuestión previa planteada por mi colega Abenzur."
+  },
+  {
+   "inicio": 4751.98,
+   "fin": 4764.22,
+   "texto": "Bueno, yo insisto, creo la cuestión previa en este escenario no procedería, porque hay"
+  },
+  {
+   "inicio": 4764.22,
+   "fin": 4770.96,
+   "texto": "personal que ha venido de lejos y hay personal invitado que ha tenido ya un tema para que"
+  },
+  {
+   "inicio": 4770.96,
+   "fin": 4771.48,
+   "texto": "expongan."
+  },
+  {
+   "inicio": 4772.04,
+   "fin": 4778.78,
+   "texto": "En todo caso, pongo a consideración, revisen bien el reglamento y si procede, bueno, entonces"
+  },
+  {
+   "inicio": 4778.78,
+   "fin": 4780.42,
+   "texto": "somos democráticos en aceptarlo."
+  },
+  {
+   "inicio": 4780.42,
+   "fin": 4787.5,
+   "texto": "Señor presidente, gracias, señor presidente."
+  },
+  {
+   "inicio": 4787.7,
+   "fin": 4789.6,
+   "texto": "Ante todo, nuevamente, buenos días."
+  },
+  {
+   "inicio": 4790.36,
+   "fin": 4798.6,
+   "texto": "Hay que entender que lo que está solicitando nuestro colega Abenzur no es una oposición para que los invitados puedan manifestarse,"
+  },
+  {
+   "inicio": 4799.1,
+   "fin": 4803.9,
+   "texto": "pero también hay que entender que ellos se merecen un respeto dentro de esta comisión."
+  },
+  {
+   "inicio": 4803.9,
+   "fin": 4812.82,
+   "texto": "Si bien es cierto, la agenda se ha desarrollado mucho antes que el propio Poder Ejecutivo presente la propuesta de la ley MAPE"
+  },
+  {
+   "inicio": 4812.82,
+   "fin": 4818.24,
+   "texto": "y que nosotros consideramos muy importante desde el primer momento que se aperturó la comisión."
+  },
+  {
+   "inicio": 4818.82,
+   "fin": 4826.22,
+   "texto": "Agradecemos la visita a la viceministra y que nos hizo un claro resumen de toda esta ley MAPE, señalando tres puntos importantes."
+  },
+  {
+   "inicio": 4826.78,
+   "fin": 4836.62,
+   "texto": "Pero a ello también, señor presidente, hay que darles un plazo prudente a los visitantes para que puedan también ellos evaluar esta ley MAPE."
+  },
+  {
+   "inicio": 4836.62,
+   "fin": 4847.6,
+   "texto": "No podemos ahorita, en verdad, iniciar un debate que todavía no hay una exposición completa de la ley que ya se presentó por el Poder Ejecutivo."
+  },
+  {
+   "inicio": 4847.6,
+   "fin": 4856.46,
+   "texto": "Y hay que señalar que el Poder Ejecutivo presentó esta ley el día viernes pasado y que recién lo han presentado o ha llegado a comisión el día de ayer."
+  },
+  {
+   "inicio": 4857.02,
+   "fin": 4863.78,
+   "texto": "Entonces, yo considero que esta cuestión que ha presentado el compañero Abenzur es necesario que se someta a votación."
+  },
+  {
+   "inicio": 4864.6,
+   "fin": 4866.56,
+   "texto": "Esto está dentro del reglamento, señor presidente."
+  },
+  {
+   "inicio": 4866.62,
+   "fin": 4867.22,
+   "texto": "Muchas gracias."
+  },
+  {
+   "inicio": 4868.97,
+   "fin": 4869.61,
+   "texto": "Gracias."
+  },
+  {
+   "inicio": 4870.86,
+   "fin": 4873.84,
+   "texto": "En todo caso, con la disculpa…"
+  },
+  {
+   "inicio": 4874.48,
+   "fin": 4879.88,
+   "texto": "Miren, quiero aclarar simplemente que la ley MAPE no está en discusión en esta agenda,"
+  },
+  {
+   "inicio": 4880.56,
+   "fin": 4887.42,
+   "texto": "son los tres puntos que ya señaló, que involucran, involucran, pero efectivamente la ley MAPE recién"
+  },
+  {
+   "inicio": 4887.42,
+   "fin": 4896.8,
+   "texto": "ha llegado y también comparto con la opinión de la colega que tenemos que conocer mejor"
+  },
+  {
+   "inicio": 4896.8,
+   "fin": 4900.68,
+   "texto": "tal vez, pero dejo también con el respeto"
+  },
+  {
+   "inicio": 4900.68,
+   "fin": 4904.6,
+   "texto": "que se merece la señora ministra, que la agenda no era para"
+  },
+  {
+   "inicio": 4904.6,
+   "fin": 4908.68,
+   "texto": "la ley MAPE, en ese sentido, si la reconsideración procede"
+  },
+  {
+   "inicio": 4908.68,
+   "fin": 4913.85,
+   "texto": "entonces, ¿sí? A ver, colega"
+  },
+  {
+   "inicio": 4913.85,
+   "fin": 4917.04,
+   "texto": "Benzú. Señor presidente, un poco para aclarar"
+  },
+  {
+   "inicio": 4917.04,
+   "fin": 4921.52,
+   "texto": "lo que los asesores le plantean, las"
+  },
+  {
+   "inicio": 4921.52,
+   "fin": 4925.68,
+   "texto": "cuestiones previas, señor presidente, son articulaciones que establecía"
+  },
+  {
+   "inicio": 4925.68,
+   "fin": 4929.44,
+   "texto": "Señor Presidente, le rogaría que me escuche porque si no, no nos entendemos."
+  },
+  {
+   "inicio": 4930.76,
+   "fin": 4935.34,
+   "texto": "Las cuestiones previas, señor Presidente, son articulaciones que el reglamento establece"
+  },
+  {
+   "inicio": 4935.34,
+   "fin": 4941.42,
+   "texto": "en el sentido, señor Presidente, de que cuando algo no está debidamente estudiado"
+  },
+  {
+   "inicio": 4941.42,
+   "fin": 4945.96,
+   "texto": "o articulado en este caso, como se está evidenciando en estos momentos,"
+  },
+  {
+   "inicio": 4946.64,
+   "fin": 4949.74,
+   "texto": "puede el asunto, digamos, quedar pendiente."
+  },
+  {
+   "inicio": 4950.14,
+   "fin": 4953.32,
+   "texto": "Es una articulación, Presidente, y yo le ruego, por favor,"
+  },
+  {
+   "inicio": 4953.32,
+   "fin": 4956.7,
+   "texto": "en el marco de lo que establece el reglamento del Congreso de la República"
+  },
+  {
+   "inicio": 4956.7,
+   "fin": 4960.0,
+   "texto": "y la Cámara de Diputados específicamente, someta a votación, por favor,"
+  },
+  {
+   "inicio": 4960.12,
+   "fin": 4962.4,
+   "texto": "esta cuestión previa, presidente. Muchas gracias."
+  },
+  {
+   "inicio": 4964.39,
+   "fin": 4965.29,
+   "texto": "Adelante, colega."
+  },
+  {
+   "inicio": 4966.42,
+   "fin": 4969.96,
+   "texto": "En la misma línea, tengo conocimiento que el ministro de Energía y Minas"
+  },
+  {
+   "inicio": 4969.96,
+   "fin": 4974.2,
+   "texto": "va a visitar esta semana y la próxima a las bancadas para profundizar el tema."
+  },
+  {
+   "inicio": 4981.41,
+   "fin": 4987.03,
+   "texto": "Ok. Entonces, hay que ajustarnos al reglamento, reiterando que,"
+  },
+  {
+   "inicio": 4987.41,
+   "fin": 4989.05,
+   "texto": "como le digo, la LIMAP no está en agenda."
+  },
+  {
+   "inicio": 4989.05,
+   "fin": 4997.56,
+   "texto": "Los puntos que estén en agenda eran para que expongan los señores, pero de acuerdo a lo que están proponiendo, procedamos."
+  },
+  {
+   "inicio": 5000.88,
+   "fin": 5002.64,
+   "texto": "Sí, al voto, presidente."
+  },
+  {
+   "inicio": 5005.5,
+   "fin": 5007.26,
+   "texto": "A ver, secretario técnico, por favor."
+  },
+  {
+   "inicio": 5008.66,
+   "fin": 5013.8,
+   "texto": "Votación de la cuestión previa para suspender la sesión."
+  },
+  {
+   "inicio": 5014.96,
+   "fin": 5016.32,
+   "texto": "Diputada Paredes Navarro."
+  },
+  {
+   "inicio": 5018.9,
+   "fin": 5020.5,
+   "texto": "Diputado Camargo Porta."
+  },
+  {
+   "inicio": 5022.98,
+   "fin": 5023.6,
+   "texto": "En contra."
+  },
+  {
+   "inicio": 5028.5,
+   "fin": 5029.68,
+   "texto": "Diputada Santanavera."
+  },
+  {
+   "inicio": 5033.18,
+   "fin": 5034.52,
+   "texto": "Diputado Columbus Murata."
+  },
+  {
+   "inicio": 5035.2,
+   "fin": 5035.66,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5038.14,
+   "fin": 5039.82,
+   "texto": "Diputada Muñoz Yurivilca."
+  },
+  {
+   "inicio": 5040.36,
+   "fin": 5040.82,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5043.0,
+   "fin": 5044.26,
+   "texto": "Diputado Palma Mendoza."
+  },
+  {
+   "inicio": 5045.51,
+   "fin": 5045.95,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5048.27,
+   "fin": 5050.59,
+   "texto": "Diputado Quezada Castro."
+  },
+  {
+   "inicio": 5051.11,
+   "fin": 5051.47,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5053.72,
+   "fin": 5055.46,
+   "texto": "Diputada Pinasco Montenegro."
+  },
+  {
+   "inicio": 5055.7,
+   "fin": 5056.26,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5058.89,
+   "fin": 5060.07,
+   "texto": "Diputada Yufra Lugo."
+  },
+  {
+   "inicio": 5065.25,
+   "fin": 5066.13,
+   "texto": "Diputada Yufra Lugo."
+  },
+  {
+   "inicio": 5066.49,
+   "fin": 5067.93,
+   "texto": "Diputado Pérez Alcahuamán."
+  },
+  {
+   "inicio": 5067.93,
+   "fin": 5069.67,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5073.94,
+   "fin": 5075.58,
+   "texto": "Diputado Flores Valdizán."
+  },
+  {
+   "inicio": 5077.55,
+   "fin": 5077.99,
+   "texto": "En contra."
+  },
+  {
+   "inicio": 5082.21,
+   "fin": 5084.61,
+   "texto": "Diputado Laoba Valdía se encuentra con licencia."
+  },
+  {
+   "inicio": 5085.6,
+   "fin": 5086.8,
+   "texto": "Diputada Isla Rojas."
+  },
+  {
+   "inicio": 5086.88,
+   "fin": 5088.0,
+   "texto": "En contra."
+  },
+  {
+   "inicio": 5091.96,
+   "fin": 5094.32,
+   "texto": "Diputado Laiza Macera, se encuentra con licencia."
+  },
+  {
+   "inicio": 5095.68,
+   "fin": 5099.58,
+   "texto": "De igual forma, D.H. Pizarro, de igual forma, Chanapuy."
+  },
+  {
+   "inicio": 5100.45,
+   "fin": 5101.71,
+   "texto": "Diputado Carlec Torres."
+  },
+  {
+   "inicio": 5103.83,
+   "fin": 5107.15,
+   "texto": "Expresando las disculpas del caso de los presentes, a favor."
+  },
+  {
+   "inicio": 5109.44,
+   "fin": 5110.96,
+   "texto": "Diputado Valky Calderón."
+  },
+  {
+   "inicio": 5112.2,
+   "fin": 5112.52,
+   "texto": "En contra."
+  },
+  {
+   "inicio": 5117.44,
+   "fin": 5118.8,
+   "texto": "Diputado Zongo Villanueva."
+  },
+  {
+   "inicio": 5121.89,
+   "fin": 5122.25,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5123.5,
+   "fin": 5123.88,
+   "texto": "A favor."
+  },
+  {
+   "inicio": 5124.96,
+   "fin": 5127.26,
+   "texto": "Diputado Zongo Villanueva, a favor."
+  },
+  {
+   "inicio": 5139.22,
+   "fin": 5141.72,
+   "texto": "Miembros asesitarios o suplentes."
+  },
+  {
+   "inicio": 5141.72,
+   "fin": 5168.64,
+   "texto": "Diputado Castro Grandes, diputado Gamarra Pita, diputado Tiglia Rafael, diputado Mesa Rivera, diputado Bensur Pinasco, diputado Tacayama Jiménez, diputado Pérez Malqui, diputado Palomino Casavilca, diputado Pomaguamaní, diputado Soto Ferrari, diputado Márquez Huanca, diputado Castrojón Fernández, diputado Prado Vallejos, diputado Duarte Patiño, diputado Bahía Malca, diputado Segura Figueroa, diputado Albañil Carmona, diputado Janco Janco, diputado Menezes Quirispín."
+  },
+  {
+   "inicio": 5168.64,
+   "fin": 5173.64,
+   "texto": "Bien, ha sido aprobado por mayoría de presentes la cuestión previa para suspender la sesión."
+  },
+  {
+   "inicio": 5177.63,
+   "fin": 5180.05,
+   "texto": "Con las disculpas a los presentes."
+  },
+  {
+   "inicio": 5181.05,
+   "fin": 5188.71,
+   "texto": "Ha sido aprobada la cuestión previa por mayoría, no siendo voluntad de la mesa, pero igual respetamos la decisión de la mayoría."
+  },
+  {
+   "inicio": 5189.07,
+   "fin": 5191.31,
+   "texto": "Muchas gracias. Con la disculpa, acaso a todos."
+  },
+  {
+   "inicio": 5191.69,
+   "fin": 5192.65,
+   "texto": "Se levanta la reunión."
+  },
+  {
+   "inicio": 5197.59,
+   "fin": 5202.97,
+   "texto": "Se suspende la sesión siendo las 10.38 a.m."
+  },
+  {
+   "inicio": 5202.97,
+   "fin": 5204.13,
+   "texto": "Muchas gracias."
+  }
+ ]
+}
