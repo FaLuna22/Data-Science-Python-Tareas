@@ -184,7 +184,16 @@ conversaciones con usuarios son míos. Claude Code escribió, a partir de un pla
 - la app (`app.py`) y los scripts de `pipeline/`;
 - el borrador de este README.
 
-Decisiones que tomé o corregí yo: PENDIENTE (completar tras revisar el código).
+Decisiones que tomé o corregí yo:
+
+- **El producto y el usuario.** De cuatro ideas posibles elegí «sesiones a informe» para consultoras, porque es el
+  trabajo que conozco de primera mano. Descarté una ficha territorial con ENAHO y BCRP porque se parecía a otros
+  proyectos del curso.
+- **La pila técnica.** Elegí la API de Claude y Streamlit Community Cloud, y dejar el proyecto en este repositorio.
+- **Las sesiones y los temas del demo.** Transcribí las dos sesiones en mi GPU. Al revisar el primer informe vi que la
+  sesión de Economía no tocaba AFP ni tasas de interés, y usé la de Energía y Minas como caso principal del demo.
+- **La seguridad de la clave.** Una clave de la API quedó escrita en `app.py` por error. La revoqué, creé una nueva y
+  la configuré solo en los *secrets* de Streamlit.
 
 Lo que el agente no pudo hacer: descargar el audio desde su entorno (YouTube lo bloquea), así que la transcripción de
 las sesiones completas la corrí en mi máquina con `pipeline/transcribir_sesion.py`.
