@@ -40,7 +40,7 @@
   "tipo": "pleno",
   "fecha": "2026-11-10",
   "estado": "terminada",
-  "duracion_s": 28520,
+  "duracion_s": 28521,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -51,7 +51,7 @@
   "tipo": "comision",
   "fecha": "2026-11-10",
   "estado": "terminada",
-  "duracion_s": 13250,
+  "duracion_s": 13251,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -106,7 +106,7 @@
   "tipo": "comision",
   "fecha": "2026-11-10",
   "estado": "terminada",
-  "duracion_s": 8265,
+  "duracion_s": 8266,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -128,7 +128,7 @@
   "tipo": "otro",
   "fecha": "2026-11-10",
   "estado": "terminada",
-  "duracion_s": 625,
+  "duracion_s": 626,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -139,7 +139,7 @@
   "tipo": "otro",
   "fecha": "2026-11-10",
   "estado": "terminada",
-  "duracion_s": 1075,
+  "duracion_s": 1076,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -227,7 +227,7 @@
   "tipo": "otro",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 810,
+  "duracion_s": 811,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -249,7 +249,7 @@
   "tipo": "otro",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 355,
+  "duracion_s": 356,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -282,7 +282,7 @@
   "tipo": "comision",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 7705,
+  "duracion_s": 7706,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -304,7 +304,7 @@
   "tipo": "comision",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 3990,
+  "duracion_s": 3991,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -337,7 +337,7 @@
   "tipo": "otro",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 4660,
+  "duracion_s": 4661,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -359,7 +359,7 @@
   "tipo": "otro",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 645,
+  "duracion_s": 646,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -370,7 +370,7 @@
   "tipo": "otro",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 7875,
+  "duracion_s": 7876,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -381,7 +381,7 @@
   "tipo": "comision",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 6550,
+  "duracion_s": 6551,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -403,7 +403,7 @@
   "tipo": "otro",
   "fecha": "2026-11-09",
   "estado": "terminada",
-  "duracion_s": 655,
+  "duracion_s": 656,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -425,7 +425,7 @@
   "tipo": "otro",
   "fecha": "2026-11-06",
   "estado": "terminada",
-  "duracion_s": 6485,
+  "duracion_s": 6486,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -458,7 +458,7 @@
   "tipo": "otro",
   "fecha": "2026-11-06",
   "estado": "terminada",
-  "duracion_s": 5555,
+  "duracion_s": 5556,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -469,7 +469,7 @@
   "tipo": "otro",
   "fecha": "2026-11-05",
   "estado": "terminada",
-  "duracion_s": 3665,
+  "duracion_s": 3666,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -491,7 +491,7 @@
   "tipo": "otro",
   "fecha": "2026-11-05",
   "estado": "terminada",
-  "duracion_s": 9765,
+  "duracion_s": 9766,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -557,7 +557,7 @@
   "tipo": "otro",
   "fecha": "2026-11-05",
   "estado": "terminada",
-  "duracion_s": 790,
+  "duracion_s": 791,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -568,7 +568,7 @@
   "tipo": "otro",
   "fecha": "2026-11-05",
   "estado": "terminada",
-  "duracion_s": 5380,
+  "duracion_s": 5381,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -579,7 +579,7 @@
   "tipo": "otro",
   "fecha": "2026-11-05",
   "estado": "terminada",
-  "duracion_s": 1865,
+  "duracion_s": 1866,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -634,7 +634,7 @@
   "tipo": "otro",
   "fecha": "2026-11-04",
   "estado": "terminada",
-  "duracion_s": 6895,
+  "duracion_s": 6896,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {
@@ -645,7 +645,7 @@
   "tipo": "otro",
   "fecha": "2026-11-04",
   "estado": "terminada",
-  "duracion_s": 9370,
+  "duracion_s": 9371,
   "visto": "2026-11-11T14:36:03+00:00"
  },
  {

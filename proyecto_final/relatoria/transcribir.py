@@ -22,8 +22,22 @@ CONTEXTO = (
 )
 
 
+def _registrar_dll_cuda() -> None:
+    """En Windows, ctranslate2 busca cuBLAS y cuDNN en el PATH. Si se instalaron con pip
+    (`nvidia-cublas-cu12`, `nvidia-cudnn-cu12`) quedan en site-packages/nvidia/*/bin, fuera del PATH."""
+    if os.name != "nt":
+        return
+    import sysconfig
+    from pathlib import Path
+    for carpeta in (Path(sysconfig.get_paths()["purelib"]) / "nvidia").glob("*/bin"):
+        if str(carpeta) not in os.environ["PATH"]:
+            os.environ["PATH"] = f"{carpeta}{os.pathsep}{os.environ['PATH']}"
+            os.add_dll_directory(str(carpeta))
+
+
 @lru_cache(maxsize=2)
 def cargar_modelo(nombre: str = "large-v3-turbo", dispositivo: str = "auto"):
+    _registrar_dll_cuda()
     from faster_whisper import WhisperModel
     if dispositivo == "auto":
         try:
