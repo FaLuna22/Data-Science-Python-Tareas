@@ -9,6 +9,7 @@ Proyecto final de la Diplomatura de Data Science con Python (Q-Lab PUCP), [issue
 |---|---|
 | Demo | **https://transcriptorcongressv2.streamlit.app** |
 | Video de respaldo | [`docs/video_respaldo.mp4`](docs/video_respaldo.mp4) (62 s, grabado sobre la app con las sesiones reales) |
+| Recorrido de la agenda | [`docs/recorrido_agenda.gif`](docs/recorrido_agenda.gif) (17 s, sin audio: agenda, comisiones seguidas, informe de la Comisión de Salud del 10/11) |
 | Correr en local | `pip install -r requirements.txt && streamlit run app.py` |
 
 ## 1. One-liner
